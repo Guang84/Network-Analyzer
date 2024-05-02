@@ -1,0 +1,70 @@
+--2024-05-01 23:03:52--  https://img.icons8.com/?size=48
+Resolving img.icons8.com (img.icons8.com)... 2a02:6ea0:d100::36, 2a02:6ea0:d100::35, 2a02:6ea0:d100::32, ...
+Connecting to img.icons8.com (img.icons8.com)|2a02:6ea0:d100::36|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 64853 (63K) [text/html]
+Saving to: ‘img.icons8.com/index.html?size=48’
+
+          img.icons   0%[                    ]       0  --.-KB/s                        img.icons8  36%[======>             ]  23.39K  66.2KB/s                       img.icons8.  87%[================>   ]  55.39K  81.1KB/s               img.icons8.com/inde 100%[===================>]  63.33K  92.8KB/s    in 0.7s    
+
+2024-05-01 23:05:00 (92.8 KB/s) - ‘img.icons8.com/index.html?size=48’ saved [64853/64853]
+
+Loading robots.txt; please ignore errors.
+--2024-05-01 23:05:00--  https://img.icons8.com/robots.txt
+Reusing existing connection to [img.icons8.com]:443.
+HTTP request sent, awaiting response... 400 Bad Request
+2024-05-01 23:05:03 ERROR 400: Bad Request.
+
+--2024-05-01 23:05:03--  https://img.icons8.com/search
+Reusing existing connection to [img.icons8.com]:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 1045 (1.0K) [image/png]
+Saving to: ‘img.icons8.com/search’
+
+img.icons8.com/sear   0%[                    ]       0  --.-KB/s               img.icons8.com/sear 100%[===================>]   1.02K  --.-KB/s    in 0s      
+
+2024-05-01 23:05:03 (11.6 MB/s) - ‘img.icons8.com/search’ saved [1045/1045]
+
+--2024-05-01 23:05:03--  https://img.icons8.com/2266EE/search
+Reusing existing connection to [img.icons8.com]:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 1405 (1.4K) [image/png]
+Saving to: ‘img.icons8.com/2266EE/search’
+
+          img.icons   0%[                    ]       0  --.-KB/s               img.icons8.com/2266 100%[===================>]   1.37K  --.-KB/s    in 0s      
+
+2024-05-01 23:05:04 (44.6 MB/s) - ‘img.icons8.com/2266EE/search’ saved [1405/1405]
+
+--2024-05-01 23:05:04--  https://img.icons8.com/color/search
+Reusing existing connection to [img.icons8.com]:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 1566 (1.5K) [image/png]
+Saving to: ‘img.icons8.com/color/search’
+
+          img.icons   0%[                    ]       0  --.-KB/s               img.icons8.com/colo 100%[===================>]   1.53K  --.-KB/s    in 0s      
+
+2024-05-01 23:05:04 (36.4 MB/s) - ‘img.icons8.com/color/search’ saved [1566/1566]
+
+--2024-05-01 23:05:04--  https://img.icons8.com/color/search/96
+Reusing existing connection to [img.icons8.com]:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 1117 (1.1K) [image/png]
+Saving to: ‘img.icons8.com/color/search/96’
+
+          img.icons   0%[                    ]       0  --.-KB/s               img.icons8.com/colo 100%[===================>]   1.09K  --.-KB/s    in 0s      
+
+2024-05-01 23:05:04 (43.7 MB/s) - ‘img.icons8.com/color/search/96’ saved [1117/1117]
+
+--2024-05-01 23:05:04--  https://img.icons8.com/color/2x/search
+Reusing existing connection to [img.icons8.com]:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 2137 (2.1K) [image/png]
+Saving to: ‘img.icons8.com/color/2x/search’
+
+          img.icons   0%[                    ]       0  --.-KB/s               img.icons8.com/colo 100%[===================>]   2.09K  --.-KB/s    in 0s      
+
+2024-05-01 23:05:05 (101 MB/s) - ‘img.icons8.com/color/2x/search’ saved [2137/2137]
+
+FINISHED --2024-05-01 23:05:05--
+Total wall clock time: 1m 13s
+Downloaded: 6 files, 70K in 0.7s (103 KB/s)

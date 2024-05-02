@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Networks Analyzer</title>
+        <link rel="icon" type="image" href="./icon/hammer.jpg">
+        <link rel="stylesheet" href="./css/main.css">
+        <link rel="stylesheet" href="./css/all.css">
+        <link rel="stylesheet" href="./css/frame1.css">
+        <script src="./js/viewcode.js"></script>
+    </head>
+    <body>
+        <h1>Network Analyzer</h1>
+        <div class="application">
+            <hr>
+            <div class="status">
+                <h3>SERVER STATUS</h3>
+                <div class="network1" id="imagegif"></div>
+                <address>
+                    <b>IP address:</b>
+                    <span id="ipadd" class="state"></span>
+                    <br>
+                    <b>browser status:</b>
+                    <span id="bstate" class="state"></span>
+                    <h3>Unlock the Power of Network Analyzer Tools</h3>
+                </address>
+            <div>
+            <div class="user-data">
+                <span id="username"></span>&nbsp;
+                <article>
+                    <b>about:</b>
+                    Developed by BCA 6th-semester students, our Network Analyzer Tool is a powerful educational resource. It's designed to facilitate learning about network analysis in a user-friendly environment.
+                    While we're excited to share this tool with you, it's crucial to emphasize its intended use solely for educational purposes. We're committed to promoting ethical practices in network analysis and discourage any unauthorized or unethical activities.
+                    We're open to collaboration and look forward to engaging with us.
+                    <hr>
+                    <b> For inquiries or collaboration opportunities, feel free to reach out to us:</b>
+                    <br><br>
+                    <li>
+                        <a href="mailto:brazilianpro96@gmail.com" class="email">brazilianpro96@gmail.com</a>
+                    </li>
+                    <li>
+                        <a href="mailto:ragulung03@gmail.com" class="email">ragulung03@gmail</a>
+                    </li>
+                    <li>
+                        <a href="mailto:keziah" class="email">keziah@gmail.com</a>
+                    </li><br><br>
+                    <b>How it work?</b><br>
+                    <a href="" target="myconsole" class="gitlink">visit my git hub to learn more </a>
+                </article>
+            </div>
+            <br>
+            <div class="menu">
+                <div class="download">
+                    <b>TOOLS:</b>
+                </div>
+                <br>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Required tools:</th>
+                            <th>NA tools</th>
+                            <th>Support</th>
+                            <th>project Data</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><a href="#" target="myconsole">BCA-cracker</a></td>
+                            <td><a href="#" target="myconsole">Network Monitoring</a></td>
+                            <td><a href="https://www.linux.org/pages/download/" target="myconsole">Linux</a></td>
+                            <td><a href="./vulnarability testing/" target="myconsole">Password list</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="https://www.kali.org/tools/aircrack-ng/" target="myconsole">Aircrack-ng</a></td>
+                            <td><a href="#" target="myconsole">Deauthentication</a></td>
+                            <td><a href="#" target="myconsole">Termux</a></td>
+                            <td><a href="#" target="myconsole">Git Hub</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="https://www.kali.org/tools/aircrack-ng/#airmon-ng" target="myconsole">Airmon-ng</a></td>
+                            <td><a href="#">Handshake Captured</a></td>
+                            <td></td>
+                            <td><a href="./project output /" target="myconsole">Project output</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="https://www.kali.org/tools/aircrack-ng/#aireplay-ng" target="myconsole">Aireplay-ng</a></td>
+                            <td><a href="#">Vulnerability Testing</a></td>
+                            <td></td>
+                            <td><a href="https://drive.google.com/file/d/1BTEbRuCILFKiC4pWiM9QXu0yCE4m9CBn/view?usp=drivesdk" download="aircrack-ng.zip" target="_blank">aircrack-ng.zip</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="https://www.kali.org/tools/aircrack-ng/#airodump-ng" target="myconsole">Airodump-ng</a></td>
+                            <td><a href="#" target="myconsole">Anonymous Mode</a></td>
+                            <td></td>
+                            <td><a href="./source_code/" target="myconsole">source code</a></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td><a href="#" target="myconsole">Password Cracking</a></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+                <hr>
+                <div id="output">
+                    <h3>Terminal</h3>
+                    <iframe name="myconsole" title="Available Networks" id="frame1" src="./SaveData/"></iframe>
+                    <script>
+                        document.addEventListener('DOMContentLoaded', function() {
+                            var iframe = document.getElementById('frame1');
+                    
+                            iframe.onload = function() {
+                                // Get the document inside the iframe
+                                var iframeDocument = iframe.contentWindow.document;
+                                if (iframeDocument.URL.includes("index.html")) {
+                                    // Redirect the parent page to error.html
+                                    window.location.href = "./error.html";
+                                }
+                            };
+                        });
+                    </script>
+                </div>
+                <br>
+                <button type="submit">Export Data</button>
+                <script src="./js/butaction.js"></script>
+                <script src="./js/onload.js"></script>
+                <script src="./js/ipload.js"></script>
+            </div>
+        </div>
+        </div>
+    </body>
+</html>
