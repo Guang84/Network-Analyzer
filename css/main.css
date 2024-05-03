@@ -74,29 +74,17 @@ address{
 .state{
     color: red;
 }
-button{
-    width: fit-content;
-    font-family: cursive;
-    padding: 3px;
-    color: rgb(37, 39, 38);
-    background-color: rgb(43, 251, 28);
-    border-radius: 10px;
-    margin-left: 100px;
-    cursor: pointer;
-}
+
 table {
+    border: 20px salmon;
     border-collapse: collapse;
-    width: 100%;
+    width: 100%;background-color: #060b3a;
 }
 
 th, td {
     padding: 10px;
     text-align: left;
-    border: 1px solid black;
-}
-
-th {
-    background-color: #f2f2f2;
+    border-collapse: collapse;
 }
 table tr :nth-child(even){
     background-color: rgb(235, 243, 246);
@@ -137,4 +125,9 @@ article{
 .gitlink{
     color: red;
     font-weight: 900;
+}
+.gitcmd , .gitcmd a{
+    background-color: #ffffff;
+    color: green;
+    text-decoration: none;
 }

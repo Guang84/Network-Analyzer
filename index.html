@@ -46,7 +46,17 @@
                         <a href="mailto:keziah" class="email">keziah@gmail.com</a>
                     </li><br><br>
                     <b>How it work?</b><br>
-                    <a href="" target="myconsole" class="gitlink">visit my git hub to learn more </a>
+                    <div class="howitwork">
+                        <article>To clone a GitHub repository from the command line, you can use the git command. <br>Here's how you can do it:<br>
+                         Use the git clone command followed by the URL of the GitHub repository you want to clone.<br>
+                         Here's the command to clone the "Network-Analyzer" repository from GitHub:<br><br>
+                         <i class="gitcmd">
+                            gh repo clone Guang84/Network-Analyzer <br> OR <br>
+                            <a href="https://github.com/Guang84/Network-Analyzer.git" target="_blank">https://github.com/Guang84/Network-Analyzer.git</a>
+                        </i>
+                        </article>
+                    </div>
+                    <a href="https://github.com/Guang84/Network-Analyzer.git" target="myconsole" class="gitlink">visit my git hub to learn more </a>
                 </article>
             </div>
             <br>
@@ -75,7 +85,7 @@
                             <td><a href="https://www.kali.org/tools/aircrack-ng/" target="myconsole">Aircrack-ng</a></td>
                             <td><a href="#" target="myconsole">Deauthentication</a></td>
                             <td><a href="#" target="myconsole">Termux</a></td>
-                            <td><a href="#" target="myconsole">Git Hub</a></td>
+                            <td><a href="https://github.com/Guang84/Network-Analyzer.git" target="myconsole">Git Hub</a></td>
                         </tr>
                         <tr>
                             <td><a href="https://www.kali.org/tools/aircrack-ng/#airmon-ng" target="myconsole">Airmon-ng</a></td>
@@ -96,7 +106,7 @@
                             <td><a href="./source_code/" target="myconsole">source code</a></td>
                         </tr>
                         <tr>
-                            <td></td>
+                            <td><a href="https://www.kali.org/tools/mdk3/" target="myconsole">mdk3</a></td>
                             <td><a href="#" target="myconsole">Password Cracking</a></td>
                             <td></td>
                             <td></td>
@@ -113,7 +123,7 @@
                 <hr>
                 <div id="output">
                     <h3>Terminal</h3>
-                    <iframe name="myconsole" title="Available Networks" id="frame1" src="./SaveData/"></iframe>
+                    <iframe name="myconsole" title="Available Networks" id="frame1"></iframe>
                     <script>
                         document.addEventListener('DOMContentLoaded', function() {
                             var iframe = document.getElementById('frame1');
@@ -130,10 +140,29 @@
                     </script>
                 </div>
                 <br>
-                <button type="submit">Export Data</button>
-                <script src="./js/butaction.js"></script>
                 <script src="./js/onload.js"></script>
-                <script src="./js/ipload.js"></script>
+                <script>
+                    function updateIPAddress() {
+                        document.getElementById('ipadd').textContent = window.location.href;
+                    }
+                    // Function to update browser status
+                    function updateBrowserStatus() {
+                        var statusElement = document.getElementById('bstate');
+                        if (navigator.onLine) {
+                            statusElement.textContent = 'Online';
+                            statusElement.style.color = 'green';
+                        } else {
+                            statusElement.textContent = 'Offline';
+                            statusElement.style.color = 'red';
+                        }
+                    }
+                    // Call functions initially
+                    updateIPAddress();
+                    updateBrowserStatus();
+                    // Add event listener to window for online/offline status changes
+                    window.addEventListener('online', updateBrowserStatus);
+                    window.addEventListener('offline', updateBrowserStatus);
+                </script>
             </div>
         </div>
         </div>
