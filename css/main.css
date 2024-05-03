@@ -51,7 +51,7 @@ address{
 }
 .status .network1{
     height: 45px;
-    background-image: url('/icon/image/icons8-wi-fi.gif');
+    background-image: url('../icon/image/icons8-wi-fi.gif');
     background-position: center;
     background-repeat: no-repeat;
     display: block;
