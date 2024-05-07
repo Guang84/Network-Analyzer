@@ -16,7 +16,7 @@ furnished to do so, subject to the following conditions:
    this list of conditions and the following disclaimer in the documentation
    and/or other materials provided with the distribution.
 
-3. Neither the name of the Guang nor the names of its
+3. Neither the given name nor the names of its
    contributors may be used to endorse or promote products derived from this
    Software without specific prior written permission.
 
