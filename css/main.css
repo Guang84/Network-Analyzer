@@ -16,14 +16,13 @@ body{
 }
 @keyframes animatedBackground {
     from { background-position: 0 0; }
- /*   to { background-position: 100% 0; }*/
+    to { background-position: 100% 0; }
 }
 .application { 
     padding: 10px;
     color: rgb(5, 255, 55);
     background-color: rgba(29, 177, 236, 0.062);
 }
-
 h1 {
     font-weight: 900;
     height: 200px;
@@ -49,15 +48,6 @@ address{
     font-size: large;
     text-align: center;
 }
-.status .network1{
-    height: 45px;
-    background-image: url('../icon/image/icons8-wi-fi.gif');
-    background-position: center;
-    background-repeat: no-repeat;
-    display: block;
-    margin: 0 auto;
-    opacity: 0.4;
-}
 #terminal {
     border-radius: 5px;
     padding: 10px;
@@ -74,13 +64,12 @@ address{
 .state{
     color: red;
 }
-
 table {
     border: 20px salmon;
     border-collapse: collapse;
-    width: 100%;background-color: #060b3a;
+    width: 100%;
+    background-color: #060b3a;
 }
-
 th, td {
     padding: 10px;
     text-align: left;
@@ -92,7 +81,11 @@ table tr :nth-child(even){
     font-family: 'Times New Roman', Times, serif;
 } 
 table :nth-child(even){
-    background-color: rgb(202, 202, 201);
+    background-color: rgb(236, 215, 97);
+}
+table a:hover{
+    color: #FF417E;
+    text-decoration: overline;
 }
 .menu .download a{
     text-decoration: double;
@@ -130,4 +123,15 @@ article{
     background-color: #ffffff;
     color: green;
     text-decoration: none;
+}
+.lang {
+    width: 250px;
+    height: 10%;
+    float: right;
+    opacity: 90%;
+    border-radius: 20px;
+}
+.terminal{
+    background-color: #002ca5;
+    text-align: center;
 }

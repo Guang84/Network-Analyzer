@@ -1,50 +1,128 @@
 #!/bin/bash
+VERSION="2024.06.24"
+
 # Define color variables
 R='\033[0;31m'
 G='\033[0;32m'
 Y='\033[0;33m'
 NC='\033[0m' # No Color
 
+# Function to display version
+display_version() {
+    echo -e "${G}NETWORK ANALYSER ${NC}${Y}$VERSION${NC}"
+    exit 0
+}
+
+# Check for --version argument
+if [[ $1 == "--version" ]]; then
+    display_version
+fi
+
+# Function to check for root permissions
+checkpermissions() {
+    if [[ $EUID -ne 0 ]]; then
+        echo -e "${R}This script requires ${G}root privileges${NC}. Please run it as ${Y}ROOT.${NC}"
+        echo -e "${G}EXAMPLE: sudo bash mybash.sh${NC}"
+        exit 1
+    fi
+}
+# Check for root permissions
+checkpermissions
+echo""
+echo -e "${R}ROOT ${G}ACCESS GRANTED${NC}"
+echo ""
+echo -e "${R}WELCOME TO ${G}NETWORK ANALYZER ${Y}$VERSION${NC}"
+compatible_distros=("Arch" "Backbox" "BlackArch" "CentOS" "Cyborg" "Debian" "Fedora" "Gentoo" "Kali" "Kali arm" "Manjaro" "Mint" "OpenMandriva" "Parrot" "Parrot arm" "Pentoo" "Raspberry Pi OS" "Raspbian" "Red Hat" "SuSE" "Ubuntu")
+
+# Function to check if the current distribution is compatible
+compatible_distro() {
+    current_distro=$(lsb_release -si)
+    echo -e "${Y}Detecting System ${R}...${NC}"
+    if [[ " ${compatible_distros[@]} " =~ " ${current_distro} " ]]; then
+        echo -e "${Y}FOUND: ${G}$current_distro${NC}"
+    else
+        echo "WARNING: Your distro may not be officially supported by this script."
+    fi
+}
+
+# Check compatible distribution
+compatible_distro
+echo ""
+echo -e "${Y}Checking Requirement${R}...${NC}"
+# List of tools to check
+tools=("aircrack-ng" "airmon-ng" "airodump-ng" "mdk3" "mdk4" "aireplay-ng")
+
+# Function to display a loading message
+loading() {
+    local delay=0.3
+    local spin='-\|/'
+    while true; do
+        local temp=${spin#?}
+        printf " [%c]  " "$spin"
+        local spin=$temp${spin%"$temp"}
+        sleep $delay
+        printf "\b\b\b\b\b\b"
+    done
+}
+
+echo ""
+#this check if each tool is installed
+for tool in "${tools[@]}"; do
+    echo -e "${Y}Checking for${NC} ${G}$tool${NC}..."
+    if ! command -v "$tool" &>/dev/null; then
+        echo "Not Found"
+    else
+        echo -e "${Y}Ok${NC}"
+    fi
+    loading &
+    loading_pid=$!
+    sleep 2
+    kill $loading_pid
+    wait $loading_pid 2>/dev/null
+    echo ""
+done
+echo""
 # Print the banner with colors centeR on the screen
-echo -e "${R}$ '^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^'"
-echo -e "${G}$ '                                                                B       '"
-echo -e "${Y}$ '    ██████████          ██████        ████████████████████      C       '"
-echo -e "${R}$ '    ███████████         ██████       ██████████████████████     A       '"
-echo -e "${G}$ '    ███████ ████        ██████       ██████         ███████             '"
-echo -e "${Y}$ '    ███████  ████       ██████       ██████         ███████     5th     '"
-echo -e "${R}$ '    ███████   █████     ██████       ██████         ███████             '"
-echo -e "${G}$ '    ███████    █████    ██████       ██████████████████████     S | 2 | '"
-echo -e "${Y}$ '    ███████     █████   ██████       ██████████████████████     E | 0 | '"
-echo -e "${R}$ '    ███████      █████  ██████       ██████         ███████     M | 2 | '"
-echo -e "${G}$ '    ███████       █████ ██████       ██████         ███████       | 4 | '"
-echo -e "${Y}$ '    ███████        ███████████       ██████         ███████     P       '"
-echo -e "${R}$ '    ███████         ██████████       ██████         ███████     J       '"
-echo -e "${G}$ '                                                                        '"
-echo -e "${Y}$ '                             NETWORK ANALYZER                   -AZ_SEP '"
-echo -e "${R}$ '^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^'"
+echo -e "${G}^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^"
+echo -e "${G}                                                                   ${Y}B${NC}        "
+echo -e "${G}    ██████████          ██████        ████████████████████         ${Y}C${NC}        "
+echo -e "${G}    ███████████         ██████       ██████████████████████        ${Y}A${NC}        " 
+echo -e "${G}    ███████ ████        ██████       ██████         ███████                          "
+echo -e "${G}    ███████  ████       ██████       ██████         ███████     ${Y}5th${NC}         "
+echo -e "${G}    ███████   █████     ██████       ██████         ███████                          "
+echo -e "${G}    ███████    █████    ██████       ██████████████████████     ${Y}S | 2 |${NC}     "
+echo -e "${G}    ███████     █████   ██████       ██████████████████████     ${Y}E | 0 |${NC}     "
+echo -e "${G}    ███████      █████  ██████       ██████         ███████     ${Y}M | 2 |${NC}     "
+echo -e "${G}    ███████       █████ ██████       ██████         ███████     ${Y}  | 4 |${NC}     "
+echo -e "${G}    ███████        ███████████       ██████         ███████     ${Y}P${NC}           "
+echo -e "${G}    ███████         ██████████       ██████         ███████     ${Y}J${NC}           "
+echo -e "${G}                                                                                     "
+echo -e "${G}                         ${Y}NETWORK ANALYZER ${R}$VERSION${NC}    ${Y}- ${R}AZ_SEP${NC} "
+echo -e "${R}                        SYSTEM ${G}$current_distro${NC}                              "
+echo -e "${G}^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^"
 echo -e "${NC}"
 
 #Required tools
 echo -e "${G} _______________${NC}"
-echo -e "${G}|${NC}REQUIR TOOLS:${G}|${NC}"
+echo -e "${G}|${R}REQUIR TOOLS: ${G}|${NC}"
 echo -e "${G}|${NC}1. ${Y}aircrack-ng ${G}|${NC}"
 echo -e "${G}|${NC}2. ${Y}airmon-ng   ${G}|${NC}"
 echo -e "${G}|${NC}3. ${Y}airodump-ng ${G}|${NC}"
 echo -e "${G}|${NC}4. ${Y}aireplay-ng ${G}|${NC}"
 echo -e "${G}|${NC}5. ${Y}BCA-crack   ${G}|${NC}"
-echo -e "${G}|${NC}_______________${NC}|"
+echo -e "${G}|_______________|${NC}"
 echo ""
 echo -e "This tools require ${R}ADMIN${NC} previlge"
+echo""
 
-# All function with sudo need Admin Permission
 # Array of interfaces names to check
-interfaces=("wlp2s0" "wlan0" "wlan1" "wlan2" "lo0") # Define your interfaces
+interfaces=("wlp2s0" "wlan0" "wlan1" "wlan2" "lo0" "wlp2s0mon" "wlan0mon" "wlan1mon" "wlan2mon" "lo0mon") # Define your interfaces
 interfaces_found=0
 
 # Iterate through the array and check if each interfaces exists
 for interfaces in "${interfaces[@]}"; do
     if ip link show "$interfaces" &>/dev/null; then
-        echo "WLAN interfaces found: $interfaces"
+        echo -e "${Y}WLAN interfaces found:${G} $interfaces ${NC}"
         interfaces_found=1
         break  # Exit the loop if any interfaces is found
     fi
@@ -52,86 +130,115 @@ done
 
 # If none of the interfacess are found
 if [ "$interfaces_found" -eq 0 ]; then
-    echo "No WLAN interfaces found."
+    echo -e "${R}No WLAN interfaces found${NC}"
 fi
 
 #python server to host the webpage
-#replace gnome-terminal
-gnome-terminal -- python3 server.py
+# Function to check if a command exists
+command_exists() {
+    command -v "$1" &> /dev/null
+}
 
+# Function to run the Python server
+runserver() {
+    local server_script=$1
+
+    if command_exists gnome-terminal; then
+        gnome-terminal -- python3 "$server_script"
+    elif command_exists xterm; then
+        xterm -e python3 "$server_script"
+    elif command_exists konsole; then
+        konsole -e python3 "$server_script"
+    else
+        echo -e "${Y}No compatible terminal emulator found. Running the server in the current terminal...${NC}"
+        python3 "$server_script"
+    fi
+}
+
+# Main script execution
+SERVER_SCRIPT="server.py"
+
+echo -e "${G}Starting Python server...${NC}"
+echo -e "${Y}${SERVER_SCRIPT}...${NC}"
+runserver "$SERVER_SCRIPT"
+#variable that store a string
 printinfo="Enter any key to exit to main MENU "
 moninfo="This tools required MONITORING MODE"
 
 # Function to enable monitor mode 
 enable_monitor_mode() {
-    echo "1. Enable Monitor Mode"
-    echo "2. Check Network Status"
+    echo -e "1. ${Y}Enable Monitor Mode${NC}"
+    echo -e "2. ${Y}Check Network Status${NC}"
     echo ""
-    echo "$printinfo"
+    echo -e "${G}$printinfo${NC}"
     echo ""
-    read -p "option:" option
+    read -p "$(echo -e ${G}Enter your choice: ${NC})" option
     case $option in
         1)
-            echo "Using interfaces $interfaces"
+            echo -e "${G} current interfaces is ${R} $interfaces${NC}"
+            echo -e "${G} Starting Monitoring Mode${Y}..${NC}${Y}"
             sudo airmon-ng start $interfaces
-            echo "Starting Monitoring Mode.."
+            echo -e "${NC}"
             ;;
         2)
+            echo -e "${Y}"
             sudo systemctl status NetworkManager
+            echo -e "${NC}"
             ;;
         *)
-        echo "invalid option"
+        echo -e "${R} invalid option ${NC}"
         ;;
     esac
 }
 # Function to disable monitor mode
 disable_monitor_mode() {
-    echo "disabling monitoring mode ..."
-    sudo airmon-ng stop $interfaces"mon"
+    echo -e "${R}Disabling monitoring mode${NC}${Y}..."
+    sudo airmon-ng stop $interfaces
     echo ""
-    echo "if the given interfaces does not exist it may be because monitoring mode is not anable"
+    echo -e "${NC}${R}WARNING: ${G}If the given interfaces does not exist it may be due monitoring mode is enable or not enable${NC}"
 }
 # Function for network deauthentication
 network_deauthentication() {
-    echo "Monitoring Mode is Required for this tools"
+    echo -e "${R}$moninfo${NC}"
     echo ""
     echo "Deauth option:"
-    echo "1. Discover Network"
-    echo "2. Manual Mode"
+    echo -e "1. ${Y}Discover Network${NC}"
+    echo -e "2. ${Y}Manual Mode${NC}"
     echo ""
-    echo "$printinfo"
+    echo -e "${G}$printinfo${NC}"
     echo ""
-    read -p "option:" option
+    read -p "$(echo -e ${G}Enter your choice: ${NC})" option
     case $option in
         1)
-            echo "Entering Network DiscoveR Mode..."
+            echo -e "${Y}Entering Network Discovering Mode${NC}${Y}...${NC}"
             echo ""
-            echo "Enter Network interfaces (default is $interfaces):"
+            echo -e "${Y}Enter Network interfaces (${G}default is${NC}${R} $interfaces${NC}):"
             read Netinterfaces
             if [ -z "$Netinterfaces" ];
             then
                 Netinterfaces="$interfaces"
             fi
-            echo "Discovering..."
+            echo -e "${R} Discovering..."
             echo ""
             mkdir -p SaveData
             sudo airodump-ng --output-format csv -w "$(pwd)/SaveData/" "${interfaces}mon"
-            echo "Data exported"
+            echo "${Y}Data exported${NC}"
             echo ""
             ;;
         2)
-            echo "Entering Manual Mode..."
-            echo "Enter AP MAC / BSSID address:"
+            echo -e "${Y}Entering Manual Mode${NC}..."
+            echo -e "${Y}Enter AP MAC / BSSID address:${NC}"
             read hostmac
-            echo "Enter Client MAC / BSSID address:"
+            echo -e "${Y}Enter Client MAC / BSSID address:${NC}"
             read clientmac
-            echo "Enter Number of deauthentication"
-            echo "Enter 0 for auto" 
+            echo -e "${Y}Enter Number of deauthentication${NC}"
+            echo -e "${Y}Enter 0 for auto" 
             read deauthno
-            sudo aireplay-ng -0 $deauthno -a "$hostmac" -c "$clientmac" $interfaces"mon"
+            sudo aireplay-ng -0 $deauthno -a "$hostmac" -c "$clientmac" ${interfaces}mon
+            echo -e "${NC}"
         ;;
         *)
-            echo "invalid option"
+            echo -e "${R} invalid option ${NC}"
         ;;
     esac
 }
@@ -155,13 +262,13 @@ capture_handshake() {
             echo "Enter output file name (without extension):"
             read outputfile
             echo "Enter valid details!"
-            sudo airodump-ng -c "$channel" --bssid "$ap_mac" -w "$outputfile" $interfaces"mon"
+            sudo airodump-ng -c "$channel" --bssid "$ap_mac" -w "$outputfile" ${interfaces}mon
         ;;
         2)
             #Scan for Available Networks and Capture Handshake
             #echo "Scanning for available networks..."
-            #sudo airmon-ng start $interfaces"mon"
-            sudo airodump-ng $interfaces"mon" #|tee capture_available_net.txt
+            #sudo airmon-ng start ${interfaces}mon
+            sudo airodump-ng ${interfaces}mon #|tee capture_available_net.txt
             #Extract the BSSID and Channel of the Strongest Network
             #bssid=$(grep -o -E "([0-9A-Fa-f]{2}:){5}([0-9A-Fa-f]{2})" scan_results.txt | head -n 1)
            # channel=$(grep -o -E "Channel: [0-9]+" scan_results.txt | head -n 1 | cut -d' ' -f2)
@@ -170,7 +277,7 @@ capture_handshake() {
                 echo "Capturing handshake for the strongest network..."
                 echo "Output file name (without extension):"
                 read outputfile
-                sudo airodump-ng -c $channel --bssid $bssid -w $outputfile $interfaces"mon"
+                sudo airodump-ng -c $channel --bssid $bssid -w $outputfile ${interfaces}mon
             else
                 echo "No networks found. Exiting..."
             fi
@@ -179,7 +286,7 @@ capture_handshake() {
         ;;
         *)
             #if input is invalid
-            echo "Invalid option"
+            echo -e "${R} invalid option ${NC}"
         ;;
     esac  
 }
@@ -193,11 +300,14 @@ encryption_vulnerability_testing() {
     echo "Enter wordlist file name (including path if not in current directory):"
     read wordlist
     sudo aircrack-ng -w "$wordlist" -b "$ap_mac" "$handshake_file.cap"
+    exit 0
 }
 
 # Function for network monitoring
 network_monitoring() {
-    sudo airodump-ng $interface"mon"
+    echo "Enter Network Interface(default is $interfaces)"
+    read interfaces
+    sudo airodump-ng ${interfaces}mon
 }
 
 # Function for anonymous mode
@@ -208,7 +318,7 @@ anonymous_mode() {
     echo "Selected $interfaces Network Interface"
     echo ""
     # Deauthenticate clients from all available networks
-    sudo mdk3 $interfaces"mon" d
+    sudo mdk3 ${interfaces}mon d
     echo "Process completed"
 }
 # Function for password cracking
@@ -228,33 +338,35 @@ password_cracking() {
             read directory
             echo "Enter wordlist file name (including path if not in current directory):"
             read wordlist
-            sudo aircrack-ng -w "$wordlist" "$directory"
+            outputfile="passwdcracking_out"
+            sudo aircrack-ng -w "$wordlist" "$directory" > "$outputfile"
             ;;
         2)
             echo "Starting BCA cracker attack..."
             echo "developing"
             ;;
         *)
-            echo "Invalid option"
+            echo -e "${R} invalid option ${NC}"
             ;;
     esac
 }
+
 # Main menu
 while true; do
     echo ""
-    echo "Select an option:"
-    echo "1. Enable Monitor Mode"
-    echo "2. Disable Monitor Mode"
-    echo "3. Network Deauthentication"
-    echo "4. Capture Handshake"
-    echo "5. WiFi Network Encryption Vulnerability Testing"
-    echo "6. Network Monitoring"
-    echo "7. Anonymous Mode"
-    echo "8. Password Cracking (BF & G-crack)"
-    echo "9. Exit"
-    echo ""
-    echo "Ctl + C to exit the process"
-    read -p "Enter your choice: " choice
+    echo -e "${Y}Select an option:${NC}"
+    echo -e "1. ${G} Enable Monitor Mode${NC}"
+    echo -e "2. ${G} Disable Monitor Mode${NC}"
+    echo -e "3. ${G} Network Deauthentication${NC}"
+    echo -e "4. ${G} Capture Handshake${NC}"
+    echo -e "5. ${G} WiFi Network Encryption Vulnerability Testing${NC}"
+    echo -e "6. ${G} Network Monitoring${NC}"
+    echo -e "7. ${G} Anonymous Mode${NC}"
+    echo -e "8. ${G} Password Cracking (BF & G-crack)${NC}"
+    echo -e "9. ${R}Exit${NC}"
+    echo -e ""
+    echo -e "${R}Ctl + C to exit the process${NC}"
+    read -p "$(echo -e ${G}Enter your choice: ${NC})" choice
     echo ""
     case $choice in
         1)
