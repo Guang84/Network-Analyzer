@@ -3,170 +3,172 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Networks Analyzer</title>
-        <link rel="icon" type="image" href="./icon/hammer.jpg">
+        <title>Network Analyzer</title>
+        <link rel="icon" type="image/jpeg" href="./icon/hammer.jpg">
         <link rel="stylesheet" href="./css/main.css">
         <link rel="stylesheet" href="./css/all.css">
         <link rel="stylesheet" href="./css/frame1.css">
     </head>
+    <style>
+        .languages {
+            width: 100%;
+            max-width: 600px;
+            margin: 20px auto;
+            border-collapse: collapse;
+            text-align: left;
+        }
+        .languages th, .languages td {
+            padding: 10px;
+            border: 1px solid #ddd;
+        }
+        .languages th {
+            background-color: #f4f4f4;
+        }
+        .languages td span {
+            display: inline-block;
+            height: 20px;
+            vertical-align: middle;
+        }
+        .shell { background-color: #f4a460; width: 53.5%; }
+        .html { background-color: #87ceeb; width: 28.4%; }
+        .css { background-color: #ffb6c1; width: 8.4%; }
+        .javascript { background-color: #f0e68c; width: 7.2%; }
+        .python { background-color: #dda0dd; width: 2.5%; }
+    </style>
     <body>
-        <h1>Network Analyzer</h1>
-        <div class="application">
-            <hr>
-            <div class="status">
-                <h3>SERVER STATUS</h3>
-                <div class="network1" id="imagegif"></div>
+        <header>
+            <h1>Network Analyzer</h1>
+        </header>
+        <main class="application">
+            <section class="status">
+                <h2>Server Status</h2>
                 <address>
-                    <b>IP address:</b>
-                    <span id="ipadd" class="state"></span>
-                    <br>
-                    <b>browser status:</b>
-                    <span id="bstate" class="state"></span>
-                    <h3>Unlock the Power of Network Analyzer Tools</h3>
+                    <p><strong>IP address:</strong> <span id="ipadd" class="state"></span></p>
+                    <p><strong>Browser status:</strong> <span id="bstate" class="state"></span></p>
                 </address>
-            </div>
-            <article>
-                <b>about:</b>
-                Developed by BCA 6th-semester students, our Network Analyzer Tool is a powerful educational resource. It's designed to facilitate learning about network analysis in a user-friendly environment.
-                While we're excited to share this tool with you, it's crucial to emphasize its intended use solely for educational purposes. We're committed to promoting ethical practices in network analysis and discourage any unauthorized or unethical activities.
-                We're open to collaboration and look forward to engaging with us.
-                <hr>
-                <b>For inquiries or collaboration opportunities, feel free to reach out to us:</b>
-                <br>
-                <br>
-                <li>
-                    <a href="mailto:brazilianpro96@gmail.com" class="email">brazilianpro96@gmail.com</a>
-                </li>
-                <li>
-                    <a href="mailto:ragulung03@gmail.com" class="email">ragulung03@gmail</a>
-                </li>
-                <li>
-                    <a href="mailto:keziah" class="email">keziah@gmail.com</a>
-                </li>
-                <br>
-                <br>
-                <b>How it work?</b>
-                <br>
-                <div class="howitwork">
-                    <article>To clone a GitHub repository from the command line, you can use the git command. <br>Here's how you can do it:<br>
-                    Use the git clone command followed by the URL of the GitHub repository you want to clone.<br>
-                    Here's the command to clone the "Network-Analyzer" repository from GitHub:<br><br>
-                    <i class="gitcmd">
-                        gh repo clone Guang84/Network-Analyzer <br> OR <br>
+            </section>
+            <section>
+                <h2>Unlock the Power of Network Analyzer Tools</h2>
+                <article>
+                    <h3>About</h3>
+                    <p>Developed by BCA 6th-semester students, our Network Analyzer Tool is a powerful educational resource. It's designed to facilitate learning about network analysis in a user-friendly environment.</p>
+                    <p>While we're excited to share this tool with you, it's crucial to emphasize its intended use solely for educational purposes. We're committed to promoting ethical practices in network analysis and discourage any unauthorized or unethical activities.</p>
+                    <p>We're open to collaboration and look forward to engaging with you.</p>
+                    <hr>
+                    <h3>Inquiries or Collaboration</h3>
+                    <ul>
+                        <li><a href="mailto:brazilianpro96@gmail.com" class="email">brazilianpro96@gmail.com</a></li>
+                        <li><a href="mailto:ragulung03@gmail.com" class="email">ragulung03@gmail.com</a></li>
+                        <li><a href="mailto:keziah@gmail.com" class="email">keziah@gmail.com</a></li>
+                    </ul>
+                    <hr>
+                    <h3>How it Works</h3>
+                    <p>To clone a GitHub repository from the command line, use the git command. Here's how you can do it:</p>
+                    <p>Use the git clone command followed by the URL of the GitHub repository you want to clone. Here's the command to clone the "Network-Analyzer" repository from GitHub:</p>
+                    <p class="gitcmd">
+                        <code>gh repo clone Guang84/Network-Analyzer</code><br> OR <br>
                         <a href="https://github.com/Guang84/Network-Analyzer.git" target="_blank">https://github.com/Guang84/Network-Analyzer.git</a>
-                    </i>
-                    </article>
-                </div>
-                <b>download full ZIP file at </b>
-                <a href="https://drive.google.com/file/d/1cSo5PaLwv6GKPjBjG3XYRQ6H3tYtoYPF/view?usp=sharing" target="_blank">Network-Analyzer.zip</a><br><br>
-                <a href="https://github.com/Guang84/Network-Analyzer.git" target="myconsole" class="gitlink">visit my git hub to learn more </a>
-            </article>
-            <br>
-            <div class="menu">
-                <div class="download">
-                    <b>TOOLS:</b>
-                </div>
-                <br>
+                    </p>
+                    <h3>Download</h3>
+                    <p><a href="https://drive.google.com/file/d/1cSo5PaLwv6GKPjBjG3XYRQ6H3tYtoYPF/view?usp=sharing" target="_blank">Download Network-Analyzer.zip</a></p>
+                    <p><a href="https://github.com/Guang84/Network-Analyzer.git" target="_blank" class="gitlink">Visit GitHub to learn more</a></p>
+                </article>
+            </section>
+
+        </section>
+        <section class="languages-section">
+            <h3>Languages</h3>
+            <table class="languages">
+                <thead>
+                    <tr>
+                        <th>Language</th>
+                        <th>Usage Percentage</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Shell</td>
+                        <td><span class="shell"></span> 53.5%</td>
+                    </tr>
+                    <tr>
+                        <td>HTML</td>
+                        <td><span class="html"></span> 28.4%</td>
+                    </tr>
+                    <tr>
+                        <td>CSS</td>
+                        <td><span class="css"></span> 8.4%</td>
+                    </tr>
+                    <tr>
+                        <td>JavaScript</td>
+                        <td><span class="javascript"></span> 7.2%</td>
+                    </tr>
+                    <tr>
+                        <td>Python</td>
+                        <td><span class="python"></span> 2.5%</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+            <section class="menu">
+                <h3>Tools</h3>
                 <table>
                     <thead>
                         <tr>
                             <th>Required tools:</th>
                             <th>NA tools</th>
                             <th>Support</th>
-                            <th>project Data</th>
+                            <th>Project Data</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <td>
-                                <a href="./BCA cracker/bcacrack.html" target="myconsole">BCA-cracker</a>
-                            </td>
-                            <td>
-                                <a href="#" target="myconsole">Network Monitoring</a></td>
-                            <td>
-                                <a href="https://www.linux.org/pages/download/" target="_blank">Linux OS</a>
-                            </td>
-                            <td>
-                                <a href="./vulnarability testing/" target="myconsole">Password list</a>
-                            </td>
+                            <td><a href="./BCA cracker/bcacrack.html" target="myconsole">BCA-cracker</a></td>
+                            <td><a href="#" target="myconsole">Network Monitoring</a></td>
+                            <td><a href="https://www.linux.org/pages/download/" target="_blank">Linux OS</a></td>
+                            <td><a href="./vulnarability testing/" target="myconsole">Password list</a></td>
                         </tr>
                         <tr>
-                            <td>
-                                <a href="https://www.kali.org/tools/aircrack-ng/" target="myconsole">Aircrack-ng</a>
-                            </td>
-                            <td>
-                                <a href="#" target="myconsole">Deauthentication</a>
-                            </td>
-                            <td>
-                                <a href="https://termux.dev/en/" target="myconsole">Termux</a>
-                            </td>
-                            <td>
-                                <a href="https://github.com/Guang84/Network-Analyzer.git" target="myconsole">Git Hub</a>
-                            </td>
+                            <td><a href="https://www.kali.org/tools/aircrack-ng/" target="myconsole">Aircrack-ng</a></td>
+                            <td><a href="#" target="myconsole">Deauthentication</a></td>
+                            <td><a href="https://termux.dev/en/" target="myconsole">Termux</a></td>
+                            <td><a href="https://github.com/Guang84/Network-Analyzer.git" target="_blank">GitHub</a></td>
                         </tr>
                         <tr>
-                            <td>
-                                <a href="https://www.kali.org/tools/aircrack-ng/#airmon-ng" target="myconsole">Airmon-ng</a>
-                            </td>
-                            <td>
-                                <a href="#">Handshake Captured</a>
-                            </td>
+                            <td><a href="https://www.kali.org/tools/aircrack-ng/#airmon-ng" target="myconsole">Airmon-ng</a></td>
+                            <td><a href="#">Handshake Captured</a></td>
                             <td></td>
-                            <td>
-                                <a href="./project output /" target="myconsole">Project output</a>
-                            </td>
+                            <td><a href="./project output /" target="myconsole">Project output</a></td>
                         </tr>
                         <tr>
-                            <td>
-                                <a href="https://www.kali.org/tools/aircrack-ng/#aireplay-ng" target="myconsole">Aireplay-ng</a>
-                            </td>
-                            <td>
-                                <a href="#">Vulnerability Testing</a>
-                            </td>
+                            <td><a href="https://www.kali.org/tools/aircrack-ng/#aireplay-ng" target="myconsole">Aireplay-ng</a></td>
+                            <td><a href="#">Vulnerability Testing</a></td>
                             <td></td>
-                            <td>
-                                <a href="https://drive.google.com/file/d/1BTEbRuCILFKiC4pWiM9QXu0yCE4m9CBn/view?usp=drivesdk" download="aircrack-ng.zip" target="_blank">aircrack-ng.zip</a>
-                            </td>
+                            <td><a href="https://drive.google.com/file/d/1BTEbRuCILFKiC4pWiM9QXu0yCE4m9CBn/view?usp=drivesdk" target="_blank">aircrack-ng.zip</a></td>
                         </tr>
                         <tr>
-                            <td>
-                                <a href="https://www.kali.org/tools/aircrack-ng/#airodump-ng" target="myconsole">Airodump-ng</a>
-                            </td>
-                            <td>
-                                <a href="#" target="myconsole">Anonymous Mode</a>
-                            </td>
+                            <td><a href="https://www.kali.org/tools/aircrack-ng/#airodump-ng" target="myconsole">Airodump-ng</a></td>
+                            <td><a href="#" target="myconsole">Anonymous Mode</a></td>
                             <td></td>
-                            <td>
-                                <a href="./source_code/" target="myconsole">source code</a>
-                            </td>
+                            <td><a href="./source_code/" target="myconsole">Source code</a></td>
                         </tr>
                         <tr>
-                            <td>
-                                <a href="https://www.kali.org/tools/mdk3/" target="myconsole">mdk3</a>
-                            </td>
-                            <td>
-                                <a href="#" target="myconsole">Password Cracking</a>
-                            </td>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td></td>
-                            <td></td>
+                            <td><a href="https://www.kali.org/tools/mdk3/" target="myconsole">mdk3</a></td>
+                            <td><a href="#" target="myconsole">Password Cracking</a></td>
                             <td></td>
                             <td></td>
                         </tr>
                     </tbody>
                 </table>
-            </div>
-            <hr>
-            <div id="output">
-                <h3>Terminal</h3>
-                <iframe name="myconsole" title="Available Networks" id="frame1" src="./source_code/mybash.sh.txt"></iframe>
+            <section id="output">
+                <h3 class="terminal">Terminal <span id="bstate" class="state"></span></h3>
+                <div class="framebutton">
+                    <button id="backButton" onclick="goBack()">Back</button>
+                    <button id="forwardButton" onclick="goForward()">Forward</button>
+                </div>
+                <iframe name="myconsole" title="Available Networks" id="frame1" src="./networks.txt"></iframe>
                 <script>
                     document.addEventListener('DOMContentLoaded', function() {
                         var iframe = document.getElementById('frame1');
-                
                         iframe.onload = function() {
                             // Get the document inside the iframe
                             var iframeDocument = iframe.contentWindow.document;
@@ -175,30 +177,44 @@
                                 window.location.href = "./error.html";
                             }
                         };
+            
+                        function updateIPAddress() {
+                            document.getElementById('ipadd').textContent = window.location.hostname;
+                        }
+            
+                        function updateBrowserStatus() {
+                            var statusElement = document.getElementById('bstate');
+                            if (navigator.onLine) {
+                                statusElement.textContent = 'Online';
+                                statusElement.style.color = 'green';
+                            } else {
+                                statusElement.textContent = 'Offline';
+                                statusElement.style.color = 'red';
+                            }
+                        }
+            
+                        updateIPAddress();
+                        updateBrowserStatus();
+                        window.addEventListener('online', updateBrowserStatus);
+                        window.addEventListener('offline', updateBrowserStatus);
                     });
-                </script>
-            </div>
-            <br>
-            <script>
-                function updateIPAddress() {
-                    document.getElementById('ipadd').textContent = window.location.href;
-                }
-                // Function to update browser status
-                function updateBrowserStatus() {
-                    var statusElement = document.getElementById('bstate');
-                    if (navigator.onLine) {
-                        statusElement.textContent = 'Online';
-                        statusElement.style.color = 'green';
-                    } else {
-                        statusElement.textContent = 'Offline';
-                        statusElement.style.color = 'red';
+                    //button function for iframe
+                    function goBack() {
+                        var iframe = document.getElementById('frame1');
+                        if (iframe.contentWindow.history && iframe.contentWindow.history.length > 0) {
+                            iframe.contentWindow.history.back();
+                        }
                     }
-                }
-                updateIPAddress();
-                updateBrowserStatus();
-                window.addEventListener('online', updateBrowserStatus);
-                window.addEventListener('offline', updateBrowserStatus);
-            </script>
-        </div>
+                    
+                    function goForward() {
+                        var iframe = document.getElementById('frame1');
+                        if (iframe.contentWindow.history && iframe.contentWindow.history.length > 0) {
+                            iframe.contentWindow.history.forward();
+                        }
+                    }
+                    
+                </script>
+            </section>
+        </footer>
     </body>
 </html>
