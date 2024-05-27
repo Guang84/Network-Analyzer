@@ -27,4 +27,4 @@ Make sure you have the following tools installed on your system:
 - Mdk3
 ## Usage
 ```bash
-sudo bash main.sh
+sudo bash mybash.sh
