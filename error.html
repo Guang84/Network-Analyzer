@@ -7,7 +7,7 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f8f9fa;
+            background-color: #acd2f8;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -15,24 +15,25 @@
             margin: 0;
         }
         .error-container {
-            text-align: center;
+            background-image: url('https://github.com/images/modules/search/light.png');
+            height: 40px;
+            width: auto;
         }
         .error-icon {
             font-size: 48px;
             color: #dc3545;
             margin-bottom: 20px;
         }
-        .error-message {
-            font-size: 24px;
+        p{
+            font-size: large;
             color: #dc3545;
-            margin-bottom: 20px;
         }
     </style>
 </head>
 <body>
+    <div class="error-icon">&#9888;</div>
+    <p>Error: Hosting index.html inside this frame is restricted</p>
     <div class="error-container">
-        <div class="error-icon">&#9888;</div> <!-- Unicode for warning sign -->
-        <div class="error-message">Error: Hosting index.html inside this frame is restricted</div>
     </div>
 </body>
 </html>
