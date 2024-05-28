@@ -54,7 +54,7 @@ tools=("aircrack-ng" "airmon-ng" "airodump-ng" "mdk3" "mdk4" "aireplay-ng")
 
 # Function to display a loading message
 loading() {
-    local delay=0.3
+    local delay=0.1
     local spin='-\|/'
     while true; do
         local temp=${spin#?}
@@ -97,14 +97,14 @@ echo -e "${G}    ███████       █████ ██████ 
 echo -e "${G}    ███████        ███████████       ██████         ███████     ${Y}P${NC}           "
 echo -e "${G}    ███████         ██████████       ██████         ███████     ${Y}J${NC}           "
 echo -e "${G}                                                                                     "
-echo -e "${G}                         ${Y}NETWORK ANALYZER ${R}$VERSION${NC}    ${Y}- ${R}AZ_SEP${NC} "
-echo -e "${R}                        SYSTEM ${G}$current_distro${NC}                              "
+echo -e "${G}                ${Y}NETWORK ANALYZER ${R}$VERSION${NC}    ${Y}- ${R}AZ_SEP${NC} "
+echo -e "${R}                     SYSTEM ${G}$current_distro${NC}                              "
 echo -e "${G}^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^"
 echo -e "${NC}"
 
 #Required tools
 echo -e "${G} _______________${NC}"
-echo -e "${G}|${R}REQUIR TOOLS: ${G}|${NC}"
+echo -e "${G}|${R}REQUIRED TOOLS:${G}|${NC}"
 echo -e "${G}|${NC}1. ${Y}aircrack-ng ${G}|${NC}"
 echo -e "${G}|${NC}2. ${Y}airmon-ng   ${G}|${NC}"
 echo -e "${G}|${NC}3. ${Y}airodump-ng ${G}|${NC}"
@@ -159,11 +159,12 @@ runserver() {
 SERVER_SCRIPT="server.py"
 
 echo -e "${G}Starting Python server...${NC}"
-echo -e "${Y}${SERVER_SCRIPT}...${NC}"
+echo -e "${Y}${SERVER_SCRIPT}${NC}"
 runserver "$SERVER_SCRIPT"
 #variable that store a string
 printinfo="Enter any key to exit to main MENU "
 moninfo="This tools required MONITORING MODE"
+monalert="If ${Y}{monmon}${NC} appear after ${R}$interfaces${NC}${Y} Disable Monitor Mode and ${G}RESTART${NC}"
 
 # Function to enable monitor mode 
 enable_monitor_mode() {
@@ -195,7 +196,7 @@ disable_monitor_mode() {
     echo -e "${R}Disabling monitoring mode${NC}${Y}..."
     sudo airmon-ng stop $interfaces
     echo ""
-    echo -e "${NC}${R}WARNING: ${G}If the given interfaces does not exist it may be due monitoring mode is enable or not enable${NC}"
+    echo -e "${NC}${R}WARNING: ${G}If the given interfaces $interfaces does not exist, please check your Network Interface${NC}"
 }
 # Function for network deauthentication
 network_deauthentication() {
@@ -222,7 +223,8 @@ network_deauthentication() {
             echo ""
             mkdir -p SaveData
             sudo airodump-ng --output-format csv -w "$(pwd)/SaveData/" "${interfaces}mon"
-            echo "${Y}Data exported${NC}"
+            echo -e "${R}$monalert${NC}"
+            echo -e "${Y}Data exported${NC}"
             echo ""
             ;;
         2)
@@ -232,9 +234,10 @@ network_deauthentication() {
             echo -e "${Y}Enter Client MAC / BSSID address:${NC}"
             read clientmac
             echo -e "${Y}Enter Number of deauthentication${NC}"
-            echo -e "${Y}Enter 0 for auto" 
+            echo -e "${Y}Enter 0 for auto${NC}${G}" 
             read deauthno
             sudo aireplay-ng -0 $deauthno -a "$hostmac" -c "$clientmac" ${interfaces}mon
+            echo -e "${R}$monalert${NC}"
             echo -e "${NC}"
         ;;
         *)
@@ -245,41 +248,46 @@ network_deauthentication() {
 # Function for capturing handshake
 capture_handshake() {
     echo"Entering Capturing Mode.."
-    echo "1. Manual Mode"
-    echo "2. Select Available Network"
+    echo -e "1.${Y} Manual Mode${NC}"
+    echo -e "2.${Y} Select Available Network${NC}"
     echo ""
-    echo "$printinfo"
+    echo -e "${R}$printinfo${NC}"
     echo ""
-    read -p "option:" option
+    read -p "$(echo -e ${G}Enter your choice: ${NC})" option
     case $option in
         1)
-            echo "Used OPTION 3 To DiscoveR Networks"
+            echo -e "${R}Used OPTION 3 To Discover Networks${NC}"
             echo ""
-            echo "Enter channel:"
+            echo -e "${Y}Enter channel${NC}:"
             read channel
-            echo "Enter AP MAC address:"
+            echo -e "${Y}Enter AP MAC address${NC}:"
             read ap_mac
-            echo "Enter output file name (without extension):"
+            echo -e "${Y}Enter output file name (without extension)${NC}:"
             read outputfile
-            echo "Enter valid details!"
+            echo -e "${R}Enter valid details!${NC}${Y}"
             sudo airodump-ng -c "$channel" --bssid "$ap_mac" -w "$outputfile" ${interfaces}mon
+            echo -e "${R}$monalert${NC}"
+            echo "${NC}"
         ;;
         2)
             #Scan for Available Networks and Capture Handshake
             #echo "Scanning for available networks..."
             #sudo airmon-ng start ${interfaces}mon
-            sudo airodump-ng ${interfaces}mon #|tee capture_available_net.txt
+            sudo airodump-ng ${interfaces}mon
+            echo -e "${R}$monalert${NC}"
+            #|tee capture_available_net.txt
             #Extract the BSSID and Channel of the Strongest Network
             #bssid=$(grep -o -E "([0-9A-Fa-f]{2}:){5}([0-9A-Fa-f]{2})" scan_results.txt | head -n 1)
            # channel=$(grep -o -E "Channel: [0-9]+" scan_results.txt | head -n 1 | cut -d' ' -f2)
             #Capture the Handshake for the Strongest Network
             if [ -n "$bssid" ] && [ -n "$channel" ]; then
-                echo "Capturing handshake for the strongest network..."
-                echo "Output file name (without extension):"
+                echo -e "${Y}Capturing handshake for the strongest network${NC}..."
+                echo -e "${Y}Output file name (without extension)${NC}:${Y}"
                 read outputfile
                 sudo airodump-ng -c $channel --bssid $bssid -w $outputfile ${interfaces}mon
+                echo -e "${NC}${R}$monalert${NC}"
             else
-                echo "No networks found. Exiting..."
+                echo -e "${R}No networks found. ${Y}Exiting${NC}..."
             fi
             # Cleanup: Remove the scan results file
            # rm -f scan_results.txt
@@ -293,57 +301,61 @@ capture_handshake() {
 
 # Function for encryption vulnerability testing
 encryption_vulnerability_testing() {
-    echo "Enter AP MAC address:"
+    echo -e "${Y}Enter AP MAC address${NC}:"
     read ap_mac
-    echo "Enter handshake file name (without extension):"
+    echo -e "${Y}Enter handshake file name (without extension)${NC}:"
     read handshake_file
-    echo "Enter wordlist file name (including path if not in current directory):"
+    echo -e "${Y}Enter wordlist file name (including path if not in current directory)${NC}:${Y}"
     read wordlist
     sudo aircrack-ng -w "$wordlist" -b "$ap_mac" "$handshake_file.cap"
-    exit 0
+    echo -e "${NC}"
 }
 
 # Function for network monitoring
 network_monitoring() {
-    echo "Enter Network Interface(default is $interfaces)"
+    echo -e "${Y}Enter Network Interface(default is:${G} $interfaces)${NC} ${Y}"
     read interfaces
+    echo -e "${R}$moninfo${NC}"
     sudo airodump-ng ${interfaces}mon
+    echo -e "${NC}${R}$monalert${NC}"
 }
 
 # Function for anonymous mode
 anonymous_mode() {
-    echo "Entering anonymous mode..."
+    echo -e "${Y}Entering anonymous mode${NC}..."
     echo ""
-    echo "$moninfo"
-    echo "Selected $interfaces Network Interface"
+    echo -e "${R}$moninfo${NC}"
+    echo -e "${Y}Selected ${G}$interfaces ${Y}Network Interface"
     echo ""
     # Deauthenticate clients from all available networks
     sudo mdk3 ${interfaces}mon d
-    echo "Process completed"
+    echo -e "${NC}${R}$monalert${NC}"
+    echo -e "${G}Process completed${NC}"
 }
 # Function for password cracking
 password_cracking() {
-    echo "Password cracking options:"
-    echo "Password list is available at /Final/vulnerability/..txt"
-    echo "1. Brute Force"
-    echo "2. BCA-cracker"
+    echo -e "${Y}Entering Password cracking${NC}..."
+    echo -e "${Y}Password list is available at ${G}/Final/vulnerability/..txt${NC}"
+    echo -e "1.${Y} Brute Force${NC}"
+    echo -e "2.${Y} BCA-cracker${NC}"
     echo ""
-    echo "$printinfo"
+    echo -e "${G}$printinfo${NC}"
     echo ""
-    read -p "Select an option: " option
+    read -p "$(echo -e ${G}Enter your choice: ${NC})" option
     case $option in
         1)
-            echo "Starting Brute Force attack..."
-            echo "Enter Directory for Handshake File"
+            echo -e "${Y}Starting Brute Force attack${NC}..."
+            echo -e "${Y}Enter Directory for Handshake File${NC}:"
             read directory
-            echo "Enter wordlist file name (including path if not in current directory):"
+            echo -e "${Y}Enter wordlist file name (including path if not in current directory)${NC}:${Y}"
             read wordlist
             outputfile="passwdcracking_out"
             sudo aircrack-ng -w "$wordlist" "$directory" > "$outputfile"
+            echo -r "${NC}"
             ;;
         2)
-            echo "Starting BCA cracker attack..."
-            echo "developing"
+            echo -e "${Y}Starting BCA cracker attack${NC}..."
+            echo -e "${R}DEVELOPING${NC}"
             ;;
         *)
             echo -e "${R} invalid option ${NC}"

@@ -8,16 +8,22 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 
 class RestrictedHTTPRequestHandler(http.server.SimpleHTTPRequestHandler):
     def translate_path(self, path):
-        path = super().translate_path(path)
-        if not path.startswith(os.getcwd()):
-            # If the path is outside the current directory, log the event and return a 403 error
+        # Define the public folder as the root directory(index.html)
+        public_folder = os.path.join(os.getcwd(), 'public')
+        
+        # Reconstruct the path relative to the public folder
+        path = os.path.join(public_folder, path.lstrip('/'))
+        
+        # Check if the path is still within the public folder
+        if not os.path.commonprefix([public_folder, os.path.realpath(path)]) == public_folder:
+            # If the path is outside the public folder, log the event and return a 403 error
             self.send_error(403, "Forbidden: Access is restricted to the current directory")
             logging.warning(f"Forbidden access attempt to: {path}")
             return None
+        
         return path
 
     def log_message(self, format, *args):
-        # Customize log messages to include client's IP address
         client_host, _ = self.client_address
         logging.info(f"{client_host} - - {self.log_date_time_string()} {format % args}")
 
