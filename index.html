@@ -4,50 +4,49 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Network Analyzer</title>
-        <link rel="icon" type="image/jpeg" href="./icon/hammer.jpg">
-        <link rel="stylesheet" href="./css/main.css">
-        <link rel="stylesheet" href="./css/all.css">
-        <link rel="stylesheet" href="./css/frame1.css">
+        <link rel="icon" type="image" href="./icon/hammer.jpg">
+        <link rel="stylesheet" href="./static/css/main.css">
+        <link rel="stylesheet" href="./static/css/all.css">
+        <link rel="stylesheet" href="./static/css/frame1.css">
     </head>
-    <style>
-        .languages {
-            width: 100%;
-            max-width: 600px;
-            margin: 20px auto;
-            border-collapse: collapse;
-            text-align: left;
-        }
-        .languages th, .languages td {
-            padding: 10px;
-            border: 1px solid #ddd;
-        }
-        .languages th {
-            background-color: #f4f4f4;
-        }
-        .languages td span {
-            display: inline-block;
-            height: 20px;
-            vertical-align: middle;
-        }
-        .shell { background-color: #f4a460; width: 55.2%; }
-        .html { background-color: #87ceeb; width: 27.7%; }
-        .css { background-color: #ffb6c1; width: 8.4%; }
-        .javascript { background-color: #f0e68c; width: 7.8%; }
-        .python { background-color: #dda0dd; width: 2.8%; }
-    </style>
+    </head>
     <body>
-        <header>
-            <h1>Network Analyzer</h1>
-        </header>
+        <div class="header">
+            <h1>Network Analyzer</h1><br>
+            <strong>2024.06.24</strong>
+        </div>
         <main class="application">
             <section class="status">
                 <h2>Server Status</h2>
                 <address>
                     <p><strong>IP address:</strong> <span id="ipadd" class="state"></span></p>
                     <p><strong>Browser status:</strong> <span id="bstate" class="state"></span></p>
+                    <script>
+                        // Function to get the current URL of the page
+                        function getCurrentURL() {
+                            return window.location.href;
+                        }
+                
+                        // Function to check if the browser is accessing the page locally or online
+                        function checkBrowserStatus() {
+                            if (window.location.hostname === "localhost" || window.location.hostname === "127.0.0.1" || window.location.protocol === "file:") {
+                                return "offline";
+                            } else {
+                                return "online";
+                            }
+                        }
+                        // Function to update IP address and browser status on the page
+                        function updateInfo() {
+                            document.getElementById("ipadd").textContent = getCurrentURL();
+                            document.getElementById("bstate").textContent = checkBrowserStatus();
+                        }
+                
+                        // Call updateInfo function when the page loads
+                        window.onload = updateInfo;
+                    </script>
                 </address>
             </section>
-            <section>
+            <section class="article">
                 <h2>Unlock the Power of Network Analyzer Tools</h2>
                 <article>
                     <h3>About</h3>
@@ -125,7 +124,7 @@
                             <td><a href="./BCA cracker/bcacrack.html" target="myconsole">BCA-cracker</a></td>
                             <td><a href="#" target="myconsole">Network Monitoring</a></td>
                             <td><a href="https://www.linux.org/pages/download/" target="_blank">Linux OS</a></td>
-                            <td><a href="./vulnarability testing/" target="myconsole">Password list</a></td>
+                            <td><a href="./public/vulnarability testing/" target="myconsole">Password list</a></td>
                         </tr>
                         <tr>
                             <td><a href="https://www.kali.org/tools/aircrack-ng/" target="myconsole">Aircrack-ng</a></td>
@@ -137,7 +136,7 @@
                             <td><a href="https://www.kali.org/tools/aircrack-ng/#airmon-ng" target="myconsole">Airmon-ng</a></td>
                             <td><a href="#">Handshake Captured</a></td>
                             <td></td>
-                            <td><a href="./project output /" target="myconsole">Project output</a></td>
+                            <td><a href="./public/project output /" target="myconsole">Project output</a></td>
                         </tr>
                         <tr>
                             <td><a href="https://www.kali.org/tools/aircrack-ng/#aireplay-ng" target="myconsole">Aireplay-ng</a></td>
@@ -149,7 +148,7 @@
                             <td><a href="https://www.kali.org/tools/aircrack-ng/#airodump-ng" target="myconsole">Airodump-ng</a></td>
                             <td><a href="#" target="myconsole">Anonymous Mode</a></td>
                             <td></td>
-                            <td><a href="./source_code/" target="myconsole">Source code</a></td>
+                            <td><a href="./public/source_code/" target="myconsole">Source code</a></td>
                         </tr>
                         <tr>
                             <td><a href="https://www.kali.org/tools/mdk3/" target="myconsole">mdk3</a></td>
@@ -165,40 +164,9 @@
                     <button id="backButton" onclick="goBack()">Back</button>
                     <button id="forwardButton" onclick="goForward()">Forward</button>
                 </div>
-                <iframe name="myconsole" title="Available Networks" id="frame1" src="../"></iframe>
+                <iframe name="myconsole" title="Available Networks" id="frame1" src="./framepage.html" sandbox="allow-same-origin"></iframe>
                 <script>
-                    document.addEventListener('DOMContentLoaded', function() {
-                        var iframe = document.getElementById('frame1');
-                        iframe.onload = function() {
-                            // Get the document inside the iframe
-                            var iframeDocument = iframe.contentWindow.document;
-                            if (iframeDocument.URL.includes("index.html")) {
-                                // Redirect the parent page to error.html
-                                window.location.href = "./error.html";
-                            }
-                        };
-            
-                        function updateIPAddress() {
-                            document.getElementById('ipadd').textContent = window.location.hostname;
-                        }
-            
-                        function updateBrowserStatus() {
-                            var statusElement = document.getElementById('bstate');
-                            if (navigator.onLine) {
-                                statusElement.textContent = 'Online';
-                                statusElement.style.color = 'green';
-                            } else {
-                                statusElement.textContent = 'Offline';
-                                statusElement.style.color = 'red';
-                            }
-                        }
-            
-                        updateIPAddress();
-                        updateBrowserStatus();
-                        window.addEventListener('online', updateBrowserStatus);
-                        window.addEventListener('offline', updateBrowserStatus);
-                    });
-                    //button function for iframe
+                    // Button function for iframe
                     function goBack() {
                         var iframe = document.getElementById('frame1');
                         if (iframe.contentWindow.history && iframe.contentWindow.history.length > 0) {
@@ -212,8 +180,12 @@
                             iframe.contentWindow.history.forward();
                         }
                     }
-                    
+                
+                    // Make the functions globally available
+                    window.goBack = goBack;
+                    window.goForward = goForward;
                 </script>
+                
             </section>
         </footer>
     </body>
