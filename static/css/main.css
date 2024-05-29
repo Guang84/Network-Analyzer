@@ -1,0 +1,163 @@
+@media screen and (max-width: 960px){
+    body{
+        width: 85%;
+    }
+    *{
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+body{
+    height: auto;
+    max-height: fit-content;
+    background-image: linear-gradient(to right, #ffffff, #6567c73c, #ff417d6b);
+    background-size: 200% auto;
+    animation: animatedBackground 25s ease infinite;
+    animation-fill-mode: both;
+}
+@keyframes animatedBackground {
+    from { background-position: 0 0; }
+    to { background-position: 100% 0; }
+}
+.application { 
+    padding: 10px;
+    color: rgb(5, 255, 55);
+    background-color: rgba(29, 177, 236, 0.062);
+}
+.header {
+    font-weight: bold;
+    height: 250px;
+    font-size: 110%;
+    color: #333;
+    text-align: center;
+    font-family: 'Segoe UI', Roboto, Arial, sans-serif; 
+    background: url('/icon/image/computer-burst-line-animation.gif') center/cover no-repeat; /* Consolidated background shorthand */
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.header h1 {
+    margin-bottom: 100px;
+    font-weight: 900;
+    font-size: 200%;
+    color: #ff5900a5;
+    text-transform: uppercase;
+    letter-spacing: 15px;
+    text-shadow: 1px 1px 2px rgba(255, 0, 0, 0.377);
+}
+
+.header strong {
+    font-weight: normal;
+    font-size: 1.2rem;
+    color: #666;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+address{
+    background-color: #ffffff;
+    color: #666;
+    border-radius: 10px;
+    padding: 10px;
+}
+.status h2{
+    color: #060b3a;
+    font-size: large;
+    text-align: center;
+}
+.article h2 , .languages-section h3 , .menu h3{
+    color: #060b3a;
+}
+#terminal {
+    border-radius: 5px;
+    padding: 10px;
+    height: 300px;
+    overflow-y: scroll; 
+    font-family: 'Courier New', monospace; 
+    line-height: 1.5;
+}
+#terminal h3 {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 15px; 
+}
+.state{
+    color: red;
+}
+table {
+    color: #060b3a;
+    background-color: #ffffff;
+    border-collapse: collapse;
+    width: 100%;
+}
+th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid white;
+}
+table tr :nth-child(even){
+    background-color: rgba(255, 255, 255, 0.885);
+    color: rgb(0, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+} 
+table :nth-child(even){
+    background-color: #66666643;
+}
+table a:hover{
+    color: #ffffff;
+    background-color: #060b3a;
+    text-decoration: overline;
+}
+.menu .download a{
+    text-decoration: double;
+    text-transform: capitalize;
+    text-decoration-color: rgb(146, 146, 197);
+    color: brown;
+}
+.user-data{
+    color: blue;
+    font-size: larger;
+    text-align: center;
+}
+#username{
+    color: blueviolet;
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+article{
+    border-radius: 10px;
+    background-color: #ffffff;
+    color: #666;
+    text-align: start;
+    text-transform: capitalize;
+    padding: 10px;
+}
+.email{
+    color: #002ca5;
+    text-transform: lowercase;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: line-through;
+}
+.gitlink{
+    color: red;
+    font-weight: 900;
+}
+.gitcmd , .gitcmd a{
+    background-color: #ffffff;
+    color: green;
+    text-decoration: none;
+}
+.lang {
+    width: 250px;
+    height: 10%;
+    float: right;
+    opacity: 90%;
+    border-radius: 20px;
+}
+.terminal{
+    background-color: #002ca5;
+    text-align: center;
+}

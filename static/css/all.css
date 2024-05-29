@@ -1,0 +1,33 @@
+@media screen and (min-width: 960px){
+    body{
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0.5px;
+    }
+}
+/* languages */
+.languages {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    border-collapse: collapse;
+    text-align: left;
+}
+.languages th, .languages td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+.languages th {
+    background-color: #f4f4f4;
+}
+.languages td span {
+    display: inline-block;
+    height: 20px;
+    vertical-align: middle;
+}
+.shell { background-color: #f4a460; width: 55.2%; }
+.html { background-color: #87ceeb; width: 27.7%; }
+.css { background-color: #ffb6c1; width: 8.4%; }
+.javascript { background-color: #f0e68c; width: 7.8%; }
+.python { background-color: #dda0dd; width: 2.8%; }

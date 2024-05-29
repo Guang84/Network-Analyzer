@@ -1,0 +1,7 @@
+
+BSSID, First time seen, Last time seen, channel, Speed, Privacy, Cipher, Authentication, Power, # beacons, # IV, LAN IP, ID-length, ESSID, Key
+BC:8A:E8:00:11:45, 2024-04-27 13:15:09, 2024-04-27 13:15:14,  8,  65, WPA2, CCMP, PSK, -47,        7,        0,   0.  0.  0.  0,  13, JioFi2_001145, 
+B6:3C:75:FE:4D:90, 2024-04-27 13:15:09, 2024-04-27 13:15:13, 13, 360, OPN, ,   , -33,        5,        0,   0.  0.  0.  0,   7, POCO F1, 
+
+Station MAC, First time seen, Last time seen, Power, # packets, BSSID, Probed ESSIDs
+
