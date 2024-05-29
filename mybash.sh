@@ -9,7 +9,7 @@ NC='\033[0m' # No Color
 
 # Function to display version
 display_version() {
-    echo -e "${G}NETWORK ANALYSER ${NC}${Y}$VERSION${NC}"
+    echo -e "${G}NETWORK ANALYSER v${NC}${Y}$VERSION${NC}"
     exit 0
 }
 
@@ -28,11 +28,16 @@ checkpermissions() {
 }
 # Check for root permissions
 checkpermissions
+
 echo""
-echo -e "${R}ROOT ${G}ACCESS GRANTED${NC}"
+echo -e "${R}ROOT ${G}PERMISSION GRANTED${NC}"
 echo ""
-echo -e "${R}WELCOME TO ${G}NETWORK ANALYZER ${Y}$VERSION${NC}"
-compatible_distros=("Arch" "Backbox" "BlackArch" "CentOS" "Cyborg" "Debian" "Fedora" "Gentoo" "Kali" "Kali arm" "Manjaro" "Mint" "OpenMandriva" "Parrot" "Parrot arm" "Pentoo" "Raspberry Pi OS" "Raspbian" "Red Hat" "SuSE" "Ubuntu")
+echo -e "${R}**** WELCOME TO ${G}NETWORK ANALYZER v${Y}$VERSION${NC}${R} ****${NC}"
+echo -e "${Y} !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! ${NC}"
+echo -e "${R}   This script is only for educational purposes.${NC}
+${G}    Use it only with proper permission!${NC}"
+echo -e "${Y} !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! ${NC}"
+compatible_distros=("Arch" "Backbox" "BlackArch" "CentOS" "Cyborg" "Debian" "Fedora" "Gentoo" "Kali" "Kali arm" "Mint" "OpenMandriva" "Parrot" "Parrot arm" "Pentoo" "Raspberry Pi OS" "Raspbian" "Red Hat" "Ubuntu")
 
 # Function to check if the current distribution is compatible
 compatible_distro() {
@@ -97,8 +102,8 @@ echo -e "${G}    ███████       █████ ██████ 
 echo -e "${G}    ███████        ███████████       ██████         ███████     ${Y}P${NC}           "
 echo -e "${G}    ███████         ██████████       ██████         ███████     ${Y}J${NC}           "
 echo -e "${G}                                                                                     "
-echo -e "${G}                ${Y}NETWORK ANALYZER ${R}$VERSION${NC}    ${Y}- ${R}AZ_SEP${NC} "
-echo -e "${R}                     SYSTEM ${G}$current_distro${NC}                              "
+echo -e "${G}                ${Y}NETWORK ANALYZER v${R}$VERSION${NC}    ${Y}- ${R}AZ_SEP${NC}     "
+echo -e "${R}                        SYSTEM ${G}$current_distro${NC}                              "
 echo -e "${G}^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^"
 echo -e "${NC}"
 
