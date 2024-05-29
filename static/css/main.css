@@ -161,3 +161,7 @@ article{
     background-color: #002ca5;
     text-align: center;
 }
+.nolink{
+    text-decoration: none;
+    color: #333;
+}
