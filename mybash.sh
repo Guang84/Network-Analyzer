@@ -169,7 +169,8 @@ runserver "$SERVER_SCRIPT"
 #variable that store a string
 printinfo="Enter any key to exit to main MENU "
 moninfo="This tools required MONITORING MODE"
-monalert="If ${Y}{monmon}${NC} appear after ${R}$interfaces${NC}${Y} Disable Monitor Mode and ${G}RESTART${NC}"
+monalert="If ${Y}{monmon}${NC} appear after ${R}$interfaces${NC}${Y} Disable Monitor Mode and ${G}RESTART${NC}
+       ${R} or used sudo airodump-ng stop ${interfaces}${NC}"
 
 # Function to enable monitor mode 
 enable_monitor_mode() {
@@ -200,6 +201,7 @@ enable_monitor_mode() {
 disable_monitor_mode() {
     echo -e "${R}Disabling monitoring mode${NC}${Y}..."
     sudo airmon-ng stop $interfaces
+    echo -e "${R}$monalert${NC}"
     echo ""
     echo -e "${NC}${R}WARNING: ${G}If the given interfaces $interfaces does not exist, please check your Network Interface${NC}"
 }
@@ -234,6 +236,12 @@ network_deauthentication() {
             ;;
         2)
             echo -e "${Y}Entering Manual Mode${NC}..."
+            echo -e "${Y}Enter AP MAC / BSSID address to find target:${NC}"
+            read hostmac
+            echo -e "${Y}Enter Channel no.(CH):${NC}"
+            read channel
+            sudo airodump-ng --bssid $hostmac -c $channel ${interfaces}mon
+            echo -e "${G} enter target details:${NC}"
             echo -e "${Y}Enter AP MAC / BSSID address:${NC}"
             read hostmac
             echo -e "${Y}Enter Client MAC / BSSID address:${NC}"
@@ -252,7 +260,7 @@ network_deauthentication() {
 }
 # Function for capturing handshake
 capture_handshake() {
-    echo"Entering Capturing Mode.."
+    echo -e "${R}Entering Capturing Mode..${NC}"
     echo -e "1.${Y} Manual Mode${NC}"
     echo -e "2.${Y} Select Available Network${NC}"
     echo ""
@@ -261,16 +269,16 @@ capture_handshake() {
     read -p "$(echo -e ${G}Enter your choice: ${NC})" option
     case $option in
         1)
-            echo -e "${R}Used OPTION 3 To Discover Networks${NC}"
+            echo -e "${R}Used OPTION 2 To Discover Networks${NC}"
             echo ""
             echo -e "${Y}Enter channel${NC}:"
             read channel
-            echo -e "${Y}Enter AP MAC address${NC}:"
+            echo -e "${Y}Enter AP MAC / BSSID address${NC}:"
             read ap_mac
             echo -e "${Y}Enter output file name (without extension)${NC}:"
             read outputfile
             echo -e "${R}Enter valid details!${NC}${Y}"
-            sudo airodump-ng -c "$channel" --bssid "$ap_mac" -w "$outputfile" ${interfaces}mon
+            sudo airodump-ng --bssid "$ap_mac" -c "$channel" -w "$outputfile" ${interfaces}mon
             echo -e "${R}$monalert${NC}"
             echo "${NC}"
         ;;
@@ -289,7 +297,7 @@ capture_handshake() {
                 echo -e "${Y}Capturing handshake for the strongest network${NC}..."
                 echo -e "${Y}Output file name (without extension)${NC}:${Y}"
                 read outputfile
-                sudo airodump-ng -c $channel --bssid $bssid -w $outputfile ${interfaces}mon
+                sudo airodump-ng --bssid $bssid -c $channel -w $outputfile ${interfaces}mon
                 echo -e "${NC}${R}$monalert${NC}"
             else
                 echo -e "${R}No networks found. ${Y}Exiting${NC}..."
@@ -319,7 +327,11 @@ encryption_vulnerability_testing() {
 # Function for network monitoring
 network_monitoring() {
     echo -e "${Y}Enter Network Interface(default is:${G} $interfaces)${NC} ${Y}"
-    read interfaces
+    read Netinterfaces
+        if [ -z "$Netinterfaces" ];
+    then
+        Netinterfaces="$interfaces"
+    fi
     echo -e "${R}$moninfo${NC}"
     sudo airodump-ng ${interfaces}mon
     echo -e "${NC}${R}$monalert${NC}"
@@ -355,8 +367,8 @@ password_cracking() {
             echo -e "${Y}Enter wordlist file name (including path if not in current directory)${NC}:${Y}"
             read wordlist
             outputfile="passwdcracking_out"
-            sudo aircrack-ng -w "$wordlist" "$directory" > "$outputfile"
-            echo -r "${NC}"
+            sudo aircrack-ng  "$directory" -w "$wordlist" "$outputfile"
+            echo -e "${NC}"
             ;;
         2)
             echo -e "${Y}Starting BCA cracker attack${NC}..."

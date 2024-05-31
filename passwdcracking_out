@@ -1,0 +1,901 @@
+Reading packets, please wait...
+Opening /home/hope/Desktop/Network Analyzer/publicwifi-02.cap
+[0KRead 1544 packets.
+
+   #  BSSID              ESSID                     Encryption
+
+   1  66:95:CC:55:F6:EC  public wifi               WPA (1 handshake)
+
+Choosing first network as target.
+
+Reading packets, please wait...
+Opening /home/hope/Desktop/Network Analyzer/publicwifi-02.cap
+[0KRead 1544 packets.
+
+1 potential targets
+
+[2J[2;32HAircrack-ng 1.7 [3;0H[0J[4;7H[00:00:00] 690/10303727 keys tested (4158.81 k/s) [6;7HTime left: 41 minutes, 17 seconds                          0.01%
+[8;24HCurrent passphrase: chacha                     
+[11;7HMaster Key     : 9B AD AB 06 F1 31 47 99 9A 86 5C F0 1E 5C FE 5C [48D[1BAD F5 16 6D AB 0E 0C 1E 34 82 A5 9B FF 93 5D 4A [14;7HTransient Key  : 2B 64 E8 E7 00 1C C3 2C FB 89 E6 70 F5 78 D9 D3 
+[23C2F 53 3B F0 AD 1B F0 53 BE 95 CA 72 F3 9E 07 CB 
+[23C54 34 1F 3A 09 1F A7 89 24 0C 78 98 AC 73 EC 88 
+[23C85 EF 10 30 9E 3F 0E 04 63 B9 CA 5C D4 8B FF C2 [19;7HEAPOL HMAC     : D5 27 AD F4 46 BC 4D 47 EA FB EA 6F EE 97 72 63 
+[3;0H[0J[4;7H[00:00:00] 1442/10303727 keys tested (4548.33 k/s) [6;7HTime left: 37 minutes, 45 seconds                          0.01%
+[8;24HCurrent passphrase: kathryn                    
+[11;7HMaster Key     : 89 B4 1F F0 2B 08 A4 1E AD 6F 44 8F F5 45 6B 59 [48D[1B54 FF 02 83 0F 4D EA AB 98 CC 6C DA 03 5D E3 D2 [14;7HTransient Key  : 54 B4 3A CF A8 1C 67 D6 45 D3 29 99 72 3F 7C A4 
+[23C39 65 1F D0 C4 0E C9 81 AF DF E0 6F A7 4C 0D D8 
+[23C84 09 D3 FF B5 A9 A8 45 8D 9D FA D3 80 EF 1F 22 
+[23C7F 05 3B 54 78 92 6E 21 09 F6 D2 0F A8 AA 5F 3A [19;7HEAPOL HMAC     : AA 1C B3 27 15 20 83 41 39 04 F7 FA D2 9E 4B 8B 
+[3;0H[0J[4;7H[00:00:00] 2194/10303727 keys tested (4653.77 k/s) [6;7HTime left: 36 minutes, 53 seconds                          0.02%
+[8;24HCurrent passphrase: marine                     
+[11;7HMaster Key     : C3 BB C9 B2 0E DF E0 D2 D2 D7 5D EF FE 3D 78 FE [48D[1BF2 ED 65 BF 54 BE C9 A7 BF BF D4 C7 3A A1 79 D9 [14;7HTransient Key  : 6A 4A 22 3C A3 5A 87 11 13 39 9E B3 88 F2 97 8E 
+[23CA7 C7 CC 73 3E 8B 24 7A E0 A4 92 8B 20 8B 84 3D 
+[23CA1 B2 18 D0 7C 02 8A 0B 7A 4D 24 43 4D 56 B6 91 
+[23C0B 04 CE EB A4 78 67 4D 4B 57 D3 86 F0 AE 5F C1 [19;7HEAPOL HMAC     : 1D EA 16 C0 A2 A8 D2 01 3A 64 93 5A DD 03 43 D8 
+[3;0H[0J[4;7H[00:00:01] 2930/10303727 keys tested (4708.07 k/s) [6;7HTime left: 36 minutes, 27 seconds                          0.03%
+[8;24HCurrent passphrase: caitlyn                    
+[11;7HMaster Key     : 50 B4 22 0C 1F B1 AB 6C F6 D4 64 22 04 DF A8 28 [48D[1BE4 7A 53 F4 D9 73 09 11 5C F6 C9 C2 2E 0C C6 56 [14;7HTransient Key  : AC 67 FC 6E 18 DB 52 0C AC A4 A1 B0 E8 12 F9 17 
+[23C11 7C 07 55 18 95 AF 07 9F C8 30 EC F1 E3 F0 C2 
+[23CD0 1D 53 2B 6F 15 C4 76 48 8D ED C9 B5 69 7E B9 
+[23C89 FB 6A A0 18 A7 03 76 F6 A9 30 21 30 0E 0A 44 [19;7HEAPOL HMAC     : 5B DB E9 F0 40 2D E1 22 CC 82 CF CF E0 0B D1 E7 
+[3;0H[0J[4;7H[00:00:01] 3674/10303727 keys tested (4748.79 k/s) [6;7HTime left: 36 minutes, 8 seconds                           0.04%
+[8;24HCurrent passphrase: honeykoh                   
+[11;7HMaster Key     : 26 1D 63 C5 37 FD 68 F3 34 0C 9C 41 42 94 6E 8C [48D[1BA2 D4 2A B8 FB AF 17 1E 9B 60 11 16 91 10 A1 CE [14;7HTransient Key  : B1 BE 65 C0 FD 00 7A CD 31 22 EB FA 80 16 7C 26 
+[23C1F 2E 1A 51 CB 21 25 DA 90 C7 50 D3 1B F6 2A 23 
+[23C34 4B 8D 28 82 24 6B 2D 3F 2F B7 7C 3B 24 37 8A 
+[23CFE 1D 15 8E 32 6C 02 7F 8B E0 CE F7 22 70 B0 74 [19;7HEAPOL HMAC     : 38 91 69 3D 66 DD 96 8D CB ED E0 CA D7 75 BA D1 
+[3;0H[0J[4;7H[00:00:01] 4442/10303727 keys tested (4789.15 k/s) [6;7HTime left: 35 minutes, 50 seconds                          0.04%
+[8;24HCurrent passphrase: abigail1                   
+[11;7HMaster Key     : 2E 9D 45 D3 34 06 72 04 75 37 29 39 D4 E9 5B 01 [48D[1B73 7B C3 60 33 1A 9F BF 7C 36 A7 3D DD 4F D3 49 [14;7HTransient Key  : 5B 12 36 DE 6F A1 B7 DA 32 43 28 29 7D BA 3F 56 
+[23C4A C4 88 A3 1B DB 04 F1 B0 56 32 70 54 53 EE 3E 
+[23C53 DB 5A 5D 11 B1 C9 EB C8 6B 44 EC C5 D6 9B ED 
+[23C91 5E 38 5B 18 63 4D D1 E3 27 4E 35 AC 9F 5C 5C [19;7HEAPOL HMAC     : DF DD EF E1 34 DC 05 10 6D 7B 62 84 DE E7 27 6A 
+[3;0H[0J[4;7H[00:00:01] 5212/10303727 keys tested (4811.43 k/s) [6;7HTime left: 35 minutes, 40 seconds                          0.05%
+[8;24HCurrent passphrase: ROBERT                     
+[11;7HMaster Key     : 02 F5 81 63 C3 8B 72 BB A2 A9 BB 14 D8 C1 B6 05 [48D[1B8B D1 1E F8 E1 ED A3 3F 7C E7 4F AF 80 A0 C9 17 [14;7HTransient Key  : 4D FC 0A 98 78 3B 6D DE E9 DE 23 F3 E8 57 F1 E1 
+[23C9B 88 57 0C D3 D9 BD 7C A7 FA E0 02 9D F8 8B 2C 
+[23C53 D8 9E 36 60 2A 25 5D 44 45 BD 4F 6B D7 C9 86 
+[23CC7 4E DF B5 48 10 7C 26 91 19 A4 79 A1 78 F5 CA [19;7HEAPOL HMAC     : AC 30 A1 19 D1 87 C9 24 ED 6D 49 9B 78 E0 CD C4 
+[3;0H[0J[4;7H[00:00:01] 5965/10303727 keys tested (4818.51 k/s) [6;7HTime left: 35 minutes, 37 seconds                          0.06%
+[8;24HCurrent passphrase: blue11                     
+[11;7HMaster Key     : 69 D4 09 EE 16 30 BA F5 E4 97 6C FE CD 58 02 BD [48D[1B49 65 DB BF E8 2D 12 73 17 16 AF F4 98 E1 09 6B [14;7HTransient Key  : BB 60 4D A6 48 59 14 27 37 F7 A1 3E 74 43 B4 8D 
+[23CA9 07 84 CA 5D 1B ED BF 13 35 C4 94 18 22 6E AA 
+[23CF7 9A 42 43 CD 36 52 4A 27 6A 2B 38 28 6E 76 A3 
+[23CA1 26 FB D3 23 19 2D A3 B3 E6 C1 B2 FA 52 15 BF [19;7HEAPOL HMAC     : 21 7A 1D AB DC 1D B1 CA 4B B2 33 8C 1A 56 38 70 
+[3;0H[0J[4;7H[00:00:01] 6717/10303727 keys tested (4837.31 k/s) [6;7HTime left: 35 minutes, 28 seconds                          0.07%
+[8;24HCurrent passphrase: tuesday                    
+[11;7HMaster Key     : 7C 6E 13 3B 9C C0 68 07 9D 98 57 A6 5C E9 54 CD [48D[1B2F FA BD 9F AE 79 A0 CF CF AE 6F A4 95 25 B4 B4 [14;7HTransient Key  : DF 6F AA DB BF C1 D1 6E 10 EF 10 39 1F 73 E0 AB 
+[23C7B 1B 15 37 70 94 07 16 E9 9E 0D E8 4B 0F DE FD 
+[23C00 7A 02 66 2D 91 BB A0 65 3F 0A D7 94 CB 6D 7A 
+[23CC9 85 4F BF 5B 4D A5 32 83 A7 A6 8C B8 E7 CD 35 [19;7HEAPOL HMAC     : F2 9B 89 08 86 32 0F 16 9F 07 DC 66 AF A8 94 2E 
+[3;0H[0J[4;7H[00:00:02] 7485/10303727 keys tested (4849.55 k/s) [6;7HTime left: 35 minutes, 23 seconds                          0.07%
+[8;24HCurrent passphrase: jarred                     
+[11;7HMaster Key     : 02 11 93 36 BF 6F 51 A0 2A 18 7E 46 B7 23 33 1B [48D[1BE8 97 00 C7 60 A5 86 48 2A D0 0E 50 39 52 E6 8B [14;7HTransient Key  : B3 20 DF 5D E1 5B 48 68 A4 7A 0E DD 35 4D 6F 63 
+[23CB4 62 66 2B 0F E2 BE CD 06 2D B6 F4 65 6A 8A 2F 
+[23CEF DE B5 26 CD 51 C4 42 1D 59 C8 C9 C2 9B C6 D6 
+[23CFE 8E 95 5F F4 E9 F7 D9 F8 53 4F C5 2E 4C 08 7C [19;7HEAPOL HMAC     : 89 59 46 72 5F 87 95 FE E5 A5 35 F3 C7 0D FC 78 
+[3;0H[0J[4;7H[00:00:02] 8245/10303727 keys tested (4854.60 k/s) [6;7HTime left: 35 minutes, 20 seconds                          0.08%
+[8;24HCurrent passphrase: TIFFANY                    
+[11;7HMaster Key     : D7 58 9A 2B AF 2D D7 CC 0A FE 03 1B ED 2B A3 F2 [48D[1B18 79 CF FD AB E0 65 DF 08 53 15 4D 8A D5 8F 1B [14;7HTransient Key  : C7 5D DF 82 3B 37 74 76 7B C3 BC F5 B0 C4 DA E8 
+[23C18 F8 1B 10 A7 76 25 ED 19 A1 88 35 A0 3A F1 CE 
+[23C50 05 86 73 34 4F 45 4D 65 A0 47 EC 07 73 C2 A0 
+[23CC9 88 F2 12 7F B9 CB 17 36 F0 6E 9E E6 B0 D1 66 [19;7HEAPOL HMAC     : 55 69 31 FD F9 38 22 77 16 8A 8E 58 A1 6D 67 68 
+[3;0H[0J[4;7H[00:00:02] 9045/10303727 keys tested (4865.10 k/s) [6;7HTime left: 35 minutes, 16 seconds                          0.09%
+[8;24HCurrent passphrase: krisha                     
+[11;7HMaster Key     : F3 A1 3F F0 E8 B0 65 0F C1 D1 65 FE 5A 36 E4 92 [48D[1B63 C4 87 4F BC DC 94 69 A0 83 13 66 B1 12 DA C2 [14;7HTransient Key  : 29 C9 40 89 C7 EC 56 37 4A 36 5A 01 37 B2 9F F8 
+[23C09 CD EF F8 61 D6 40 83 5A 21 B7 B5 98 EB F3 14 
+[23CBA 0E 8B CC 83 CD 3A B5 5B 7D D7 06 1E 06 22 46 
+[23CD5 4F A7 DC EF 66 95 56 58 36 1E C1 E7 40 E7 6F [19;7HEAPOL HMAC     : B6 0E 5D 27 22 3B 26 AB C7 09 C2 A4 C6 D7 A6 DC 
+[3;0H[0J[4;7H[00:00:02] 9805/10303727 keys tested (4872.35 k/s) [6;7HTime left: 35 minutes, 12 seconds                          0.10%
+[8;24HCurrent passphrase: nicole01                   
+[11;7HMaster Key     : F2 B7 BF 2A E2 12 18 01 70 81 75 07 37 C2 4F CF [48D[1B94 06 A4 B1 14 97 33 2F 5E EA D0 0C F0 82 79 BE [14;7HTransient Key  : 08 CC 2F 73 F0 76 30 B4 27 83 32 72 C1 46 2C 87 
+[23CFE DD 4D 26 AC 8E 9C 3D 62 2E CA 85 BD A6 EC 98 
+[23C03 90 34 09 18 71 37 8A 73 CB B2 D2 F4 77 12 97 
+[23CBB 9C 22 81 CD DE C8 40 24 51 38 F5 03 8D 46 B3 [19;7HEAPOL HMAC     : B1 E0 93 F5 15 53 9F E3 AB 28 23 F7 00 C4 56 A9 
+[3;0H[0J[4;7H[00:00:02] 10541/14344392 keys tested (4870.92 k/s) [6;7HTime left: 49 minutes, 2 seconds                           0.07%
+[8;24HCurrent passphrase: castor                     
+[11;7HMaster Key     : 81 76 43 08 0F 27 C4 F4 A1 F2 6C 69 09 C1 98 A1 [48D[1B59 5A BB 3A 7B CF 1E 8B 26 E2 8D 70 CE AA D3 FF [14;7HTransient Key  : 04 93 70 F4 D5 4B D1 2B 69 24 B5 53 1A 75 B4 CB 
+[23CEC 5A 9A 58 5E BA 21 6D 15 40 07 B5 5B 35 A9 D0 
+[23C19 FC EE 9A 7E 12 4F C9 3C 10 B0 1E CB A6 1F 2B 
+[23C58 82 B2 DC 96 3A 5F 7B 86 0E 8F 4E E1 0F 8F F8 [19;7HEAPOL HMAC     : 6D 3E CD AF 67 F0 08 5E D5 19 C2 D7 A6 07 31 98 
+[3;0H[0J[4;7H[00:00:02] 11309/14344392 keys tested (4875.70 k/s) [6;7HTime left: 48 minutes, 59 seconds                          0.08%
+[8;24HCurrent passphrase: ferrari1                   
+[11;7HMaster Key     : 8A FD 3E 43 D7 E0 0F 77 F3 DB FE D1 EF 70 BD 9D [48D[1B36 8F EB 3D 13 F8 33 A5 D5 EA AE 90 C4 D2 A1 80 [14;7HTransient Key  : DB 81 1D 05 AB 4E 83 C8 82 E9 A6 6B B1 68 5C 6A 
+[23C33 B4 DB 85 B9 1C 54 15 6D 6D CE 1D 8E 0E F0 C7 
+[23C32 5D 2C 8D 88 63 41 7F A4 A9 1A 48 E5 47 D4 44 
+[23C02 2D 11 4E 45 78 F6 ED AA 05 20 78 17 67 2F 46 [19;7HEAPOL HMAC     : 74 4D 98 B0 A5 63 7E 66 6B C6 9A AE 94 E4 4B 58 
+[3;0H[0J[4;7H[00:00:02] 12021/14344392 keys tested (4869.70 k/s) [6;7HTime left: 49 minutes, 3 seconds                           0.08%
+[8;24HCurrent passphrase: harmony1                   
+[11;7HMaster Key     : 24 F5 E0 73 2A 79 14 6E 2D 5D F8 D0 F4 95 D2 9B [48D[1B2B 62 F6 2C 0C 48 2C 66 6F 4B 28 67 96 5C 62 54 [14;7HTransient Key  : E0 31 40 52 0D 28 17 9F 1A F7 67 A6 E0 48 20 24 
+[23C28 59 AA 58 2A A3 A8 F4 C4 10 20 4C D9 F7 52 79 
+[23C9C 99 CD 15 76 6F 98 85 2F 7A 16 93 94 AC A7 B6 
+[23CEB F9 26 C3 83 C2 AB E6 8C F0 1E E9 4D 20 C4 7B [19;7HEAPOL HMAC     : A2 96 E3 38 63 F9 B3 1E 93 46 88 48 4B 41 B6 51 
+[3;0H[0J[4;7H[00:00:03] 12773/14344392 keys tested (4873.80 k/s) [6;7HTime left: 49 minutes, 0 seconds                           0.09%
+[8;24HCurrent passphrase: october2                   
+[11;7HMaster Key     : F4 5C CD 33 32 B7 1E 3F DD 23 D8 C3 4B 35 D3 FC [48D[1BA1 18 60 80 8E F4 FB FF A8 4F 5F C4 96 35 1E E3 [14;7HTransient Key  : E6 20 05 70 EE 39 82 E2 A9 6F 70 57 0F 9A E9 18 
+[23C72 39 E0 B2 1C 17 3A 27 1B 1E 78 04 F4 C7 AF CB 
+[23CC0 FA 78 D6 33 2D 18 4B CA 77 BB CD D0 8F 01 57 
+[23CAA 7D 8A 58 D0 03 B1 09 77 E0 14 22 2A AE 1B 72 [19;7HEAPOL HMAC     : 87 89 7B 74 BB 9A DF 78 FD 94 9C 09 69 B9 55 4A 
+[3;0H[0J[4;7H[00:00:03] 13509/14344392 keys tested (4868.25 k/s) [6;7HTime left: 49 minutes, 3 seconds                           0.09%
+[8;24HCurrent passphrase: kookoo                     
+[11;7HMaster Key     : 9A 8F 4F 8C 69 0D 4E 33 24 01 16 B8 62 D3 90 3D [48D[1B26 71 D5 50 F7 F0 58 78 F1 9C 3A 30 24 FC 75 9F [14;7HTransient Key  : CE B7 26 91 05 3B 79 EB 95 8D 4C 2C CA 70 0C 2E 
+[23CEA 40 A2 42 A6 92 D8 A7 9C CA 99 DF 32 EF 96 9F 
+[23C87 B1 E7 FE BD 9D 86 65 3C 78 24 4F C1 CE 62 23 
+[23CB7 BF DB AB C3 C4 0C B8 D6 71 D3 41 AF E4 3A E3 [19;7HEAPOL HMAC     : 6A 8F 35 2D C9 F8 41 22 F3 86 6A 38 C3 B7 5D AB 
+[3;0H[0J[4;7H[00:00:03] 14269/14344392 keys tested (4868.11 k/s) [6;7HTime left: 49 minutes, 3 seconds                           0.10%
+[8;24HCurrent passphrase: JESUCRISTO                 
+[11;7HMaster Key     : 0C D0 F4 65 2C B7 A1 D7 62 2C E4 2D 7D A4 5A 44 [48D[1B52 53 67 5A FC E2 CD 28 AA CB EE 65 A8 E1 CA 8D [14;7HTransient Key  : 2C B3 6E 4B EA 03 9F 11 D1 81 35 6E 43 33 82 A1 
+[23CCC B6 BB 95 51 E8 88 40 B9 61 79 6D 66 C2 F5 1B 
+[23C6E B5 AB B9 68 06 E7 43 F0 EF E1 0C B2 27 D5 A3 
+[23CA5 38 91 9D CE D0 2C C5 0E 9C 2C EA 14 13 48 FC [19;7HEAPOL HMAC     : 34 43 51 1B 8D A9 B8 97 AC EF A6 DF 3E 0F DB B1 
+[3;0H[0J[4;7H[00:00:03] 14997/14344392 keys tested (4869.53 k/s) [6;7HTime left: 49 minutes, 2 seconds                           0.10%
+[8;24HCurrent passphrase: lovechild                  
+[11;7HMaster Key     : D4 7D 38 7B 3F 8E CA D1 1C F3 7C 42 60 78 8F D6 [48D[1B24 36 F3 1F 06 64 E9 91 E7 C6 AA 6B 2C 5A BE 48 [14;7HTransient Key  : C3 88 43 41 9D A7 F9 A4 85 0E C5 81 47 31 AE D4 
+[23C1C DC EE D7 DD DE 8F 53 EC FB 30 CD 1E 6C FB E2 
+[23CB7 23 09 71 55 1F 8C 7A 19 B6 1F B3 F3 15 51 68 
+[23C75 5B 9F D3 7B 44 E1 BC 1A 79 24 12 6D A8 6C A4 [19;7HEAPOL HMAC     : D4 17 67 DC 85 A2 A6 3A E5 B6 3B 36 EA 8B 8F 92 
+[3;0H[0J[4;7H[00:00:03] 15749/14344392 keys tested (4873.42 k/s) [6;7HTime left: 49 minutes, 0 seconds                           0.11%
+[8;24HCurrent passphrase: LOVELY1                    
+[11;7HMaster Key     : 20 13 7D DD E4 B9 04 F8 4F ED 9C 34 57 42 ED 92 [48D[1B5F F2 B7 BF 67 62 D0 DC 68 D1 40 C2 16 FD 20 DF [14;7HTransient Key  : 2F 01 B1 6F 84 CA A3 EA CD BC FC 1F 20 49 B5 9A 
+[23CE0 7D B9 1D 19 1F C2 EE 6F B1 18 7F 75 42 5F F2 
+[23C85 C9 14 A1 CB C8 26 6E 54 1A 3F 3C C1 C2 5B DD 
+[23CE1 C7 F0 3C 4B 99 CA AB C8 31 3A D1 E4 48 07 DD [19;7HEAPOL HMAC     : E5 91 68 BB DF 2F 5E DE EC 5F F2 73 EF 98 89 EF 
+[3;0H[0J[4;7H[00:00:03] 16501/14344392 keys tested (4876.81 k/s) [6;7HTime left: 48 minutes, 57 seconds                          0.12%
+[8;24HCurrent passphrase: discover                   
+[11;7HMaster Key     : 86 6E D2 23 E7 03 59 08 C8 30 E5 6B 8F 88 15 64 [48D[1B2F 43 3B A4 1F 5F 00 BA 71 F5 10 C3 60 AE 34 11 [14;7HTransient Key  : 7C 33 9F F1 C5 99 32 2F 45 AF 0B D4 64 56 0B D9 
+[23C65 03 9B 38 1E 69 09 3D 2E CD EB 68 04 00 06 A9 
+[23C5A 8D 2A 8B C4 FE AD F2 09 07 3E E6 FC F0 B7 39 
+[23CB2 D1 6D 65 B1 60 20 26 3B 78 96 BB C8 74 57 0F [19;7HEAPOL HMAC     : DD 08 BA BD 63 C8 3B 38 44 C3 04 B7 3B 04 87 92 
+[3;0H[0J[4;7H[00:00:04] 17269/14344392 keys tested (4873.01 k/s) [6;7HTime left: 49 minutes, 0 seconds                           0.12%
+[8;24HCurrent passphrase: arnie                      
+[11;7HMaster Key     : 3A C6 77 23 22 AC 63 50 22 15 E2 03 C0 DE 2F F4 [48D[1BFE 83 26 58 82 60 66 F3 62 76 C6 10 35 63 34 36 [14;7HTransient Key  : 5B C2 5C B9 4E F4 AE 17 6B 04 F0 AB EF A3 4F B9 
+[23CD3 7F 6D 73 D0 B4 29 70 D2 8C F5 CA DD 14 9E 3D 
+[23CE7 79 85 FC 20 78 54 D7 A7 57 D0 44 C7 2C D3 F5 
+[23C60 7B 71 6A C7 67 44 7C 5F C3 20 74 06 39 7D 8C [19;7HEAPOL HMAC     : 62 9E A0 62 9E 7F E4 2C 52 94 3B E1 38 00 C5 11 
+[3;0H[0J[4;7H[00:00:04] 17854/14344392 keys tested (4834.41 k/s) [6;7HTime left: 49 minutes, 23 seconds                          0.12%
+[8;24HCurrent passphrase: scooter2                   
+[11;7HMaster Key     : 0F E8 DC 29 73 99 13 7B 20 99 42 EF EB A4 A0 21 [48D[1B2E 5C 77 68 8F CD AD 7E 31 FE E4 12 48 2F AB D4 [14;7HTransient Key  : 1E 8A AB 6D FD FD 50 91 54 04 C8 6E 06 DF 65 1B 
+[23C4A B7 92 3E C7 F9 69 47 F6 A9 BE F5 52 77 A5 A9 
+[23CD1 EC 51 E0 58 51 CA 39 68 6E F4 74 99 7B 21 14 
+[23CAB 66 BC C2 36 EF 42 39 64 AF C1 92 B9 71 CF 0C [19;7HEAPOL HMAC     : 79 30 B6 B0 19 D9 87 FC B5 9A 2B EF 82 41 3E 9B 
+[3;0H[0J[4;7H[00:00:04] 18582/14344392 keys tested (4834.13 k/s) [6;7HTime left: 49 minutes, 23 seconds                          0.13%
+[8;24HCurrent passphrase: 130488                     
+[11;7HMaster Key     : F8 F3 E3 97 9A A2 B3 54 3D 33 CC 81 CA 0B 75 7E [48D[1B82 0F 01 99 FA 75 2E 21 D8 41 47 C8 1A 5E 4B 42 [14;7HTransient Key  : 97 81 4F 2D CD A7 79 6D 59 E9 0D E5 9B 57 52 81 
+[23C78 5C DA E3 98 00 B7 CB AA 5C 1B 57 80 A7 3C AF 
+[23C5E EB F3 7F 94 42 36 28 44 1E 94 A6 D7 B3 B2 4E 
+[23CC2 4C 7F A6 1D DA 24 8D 76 77 5F B3 77 15 59 F5 [19;7HEAPOL HMAC     : 68 51 85 37 8A 78 8C 24 9E 97 08 0B 5D 0C B2 3A 
+[3;0H[0J[4;7H[00:00:04] 19342/14344392 keys tested (4839.84 k/s) [6;7HTime left: 49 minutes, 19 seconds                          0.13%
+[8;24HCurrent passphrase: fighting                   
+[11;7HMaster Key     : 14 FF 9D 50 0C 98 6A 4F 0B FE 8F 9E B9 37 03 F3 [48D[1B20 0B 8E 03 F8 9B E2 03 14 7F D6 3C 8E 74 FC 56 [14;7HTransient Key  : 72 5F 0C C5 3B 78 67 18 4C F4 E5 A0 DA 45 13 8B 
+[23C27 B9 26 8C DB 1A 98 64 C1 E5 ED 7B C1 B0 91 78 
+[23C49 A7 6B 58 C1 88 FA 23 69 AD E1 6F 73 4E DE B2 
+[23CE9 5B 27 C3 DE CF B8 F3 0A 5D 9E FF 90 18 B2 B4 [19;7HEAPOL HMAC     : E6 BC 5A C7 A5 72 48 B5 69 9E CE 68 FC 5D 0C 47 
+[3;0H[0J[4;7H[00:00:04] 20062/14344392 keys tested (4838.20 k/s) [6;7HTime left: 49 minutes, 20 seconds                          0.14%
+[8;24HCurrent passphrase: NIKKI                      
+[11;7HMaster Key     : 7D D2 88 DB 70 3F 88 F9 57 F6 38 63 A0 11 BE 1D [48D[1BAD EA 6F F4 23 DD F2 83 91 10 C4 11 87 D1 B1 A2 [14;7HTransient Key  : EA E5 E2 5E D8 14 5B B2 84 BB 03 84 BC 67 A7 B5 
+[23CD3 DA 06 A5 17 77 03 28 F4 CB A3 85 BC 15 AC 02 
+[23CFA 9B 80 D3 61 B0 D2 0B 46 29 97 F7 2F 5F C9 64 
+[23C21 E5 97 45 D5 DF FC BC 61 47 A3 9E 93 EF 9B 12 [19;7HEAPOL HMAC     : E9 E5 C2 66 04 CD 9F 60 2D BE 50 83 8B 7C F3 BF 
+[3;0H[0J[4;7H[00:00:04] 20678/14344392 keys tested (4806.37 k/s) [6;7HTime left: 49 minutes, 40 seconds                          0.14%
+[8;24HCurrent passphrase: Jessica1                   
+[11;7HMaster Key     : 03 B5 B1 46 8F DF 6E 69 08 EA AD AD 5D F0 71 EC [48D[1BC2 19 B6 A5 40 95 7A AD 9A F7 8B B7 05 B0 F0 53 [14;7HTransient Key  : B3 3E AF D9 6A B2 2C C3 9A FD F5 9F 8B 64 4D D8 
+[23C9B 21 EB 56 77 C7 8F 0C 62 0E 58 F9 2A 8B 90 E7 
+[23C52 A4 68 5A EE 19 75 5B A2 E2 3A DF 98 3B 17 01 
+[23CCD AA 94 13 39 1B DD 35 8C CD 92 A4 11 57 86 08 [19;7HEAPOL HMAC     : 66 E2 7C 47 27 B8 1E 77 F5 0B 27 AD 9A E5 BF CE 
+[3;0H[0J[4;7H[00:00:04] 21294/14344392 keys tested (4781.19 k/s) [6;7HTime left: 49 minutes, 55 seconds                          0.15%
+[8;24HCurrent passphrase: belkis                     
+[11;7HMaster Key     : 6B 5F 28 8A 08 75 2B 07 8F 5E 84 E4 DB D7 F2 A8 [48D[1B0F C5 3E EF D9 A1 9F A0 89 54 29 AE B3 AC 01 81 [14;7HTransient Key  : 27 ED 5B 3E 44 C7 03 99 77 2E 16 8C 57 94 B0 5B 
+[23C1F 59 12 44 1D 3B 82 00 A9 48 40 4D A2 BC 8B BF 
+[23C59 C5 6D 5F 01 AD 6C 8D 72 65 CE DA A2 4E 02 E6 
+[23C6A CA 8D 28 E2 B1 4B F9 7A 10 98 F2 07 7E 23 8B [19;7HEAPOL HMAC     : CE 18 93 79 A5 01 7A 54 99 74 A5 C4 33 A4 4F EE 
+[3;0H[0J[4;7H[00:00:05] 21878/14344392 keys tested (4744.24 k/s) [6;7HTime left: 50 minutes, 18 seconds                          0.15%
+[8;24HCurrent passphrase: heffalump                  
+[11;7HMaster Key     : 67 0B A6 87 97 3F A9 1D F2 95 17 BC 8D 22 B2 C6 [48D[1B7B D0 70 5D C4 C1 BA 5A 35 B0 E9 05 C1 AE 73 54 [14;7HTransient Key  : B3 42 5E 0C D7 A4 A8 46 FB DE 9B 5A C5 F5 0C 0C 
+[23CB9 C0 87 BF AD C1 EB 41 ED 43 50 3C 84 D6 F3 D1 
+[23C4E D4 4B 13 4E 39 AD 41 A0 B3 55 BF 95 9B 01 A3 
+[23C97 71 92 39 E1 7E EF 08 33 79 B5 46 0D 10 43 96 [19;7HEAPOL HMAC     : 6C 15 B5 62 FE C8 80 DA 77 6F 2A 8D D5 81 9B 9C 
+[3;0H[0J[4;7H[00:00:05] 22430/14344392 keys tested (4713.30 k/s) [6;7HTime left: 50 minutes, 38 seconds                          0.16%
+[8;24HCurrent passphrase: bobcats1                   
+[11;7HMaster Key     : C4 D3 96 77 03 7C 88 0E 1B 07 9F 7C 55 0D F3 BB [48D[1B15 19 20 8E 9E 62 50 12 A0 4E 2F 16 EC 18 A8 31 [14;7HTransient Key  : 0A E7 5A B8 C6 ED 2F 9E 61 A2 28 B3 F7 94 68 FC 
+[23C70 54 38 C1 A5 28 60 69 9E A6 C3 6D 4F FC 06 B6 
+[23CB0 26 9E 50 5D 0D 84 C7 D9 70 16 51 AD 2E 4E 08 
+[23C4A 52 2E 62 5D BA B2 9D 74 DA 76 2C 91 65 BB 8E [19;7HEAPOL HMAC     : 57 76 B5 5B 11 57 63 2B 64 93 96 E9 B6 A7 FA CD 
+[3;0H[0J[4;7H[00:00:05] 23038/14344392 keys tested (4689.97 k/s) [6;7HTime left: 50 minutes, 53 seconds                          0.16%
+[8;24HCurrent passphrase: raymark                    
+[11;7HMaster Key     : F9 B1 A4 9A 3A 37 2C F5 20 9F 2C 0A 9E B9 97 5C [48D[1BCC C1 28 62 77 29 9D E7 4A 7F 57 35 BF E8 CE 59 [14;7HTransient Key  : D3 17 18 86 E0 CC 5B 4E 03 49 47 6E 33 06 E2 2D 
+[23CD7 3A 33 A5 A2 CC 73 8A DE 2C 01 FA E5 FD E4 13 
+[23CF7 48 31 21 52 9F 3D 3F E6 42 87 17 69 18 E4 40 
+[23C86 CE AE EA A7 6A 5E 9A 03 54 1B D2 68 C6 7F ED [19;7HEAPOL HMAC     : E7 8C AA 0B 36 02 30 B4 DE B2 2E 41 57 F2 AF 3D 
+[3;0H[0J[4;7H[00:00:05] 23662/14344392 keys tested (4669.52 k/s) [6;7HTime left: 51 minutes, 6 seconds                           0.16%
+[8;24HCurrent passphrase: montano                    
+[11;7HMaster Key     : 41 4F 2E 67 6A A4 C8 FE 4E BA E3 C1 5C 80 BD 9A [48D[1B48 46 9C ED 88 19 94 E0 C2 E2 A3 EE E8 B3 9C 83 [14;7HTransient Key  : 71 B9 56 35 8B 35 AA 91 2B 44 98 F9 38 30 5E AF 
+[23CBA DE 8F 94 00 66 9C 64 49 69 E3 31 A6 7F 37 71 
+[23CE7 E7 B5 DE 44 C7 F7 38 DD 49 A8 CB A6 FA 97 33 
+[23C1D B0 4D DA 25 78 5A 62 8D AA 5E 5B 36 F8 08 7A [19;7HEAPOL HMAC     : C5 9B 8B BD 25 6F 38 87 49 17 8E 34 DA 35 6C 16 
+[3;0H[0J[4;7H[00:00:05] 24350/14344392 keys tested (4665.57 k/s) [6;7HTime left: 51 minutes, 9 seconds                           0.17%
+[8;24HCurrent passphrase: dancediva                  
+[11;7HMaster Key     : D6 F9 C6 24 95 EE 21 61 C8 0C FF 53 35 E2 7F 7A [48D[1B0A E3 6F 03 06 79 24 EA 90 EA 6A EC 4D 42 2B 8D [14;7HTransient Key  : 4D B7 C6 92 1D 3A 8F 63 7E CF 2E 28 16 46 5C 7E 
+[23CD3 A3 6D 08 92 83 5F AE CB B5 BB 4E F0 4C 54 E0 
+[23C14 0A 61 7B 6B 24 84 8D BE C6 0B 86 E7 3C C6 87 
+[23C39 72 B3 09 7C 23 88 1C B5 3F 92 4B BC EB 92 4E [19;7HEAPOL HMAC     : 0D 9C 9D 19 E4 94 31 A9 5F 27 A4 33 D5 B9 A6 00 
+[3;0H[0J[4;7H[00:00:05] 25014/14344392 keys tested (4655.09 k/s) [6;7HTime left: 51 minutes, 16 seconds                          0.17%
+[8;24HCurrent passphrase: analia                     
+[11;7HMaster Key     : 4B 60 01 E9 95 5F DF 69 60 A3 E5 68 66 F6 8E D2 [48D[1B29 ED 45 7C 54 E4 B9 F0 C1 D0 90 26 19 CD 76 C6 [14;7HTransient Key  : 2E 8A 3C B8 80 A0 BF DA 6D A3 D5 FD FA FE A1 F2 
+[23C2E C9 CD 03 3C F5 87 9B 7B FE 0D B8 4B 32 16 04 
+[23C78 57 3C 44 AE 47 A0 94 23 24 24 81 34 83 02 95 
+[23CA3 9E 24 03 55 20 45 BA 43 4D 57 31 4E 13 2C F9 [19;7HEAPOL HMAC     : 15 53 47 44 07 8A 6A 5E E4 23 20 6E A8 12 85 AF 
+[3;0H[0J[4;7H[00:00:06] 25646/14344392 keys tested (4641.15 k/s) [6;7HTime left: 51 minutes, 25 seconds                          0.18%
+[8;24HCurrent passphrase: banderas                   
+[11;7HMaster Key     : 93 4E E8 9A E7 BA 6C C4 D8 53 28 50 8B C3 35 BC [48D[1B1F A4 4E 20 E8 B3 6C 0E 77 59 91 A5 F1 67 E7 24 [14;7HTransient Key  : D5 61 13 A6 5E 24 A2 B5 40 A6 67 A9 4F 3D 92 D6 
+[23C6F A0 27 B7 C5 B5 5E 63 8E B3 7E 6F 9D 40 12 54 
+[23C20 0C D3 6A 3F 9E 0E 3E 91 EC 76 0C 0D 45 1A 87 
+[23C43 01 E6 0E 43 77 7B 8B 74 C2 B6 27 04 FF 1A 96 [19;7HEAPOL HMAC     : 45 2A DC 84 6D CA 3D 32 C5 36 3D 77 08 D8 77 BA 
+[3;0H[0J[4;7H[00:00:06] 26382/14344392 keys tested (4646.41 k/s) [6;7HTime left: 51 minutes, 21 seconds                          0.18%
+[8;24HCurrent passphrase: family1st                  
+[11;7HMaster Key     : 7F 92 2D 1D 62 88 A2 81 ED A0 AC 5D 74 5B 40 02 [48D[1BB2 52 D0 19 66 2F 5A B3 21 D0 B3 B9 82 74 E9 A4 [14;7HTransient Key  : 16 49 2C 0F E1 80 29 CB 0F FF 8D 69 4E A1 6E AF 
+[23C7E 7B 49 02 FD 6F A3 DC EB D4 E4 3A FC 00 AF 0D 
+[23C92 6D 45 9B F4 35 BC 5E A2 90 9B 36 C8 0F 48 A3 
+[23C15 85 E0 D7 EA 20 66 76 1E 27 0D 81 86 D2 BE E4 [19;7HEAPOL HMAC     : AB 9E 1F B7 F3 E6 8A 59 CF B7 4C 4C D8 74 3E 99 
+[3;0H[0J[4;7H[00:00:06] 27110/14344392 keys tested (4650.20 k/s) [6;7HTime left: 51 minutes, 18 seconds                          0.19%
+[8;24HCurrent passphrase: sc00by                     
+[11;7HMaster Key     : 5D 4A D3 13 D3 C6 D5 87 F6 99 F8 AE 34 D6 EC 50 [48D[1B02 D2 50 BC 0B C3 2A 02 0F 27 59 37 31 8A A2 D0 [14;7HTransient Key  : 29 4A BB 75 2D E3 79 29 84 0D 97 16 03 EE E0 5C 
+[23C7B C3 32 07 EF A5 B9 84 5A 96 39 D8 42 3E 5A A8 
+[23C87 5A 9F DB 0B 26 5B 0D 51 65 96 02 A5 1A 06 17 
+[23C99 8D 09 C5 D5 E9 5F 79 B5 0B 87 09 5B DC BE B0 [19;7HEAPOL HMAC     : 5B B6 10 05 CD F4 89 A7 60 F7 69 BB B2 16 9E 87 
+[3;0H[0J[4;7H[00:00:06] 27782/14344392 keys tested (4644.78 k/s) [6;7HTime left: 51 minutes, 22 seconds                          0.19%
+[8;24HCurrent passphrase: TYLER                      
+[11;7HMaster Key     : 29 97 CE 58 1E DF 44 19 0D FD C7 57 91 CC 17 9A [48D[1B95 0A A1 57 36 EF BC A7 D1 38 01 AF 52 72 BD 96 [14;7HTransient Key  : FE 24 A2 36 6B 12 98 B4 0D 96 1E 47 7C A8 E7 A1 
+[23CF8 C9 AD FC B4 67 95 3B 5A 4C D4 71 77 12 22 C5 
+[23C82 A1 8A D2 91 EB E9 92 4C 57 11 6C 1A 11 83 C3 
+[23C18 67 91 6A 41 C6 2C 2D 17 D7 C4 3C 34 E2 5B 92 [19;7HEAPOL HMAC     : 52 70 A7 D4 C9 9F 9E EF DB 7A 28 70 2B BF ED 68 
+[3;0H[0J[4;7H[00:00:06] 28446/14344392 keys tested (4638.95 k/s) [6;7HTime left: 51 minutes, 26 seconds                          0.20%
+[8;24HCurrent passphrase: libertate                  
+[11;7HMaster Key     : 4F F7 FF BB BC DE 0F 6F D8 41 B9 F9 80 3A 78 EA [48D[1B8A 7F E1 30 ED 85 E5 CB DE 2D 7E 0C 56 0D EA 24 [14;7HTransient Key  : 35 32 A6 D1 4D 6F 7C E6 66 8B 5A A2 22 24 57 7C 
+[23CC3 40 69 CD A6 0D 80 57 29 01 C6 4A 83 D1 5E F7 
+[23C71 AB 1B 8C AC 87 5A 97 7E 95 3F 86 45 F2 88 A9 
+[23CF9 D2 68 02 AF 37 C2 1E 9A 8C 62 E6 46 C2 3E 73 [19;7HEAPOL HMAC     : 22 56 2A EB 67 72 6A 6A AA 56 8F E3 A2 21 EF 89 
+[3;0H[0J[4;7H[00:00:06] 29086/14344392 keys tested (4628.23 k/s) [6;7HTime left: 51 minutes, 33 seconds                          0.20%
+[8;24HCurrent passphrase: w123456                    
+[11;7HMaster Key     : 21 DD D6 63 3A 3D 5D 7C CF EA BF 2B DE EE 39 0B [48D[1B99 2D 08 8A 83 7D B4 9C 5F 7C 29 FA 60 57 86 AA [14;7HTransient Key  : F7 0D 06 0F 51 2A DF 07 0B C2 00 AB 44 CA 7E C6 
+[23CFB 24 E1 F8 F7 10 0A 4A AF B2 9F 1A B3 81 62 5C 
+[23C06 FA A2 B9 03 36 28 75 F3 B9 21 78 D6 8A 72 CD 
+[23C37 43 23 FC 4A 79 43 49 87 60 1D EF 01 8C 37 52 [19;7HEAPOL HMAC     : 15 4B 0A B0 5E F6 05 87 01 09 B5 8B 12 EA DE C0 
+[3;0H[0J[4;7H[00:00:06] 29758/14344392 keys tested (4622.59 k/s) [6;7HTime left: 51 minutes, 36 seconds                          0.21%
+[8;24HCurrent passphrase: denise12                   
+[11;7HMaster Key     : E1 39 A5 88 FD 1B C8 19 63 7E 23 5F 79 65 0D E9 [48D[1BD0 1D C7 BC 27 34 04 FC 3F BE 13 4B BE B3 07 1D [14;7HTransient Key  : F8 25 1A 37 1A 74 DA 9F 57 68 84 FD 57 D9 AC 04 
+[23C4B A7 60 95 5F CB 0B 96 47 7F 45 56 B1 09 4C 14 
+[23C62 28 D4 12 C9 BC 94 41 8B 9A 6D EE 3E 2A 01 02 
+[23C4F 7B 4C 0F C3 9A AA 7C 0D A1 03 98 B1 38 2B 19 [19;7HEAPOL HMAC     : B2 FE 9F 46 5E 18 93 E5 9B F1 14 75 40 5F 1C 18 
+[3;0H[0J[4;7H[00:00:07] 30375/14344392 keys tested (4609.77 k/s) [6;7HTime left: 51 minutes, 45 seconds                          0.21%
+[8;24HCurrent passphrase: wishbone1                  
+[11;7HMaster Key     : 2E FE D5 90 59 35 0A 7C 32 E5 3B C6 3A B6 E1 6A [48D[1B40 76 1D A6 3B B2 EF 9C A5 D9 EF 04 BE 37 79 14 [14;7HTransient Key  : A7 B5 15 9F B3 98 FD 0E D2 43 AD 7F 58 13 11 C5 
+[23C51 6C 2D 1E 52 BC BA 6A 57 E3 D9 01 AA 8B D8 28 
+[23C82 FE E0 6D 19 03 60 C2 9B DB B0 86 51 63 91 5B 
+[23C6A 5A 00 6A 83 93 F5 A0 BB 27 94 EF E2 91 0F A3 [19;7HEAPOL HMAC     : D0 F6 D5 D4 8A B3 19 BB EC F4 A4 EE 7B 8F 55 E3 
+[3;0H[0J[4;7H[00:00:07] 31063/14344392 keys tested (4607.85 k/s) [6;7HTime left: 51 minutes, 46 seconds                          0.22%
+[8;24HCurrent passphrase: maltesers                  
+[11;7HMaster Key     : C5 7C 9C 16 D4 16 8F 4F BC 58 FC E6 36 17 35 D8 [48D[1B23 59 5E F3 18 8F E9 E4 EC BC E8 39 E1 7B 9C 56 [14;7HTransient Key  : 55 10 40 2A 1B E4 2C 16 15 FA 7E BA 01 A2 83 0C 
+[23CDD B7 E9 AD 9E 4D 7A A7 4D 61 B5 CD 50 F3 B3 39 
+[23CC7 8A BA 25 39 83 3B 2E 83 46 13 25 8D 0E 86 88 
+[23C4F 49 6E B6 72 B7 6F 64 2A 94 FC 63 00 AD CB 77 [19;7HEAPOL HMAC     : 01 CC 73 00 86 72 8F 7D E8 66 0E 7F 56 31 F7 89 
+[3;0H[0J[4;7H[00:00:07] 31775/14344392 keys tested (4609.37 k/s) [6;7HTime left: 51 minutes, 45 seconds                          0.22%
+[8;24HCurrent passphrase: elmo11                     
+[11;7HMaster Key     : 4D 32 9B BE 41 51 1F 1C 4D CA 88 45 F3 D5 CF 2B [48D[1B1E 63 06 34 B2 2E 99 7F 4E 80 CF 29 1E 22 04 49 [14;7HTransient Key  : 82 57 CA 07 83 0D E9 26 15 16 CC EF CC BF 88 CF 
+[23C56 D6 EA EC 81 CD 8E D1 8E 43 B5 8C 0C 3F CA 9F 
+[23CC5 0D 42 62 53 F0 06 58 2D 41 0C 8D 5C B9 83 F4 
+[23C98 D5 35 DA 5C FD D4 DF 87 FE D2 95 90 7A 7B 78 [19;7HEAPOL HMAC     : F0 25 AA 3A 36 CF CE 9C 1A 57 90 CA 2E BE 03 D1 
+[3;0H[0J[4;7H[00:00:07] 32359/14344392 keys tested (4592.05 k/s) [6;7HTime left: 51 minutes, 56 seconds                          0.23%
+[8;24HCurrent passphrase: aiurea                     
+[11;7HMaster Key     : AB 95 E6 D0 2A A3 5C 3C 1A B6 B8 D5 0D 61 96 D0 [48D[1B4C 2D 9B 20 CB 74 68 D6 3C CE B9 5E D1 07 D9 F9 [14;7HTransient Key  : D9 27 CF 40 C5 39 31 9B 4C 2D 64 BD F5 76 A9 6F 
+[23C5C A7 44 16 BB 84 CB D5 96 EB F9 9E C6 6A DB 86 
+[23CB2 1A A3 F3 8A 47 8C 91 49 61 4C 37 C8 58 B8 78 
+[23CE6 D7 EB AA F8 3B 06 37 A1 2D 1E 50 4C EB 7F 72 [19;7HEAPOL HMAC     : E5 C5 CC 8D F6 68 0C BB 9A 1D AE 95 7B 5F F0 6C 
+[3;0H[0J[4;7H[00:00:07] 32999/14344392 keys tested (4583.76 k/s) [6;7HTime left: 52 minutes, 2 seconds                           0.23%
+[8;24HCurrent passphrase: 198123                     
+[11;7HMaster Key     : C2 75 7F 25 7B 07 7B C1 ED 74 40 D5 95 47 46 20 [48D[1BA1 A3 2D F9 DD 64 B2 C5 B7 FD 1A 21 73 A0 58 25 [14;7HTransient Key  : D4 A0 31 A9 9D F1 A9 B1 91 FA DE 7B 97 72 49 87 
+[23CF0 EF 0B 7D 66 FE A7 27 78 C4 00 CB D6 EA B9 57 
+[23C97 5C 8C DE 89 41 E5 F3 E4 14 A7 7F 6D BF A2 57 
+[23C31 97 16 A3 C9 84 9D 96 E6 D7 74 1F CF 41 1C B3 [19;7HEAPOL HMAC     : A1 9D 98 F6 98 6D 3D 4F AE AA 77 CE 3C 11 0F E1 
+[3;0H[0J[4;7H[00:00:07] 33607/14344392 keys tested (4572.77 k/s) [6;7HTime left: 52 minutes, 9 seconds                           0.23%
+[8;24HCurrent passphrase: 053189                     
+[11;7HMaster Key     : 04 1A A3 4D E1 A0 81 A2 D4 94 65 96 BA BC 4F 3D [48D[1B56 AD 41 B3 73 F3 86 20 2F 68 68 E7 3F 92 65 DE [14;7HTransient Key  : C3 48 89 6F DF E6 02 E8 EC 93 58 BE F7 D3 72 6D 
+[23CF9 40 F6 65 24 E1 0A 5F 42 BA 71 D3 A8 71 2F 2D 
+[23C47 27 80 4B 9C 65 26 1A AE 96 77 ED 62 3B 9B 72 
+[23CD5 26 56 EE B0 8D A7 82 A4 DC C1 F2 41 FD 7E 2E [19;7HEAPOL HMAC     : EA 2C 61 CC 02 65 61 CF 92 CD 69 F0 7A 38 27 6D 
+[3;0H[0J[4;7H[00:00:07] 34303/14344392 keys tested (4572.11 k/s) [6;7HTime left: 52 minutes, 9 seconds                           0.24%
+[8;24HCurrent passphrase: 130885                     
+[11;7HMaster Key     : 54 16 3F CB AB F3 93 13 FD DF CD C1 83 BB C2 57 [48D[1B35 BC 8C 2C 43 EA 4B 28 A1 21 1C 14 03 0C 71 3F [14;7HTransient Key  : 13 9B F1 BC A8 8A 7E 2A F0 3F 6D 5D C8 46 9A 63 
+[23C53 85 B8 75 79 1E 00 27 58 31 97 9A D9 00 C9 2B 
+[23C53 F5 36 C2 F6 CD 13 8F 6D 77 26 8B 0F 5C 74 AE 
+[23CDE 58 F8 D9 56 00 E9 C0 07 58 82 E6 2A DA 7A F5 [19;7HEAPOL HMAC     : 8F 92 42 B9 BA 42 A1 D2 61 6C 41 E1 5C CC F8 95 
+[3;0H[0J[4;7H[00:00:08] 35031/14344392 keys tested (4576.73 k/s) [6;7HTime left: 52 minutes, 6 seconds                           0.24%
+[8;24HCurrent passphrase: gelado                     
+[11;7HMaster Key     : 33 C2 14 FC 55 6F BA AC C1 E1 25 7C C7 77 80 32 [48D[1B29 62 5C D6 5D FA 30 B2 85 DE 35 1A B0 2E 94 A3 [14;7HTransient Key  : 7D 22 40 A6 71 4E FC FB 5E EB 57 C0 9D 02 21 A9 
+[23CAE 25 A3 18 4C C4 F6 F0 9C 31 FF 83 2B EC AA D1 
+[23CC5 8D 79 1A DD B3 26 3D 12 EC 0B 48 D9 C1 5A 73 
+[23C38 9B 91 33 AE A9 36 91 AA F1 2E 2A F4 2E 85 1D [19;7HEAPOL HMAC     : 8D F8 F0 C7 DC 53 6A 6D C2 DD 51 6A E4 AF B6 06 
+[3;0H[0J[4;7H[00:00:08] 35719/14344392 keys tested (4572.25 k/s) [6;7HTime left: 52 minutes, 9 seconds                           0.25%
+[8;24HCurrent passphrase: 012089                     
+[11;7HMaster Key     : BB FA 8E 1F E9 E4 A8 EE 19 4F 03 70 6C CA BE CA [48D[1BDF C6 47 C3 1F 95 C9 F5 51 F6 DE 8B 19 CB DE 95 [14;7HTransient Key  : 8B D8 EA D6 AE AC 14 9E 42 07 A1 F8 17 EC C8 13 
+[23C8D BC F1 E8 47 A1 7D D6 BF 10 45 28 39 74 78 AA 
+[23C12 61 0B 86 EB 7C 8E 7B F3 9F 9B 3F 37 96 71 4C 
+[23C37 7A 95 FD 17 FB 7B E7 30 75 0B 9D 9A F9 BA 02 [19;7HEAPOL HMAC     : 91 44 18 BB D3 73 78 23 77 12 18 D7 A5 02 3D C3 
+[3;0H[0J[4;7H[00:00:08] 36447/14344392 keys tested (4576.37 k/s) [6;7HTime left: 52 minutes, 6 seconds                           0.25%
+[8;24HCurrent passphrase: 211084                     
+[11;7HMaster Key     : A9 BC 51 E8 6B B1 CE 3B 37 A9 E4 C6 94 09 D7 1A [48D[1B5C D1 EC A7 05 5B F1 99 B4 48 FB 21 17 E4 4D 61 [14;7HTransient Key  : D5 CF 49 7C 0F 62 2E D4 4D 5A FA 34 E3 45 3D 8D 
+[23C23 2C B4 72 2A A3 0A 6B BF D3 F9 8B 6F 2E BE B6 
+[23CD3 63 80 AF 52 24 E2 E5 26 61 9C 48 A3 AE AC 7D 
+[23CBC 94 07 1A F5 D7 59 1B 18 47 5E C8 75 A3 F4 C8 [19;7HEAPOL HMAC     : A8 B5 D0 02 E5 B0 91 74 12 32 75 DD 6F 9D AF 85 
+[3;0H[0J[4;7H[00:00:08] 37191/14344392 keys tested (4582.44 k/s) [6;7HTime left: 52 minutes, 2 seconds                           0.26%
+[8;24HCurrent passphrase: atekuya                    
+[11;7HMaster Key     : E8 E8 10 2A 45 EC 2E AF BF CE BF 6C CE 68 BC 77 [48D[1BD4 F3 3F 89 E1 FD A4 5D F0 C0 E0 86 6B 1B 93 BF [14;7HTransient Key  : E9 C9 6B 0D 19 57 B0 FE 29 E3 9D 02 F4 10 A6 55 
+[23C99 5A 74 DE 2E 6E DC 13 89 6B 45 17 C7 2D 94 8F 
+[23CDA FE EF 41 68 B1 B4 65 1E 4E 80 AC EC 00 19 7E 
+[23CC1 6C 46 B3 5C 43 AE D1 9A 17 6D D9 7A 96 13 D0 [19;7HEAPOL HMAC     : F5 2D CD 8C EA C2 EB 7C 3A 06 FB 89 10 9E 8E AE 
+[3;0H[0J[4;7H[00:00:08] 37927/14344392 keys tested (4587.68 k/s) [6;7HTime left: 51 minutes, 58 seconds                          0.26%
+[8;24HCurrent passphrase: fresita1                   
+[11;7HMaster Key     : FE 5C 9D CE 52 48 96 65 A6 69 00 E8 A8 49 BA F8 [48D[1BF6 BE D0 73 4D 9B D5 CC E6 D6 B8 1F BC E9 9B D3 [14;7HTransient Key  : FE 28 C8 27 C7 5D BB 82 DD 9F 7C CB FB FE 1A 9F 
+[23C49 5B 01 21 EB 20 F4 BE 3F B0 CD 18 49 BA F1 F3 
+[23CDA C2 23 3D 40 77 72 07 C4 F8 28 C0 03 73 F6 04 
+[23C27 60 EA A3 52 14 14 BB 85 8E 51 11 76 F0 09 BB [19;7HEAPOL HMAC     : DA 4A 52 4B 1E 96 4F 2B 9F 34 65 3A 62 A7 6A 75 
+[3;0H[0J[4;7H[00:00:08] 38647/14344392 keys tested (4591.35 k/s) [6;7HTime left: 51 minutes, 55 seconds                          0.27%
+[8;24HCurrent passphrase: killerman                  
+[11;7HMaster Key     : DF 37 6E 95 74 10 52 4E AE F6 31 B4 A7 8F 61 3A [48D[1B06 8D 20 B1 BE 3C 47 4D 14 A9 F7 0A FA 3E 65 59 [14;7HTransient Key  : 8E 4E FA E7 77 1D 5F 3B B5 75 63 FC 2C 9D 09 75 
+[23C46 11 5D E9 95 AA 66 C4 0D 58 BB F3 76 AA 5F 26 
+[23C00 B7 F6 44 58 77 72 B2 E4 84 04 99 B1 32 C5 36 
+[23C64 77 CD 4B 32 C5 0C D1 62 56 75 64 11 D7 27 DB [19;7HEAPOL HMAC     : 82 61 D7 C7 FA 0D D4 B5 E8 59 5C 5A 82 02 5B DE 
+[3;0H[0J[4;7H[00:00:09] 39409/14344392 keys tested (4596.08 k/s) [6;7HTime left: 51 minutes, 52 seconds                          0.27%
+[8;24HCurrent passphrase: shannon01                  
+[11;7HMaster Key     : 86 0C 8C A7 0E 80 CC 72 58 08 2C 9A D1 E7 AD A8 [48D[1B9F 59 AE B7 E9 BB CB 93 AF 49 5E EE 5E 6A 23 FC [14;7HTransient Key  : DE 96 0A D5 4E 18 6C 0B 6D A9 1D 47 12 FE B0 B1 
+[23CD0 89 4A 5B 6C AD 78 80 31 4C A3 4F C6 D9 63 E5 
+[23CBC B2 11 6A F7 B4 A2 16 71 C7 F2 4A B2 0B 0B 87 
+[23C09 42 72 06 70 65 AB 04 AD 0B 85 CC 70 1D B8 3F [19;7HEAPOL HMAC     : 23 6B 83 8D 51 E0 C3 51 33 C4 A6 8E D9 A4 46 CA 
+[3;0H[0J[4;7H[00:00:09] 40145/14344392 keys tested (4602.69 k/s) [6;7HTime left: 51 minutes, 47 seconds                          0.28%
+[8;24HCurrent passphrase: 666000                     
+[11;7HMaster Key     : 80 D7 DD B0 50 DD B2 19 FD 60 20 DF 12 CE 91 FB [48D[1B52 AB F5 23 A1 BE C1 2D DE 11 45 4F A4 D1 76 39 [14;7HTransient Key  : C8 9B 34 82 F0 F4 2A EC 38 8E 65 B9 56 4C 81 E7 
+[23C68 39 1C 6D 0F CB 54 02 5E D7 79 7F B2 C4 61 E1 
+[23C58 EA 4C F7 E8 1C B9 B9 AE DF 3E B6 F6 AD 2C 98 
+[23CC4 91 65 EA 96 C5 CD 01 E8 15 54 1A C2 2D 07 53 [19;7HEAPOL HMAC     : D5 6D 2D 25 98 DE E6 5E 67 B2 3B AD F7 F7 26 F9 
+[3;0H[0J[4;7H[00:00:09] 40753/14344392 keys tested (4591.70 k/s) [6;7HTime left: 51 minutes, 55 seconds                          0.28%
+[8;24HCurrent passphrase: jasmine08                  
+[11;7HMaster Key     : 2B 88 58 70 00 EB 87 81 D5 4B 79 2D 09 21 B5 DC [48D[1BBF 3B 61 C3 64 E1 28 8F 7F 8A 14 74 C7 A6 B9 09 [14;7HTransient Key  : 55 1E 65 0C FD C6 14 EB 55 2B 79 25 77 C9 48 6E 
+[23C2B 14 9D EC 04 BA D2 8F B4 B0 41 DF E6 C0 FD 9C 
+[23CEB 02 06 6E 77 C2 4B A3 36 64 50 42 22 C2 F8 F5 
+[23C8E C4 AB DB 56 6A 9B 72 A7 03 E4 98 73 8D A0 D8 [19;7HEAPOL HMAC     : 90 EA 56 53 DD 26 9D F4 19 27 DA DB 86 D4 F4 1B 
+[3;0H[0J[4;7H[00:00:09] 41521/14344392 keys tested (4598.91 k/s) [6;7HTime left: 51 minutes, 50 seconds                          0.29%
+[8;24HCurrent passphrase: waddles                    
+[11;7HMaster Key     : 19 90 F1 60 31 FD C0 01 74 70 7F E3 0D FA 2E C7 [48D[1B2E B5 78 B9 7B AE CB 25 F9 65 36 6A 89 DA 91 41 [14;7HTransient Key  : 5A 75 EE 6D 31 F9 80 60 7C 87 3E F5 29 90 F8 C3 
+[23CB3 88 68 4B EE 16 F2 79 51 CF A0 02 90 88 86 A6 
+[23C36 A4 02 7D C3 E9 0E 35 F9 5F 3A 67 8E 07 9F 46 
+[23C5B 74 5C D7 CA 38 87 A7 12 18 09 F3 E9 35 2E 56 [19;7HEAPOL HMAC     : FF 05 42 BE 9B B1 84 97 93 71 CA 01 FA EC 94 FA 
+[3;0H[0J[4;7H[00:00:09] 42193/14344392 keys tested (4595.04 k/s) [6;7HTime left: 51 minutes, 52 seconds                          0.29%
+[8;24HCurrent passphrase: corinthians                
+[11;7HMaster Key     : D0 FC 9E BB F2 33 D6 B5 04 EE 1F EE 0E B7 7A 76 [48D[1BFD 09 DD E8 F1 60 AE 7E B9 A0 87 29 47 D7 7D 45 [14;7HTransient Key  : 70 84 D7 AB C8 EE 21 6F E0 3A C7 03 2D 41 43 A9 
+[23C7F BB EA 89 42 56 0C 2C A1 8E 53 C2 A0 ED 35 25 
+[23CF4 91 35 58 A1 4B D8 79 B9 5D 90 EB 0A 71 42 74 
+[23CC5 A5 13 C7 94 6D 69 55 D3 97 FD 59 8E 0B 0B DA [19;7HEAPOL HMAC     : 6A A1 35 F7 B5 AB D8 82 71 AC C3 4F 8A A7 C4 0D 
+[3;0H[0J[4;7H[00:00:09] 42817/14344392 keys tested (4587.85 k/s) [6;7HTime left: 51 minutes, 57 seconds                          0.30%
+[8;24HCurrent passphrase: pennington                 
+[11;7HMaster Key     : 55 4F 96 84 4F 11 EB DE E1 18 35 65 70 32 91 0A [48D[1BA4 C4 80 E0 18 30 29 F4 15 FE A4 14 F0 4B CA 9B [14;7HTransient Key  : 5C 6C 1D B9 B5 F4 DA 23 49 B4 55 AB 63 13 37 45 
+[23CA7 EC 12 81 C3 AC 15 8A BD 80 AA 59 97 34 68 5B 
+[23CC2 DB 93 DF B2 A2 1C C8 8E BF 60 41 DE 1F BF B1 
+[23C82 77 02 FE 2E 17 BB F9 C6 24 AA E9 11 73 C9 77 [19;7HEAPOL HMAC     : F2 23 22 C1 FA 49 CF 8E 83 41 58 5E 12 1F 31 90 
+[3;0H[0J[4;7H[00:00:09] 43577/14344392 keys tested (4593.49 k/s) [6;7HTime left: 51 minutes, 53 seconds                          0.30%
+[8;24HCurrent passphrase: 170385                     
+[11;7HMaster Key     : 30 F5 F1 24 72 A3 76 D8 86 67 4D 96 9B 6B FE 6E [48D[1B94 6E 9B A3 D4 7F 75 09 56 74 52 8A DB C3 7B 31 [14;7HTransient Key  : 8B 86 CA 53 37 DA 20 23 84 83 98 68 56 B0 C7 DE 
+[23C3D AC FD C6 EF 31 6C 06 72 C8 15 50 30 F2 51 93 
+[23CE4 67 11 91 F9 46 78 3D 9E A9 06 03 EB CD C5 79 
+[23CE9 C0 BC B0 6C 0D 1E 22 B3 22 BB 6C DE D6 05 D1 [19;7HEAPOL HMAC     : 20 DD BD DE 8E 47 AB 1D 6E A6 47 1F AA 67 59 B7 
+[3;0H[0J[4;7H[00:00:10] 44337/14344392 keys tested (4598.86 k/s) [6;7HTime left: 51 minutes, 49 seconds                          0.31%
+[8;24HCurrent passphrase: ilovejm                    
+[11;7HMaster Key     : 23 FF FC ED 6E 52 31 67 1A F5 85 FB B6 BE 31 DE [48D[1B91 FC 9C 1E 19 12 7C 91 1C 6F 69 0A 07 D4 6C 7A [14;7HTransient Key  : 7B FC F2 F1 3B B1 44 95 FC 0D 4B 86 FD F5 74 A7 
+[23CBB AC 61 0F 5A 68 E0 17 D2 27 92 1A 8E DC CA 3A 
+[23C96 B0 C8 A8 72 7A 1B C0 05 77 FC 1B D6 0C E2 E2 
+[23CD4 68 2E 21 1C 28 13 BB DB 34 6E 71 BA 17 C0 DB [19;7HEAPOL HMAC     : 81 A1 42 90 06 86 21 12 9C 6C E1 C9 84 B0 7E A5 
+[3;0H[0J[4;7H[00:00:10] 45001/14344392 keys tested (4594.62 k/s) [6;7HTime left: 51 minutes, 52 seconds                          0.31%
+[8;24HCurrent passphrase: 120677                     
+[11;7HMaster Key     : 1E B3 8E 83 0E 2F 16 7F 27 D8 A6 25 C3 0C D4 2E [48D[1B28 0D E8 E5 29 3B 87 21 DE D1 46 BE AA A2 3D 67 [14;7HTransient Key  : 34 70 28 03 07 FE 78 D4 E0 B9 D1 13 E1 26 9F 36 
+[23C50 01 D4 6B 43 02 64 3B FE BF C9 C2 93 58 43 F6 
+[23CE7 2C 56 D6 E9 2F DF B5 42 07 CD 9C F9 19 63 27 
+[23CD2 13 4E 0A AD BD 6C 4F FA 99 F4 FD 07 33 63 BA [19;7HEAPOL HMAC     : 32 D0 87 1E 98 62 EB BB 6C 72 3B E7 A8 B1 94 FF 
+[3;0H[0J[4;7H[00:00:10] 45697/14344392 keys tested (4593.35 k/s) [6;7HTime left: 51 minutes, 52 seconds                          0.32%
+[8;24HCurrent passphrase: fresco                     
+[11;7HMaster Key     : AC D1 B7 56 78 E8 0D 70 CE 26 7E 8C CB A9 C7 35 [48D[1B1B 5D 20 39 EE 0C C5 BB 11 62 0F 1C D1 EA 44 51 [14;7HTransient Key  : 27 D6 2F EF A8 3D 60 57 BA BE C1 0F E7 09 5B BC 
+[23C22 57 17 B2 F4 D7 C5 D5 E8 2F F4 6B E6 6B 20 3D 
+[23C23 76 25 64 FB 77 89 A7 EB 95 BA BC FD 36 F6 D0 
+[23C61 3C 43 15 84 22 1D 56 1D 85 4B 69 3D CB 94 3D [19;7HEAPOL HMAC     : 0A 9D 54 08 B5 1B 89 14 6E C5 B8 EA 03 7E 06 A8 
+[3;0H[0J[4;7H[00:00:10] 46433/14344392 keys tested (4596.16 k/s) [6;7HTime left: 51 minutes, 50 seconds                          0.32%
+[8;24HCurrent passphrase: smoove                     
+[11;7HMaster Key     : 6B 54 6F 8D 59 9A 3F 3E DC C4 6F 17 03 08 BB 7E [48D[1BCB DA A0 54 13 EB DD 50 50 9E 55 B0 56 1C 03 73 [14;7HTransient Key  : E7 AF FF 48 A4 78 7E 4A A9 25 DA 41 30 25 35 E6 
+[23C29 54 1E A3 19 FA 03 7B 35 8D 5B C3 EE BF 6A A0 
+[23C3E 87 DD 04 7F 32 D6 EF 24 2E BE 14 35 D8 5E B7 
+[23C95 84 AA F3 21 E0 E0 02 95 B9 FB 57 D0 E8 BC 13 [19;7HEAPOL HMAC     : CF 99 99 A5 C7 98 BB 5B 69 16 E7 8C 42 9A DA 8A 
+[3;0H[0J[4;7H[00:00:10] 47025/14344392 keys tested (4585.05 k/s) [6;7HTime left: 51 minutes, 58 seconds                          0.33%
+[8;24HCurrent passphrase: jack2007                   
+[11;7HMaster Key     : A7 D9 C8 1C 89 CE 40 65 9F F9 FA 84 40 47 C9 E6 [48D[1B09 12 83 4B BE F8 8E 24 CB A2 22 D7 E9 A6 83 4D [14;7HTransient Key  : 55 8D 58 4D 55 7A 32 68 87 ED 74 6B 83 2C F8 11 
+[23C4E B2 3D 37 67 51 76 AB 4F 88 32 F5 CF EF 65 4F 
+[23C9C 8C C6 E2 8F 1A 91 1E 93 9B 1B 5D AD 98 FA 0D 
+[23C73 84 87 AF 7F 4A F3 80 EB F6 2B 87 FF 5B E6 81 [19;7HEAPOL HMAC     : 9D 27 BD 1C A8 3C DD E3 E5 EF 75 90 EC 0F E5 34 
+[3;0H[0J[4;7H[00:00:10] 47753/14344392 keys tested (4587.19 k/s) [6;7HTime left: 51 minutes, 56 seconds                          0.33%
+[8;24HCurrent passphrase: 062307                     
+[11;7HMaster Key     : 4D 1B 8C B8 95 88 31 A4 F9 AB BB 1B DB F4 7D E0 [48D[1B35 EB 81 3A 9D 33 3E FC 4E 98 F9 7D 6E E5 8F AA [14;7HTransient Key  : D0 10 2D EF 8B 82 82 BA 60 F0 1A 3B FD 04 23 5F 
+[23CC6 70 09 1F 25 C6 B9 47 4C 67 1C 9F 58 10 F5 DC 
+[23C83 CC CC 3E 8D 62 47 8A C0 15 BA 3D F2 D9 F0 39 
+[23C8C 38 73 33 6A 0D 43 7B 9A 01 FA E6 86 D1 80 E3 [19;7HEAPOL HMAC     : 3A 2E 40 21 90 13 1C B5 9C 65 96 1A AB 8A 9C 66 
+[3;0H[0J[4;7H[00:00:11] 48425/14344392 keys tested (4585.23 k/s) [6;7HTime left: 51 minutes, 57 seconds                          0.34%
+[8;24HCurrent passphrase: gayatri                    
+[11;7HMaster Key     : B4 6C ED E7 5B E2 0B C6 BC 65 83 58 B0 05 89 FD [48D[1B3F 26 F3 59 0C C5 65 9C FB AE 68 3C C9 00 F8 E8 [14;7HTransient Key  : 4D 1A 98 F3 FC 2E 93 88 A5 87 B9 1F 0C 99 BF A6 
+[23CBF 6E 92 67 7D 1F 58 53 AB 6E EC 0D 26 93 1F 0D 
+[23C3C 36 64 10 9C 1D 74 67 16 EB E3 9D C3 F8 78 E0 
+[23CAE 48 7E 85 07 EE 30 BC 5E 28 4B 53 0D 28 EA 96 [19;7HEAPOL HMAC     : FD 3F 1F C4 7A 7B B0 BE DC 3D 35 E9 71 F0 BA A9 
+[3;0H[0J[4;7H[00:00:11] 49145/14344392 keys tested (4585.46 k/s) [6;7HTime left: 51 minutes, 57 seconds                          0.34%
+[8;24HCurrent passphrase: strings                    
+[11;7HMaster Key     : D7 02 C3 05 03 B9 1B D8 1A B4 18 B0 1C C3 54 D4 [48D[1B58 06 60 0C 25 1A DE 63 8E 18 53 6E AC 64 9E EB [14;7HTransient Key  : 6A 07 5E 53 4F 0D 0D FD 8F D1 E3 E4 69 3D C8 8E 
+[23CE6 B2 56 26 51 E5 81 FB 36 E1 1A 86 59 1D CC D6 
+[23CC8 2E DB 32 44 46 F6 8E 03 C2 02 11 BF C3 EE 50 
+[23C0A 8D 8D 93 3B E2 35 C0 0A D4 F6 31 C5 3E 11 AB [19;7HEAPOL HMAC     : 63 68 CD 2B 73 DB 36 4F DF FF 6D F9 35 FE 0C AC 
+[3;0H[0J[4;7H[00:00:11] 49905/14344392 keys tested (4591.02 k/s) [6;7HTime left: 51 minutes, 53 seconds                          0.35%
+[8;24HCurrent passphrase: bubbadog                   
+[11;7HMaster Key     : 00 C2 8C BD AE 2A 82 6E 2B AB A9 89 DA 14 D0 09 [48D[1B51 72 AB A3 7B 1F B9 15 A3 1E 23 17 D3 C4 56 10 [14;7HTransient Key  : 11 38 89 47 C3 54 E8 0F AB F4 A2 EF F0 FB 39 24 
+[23C78 51 24 41 B0 DB 69 FA 82 1E EC C8 FD 6E 28 A6 
+[23C20 A1 DD 74 9D C4 ED 1B 02 8F 1C 1F F8 47 5F 8C 
+[23CCC C6 B3 DC FD 00 1A 96 83 99 91 03 7D 42 19 E8 [19;7HEAPOL HMAC     : 83 32 0B 6D EB 1D 24 AB C0 0D B6 74 7D B8 18 44 
+[3;0H[0J[4;7H[00:00:11] 50586/14344392 keys tested (4588.89 k/s) [6;7HTime left: 51 minutes, 54 seconds                          0.35%
+[8;24HCurrent passphrase: reine                      
+[11;7HMaster Key     : F8 AD 7C 39 05 AD FE EF 12 AA 9C CE E5 01 87 48 [48D[1BCE 91 32 F1 67 60 5B 92 0B CD D2 63 12 3C 7D 4F [14;7HTransient Key  : 94 04 D3 F3 A7 A3 5D A6 F8 24 C5 B2 5A 93 40 FA 
+[23C08 1D 74 B8 02 F6 53 6C E2 93 CC 54 96 34 1E 00 
+[23C5C 61 16 09 12 C1 DA 4A 01 69 A0 D2 0D B3 25 28 
+[23C5A 29 37 27 59 F9 E5 46 46 EC DB 01 96 D4 72 54 [19;7HEAPOL HMAC     : A8 C9 4D 61 33 C8 D9 D4 0A C6 0C E4 8F 46 A0 6D 
+[3;0H[0J[4;7H[00:00:11] 51346/14344392 keys tested (4594.11 k/s) [6;7HTime left: 51 minutes, 51 seconds                          0.36%
+[8;24HCurrent passphrase: baby56                     
+[11;7HMaster Key     : 37 0E CD 21 E2 2A 2B 7D 4E FE DB E4 E1 F0 97 FF [48D[1BAC 0A 40 1A 6E 79 F3 8D 57 CE CD F4 83 50 DF DD [14;7HTransient Key  : D8 08 92 72 93 E7 C9 78 CB E2 98 D4 D4 8A FA 5E 
+[23C94 E2 1B 5D C3 A4 4A C1 F9 8A 9A 68 C6 6A E8 E4 
+[23CBE 44 22 76 57 40 39 24 9A F8 10 94 65 1A 30 CE 
+[23C18 8F 05 0B 01 A4 3C 38 C8 40 E0 6C C8 E7 6D BD [19;7HEAPOL HMAC     : B6 86 B2 AA 71 55 0A 16 13 F8 E6 E3 B7 F8 FE 51 
+[3;0H[0J[4;7H[00:00:11] 52130/14344392 keys tested (4600.49 k/s) [6;7HTime left: 51 minutes, 46 seconds                          0.36%
+[8;24HCurrent passphrase: pexoxa                     
+[11;7HMaster Key     : 86 CB B5 31 6D 80 14 04 B4 B6 C9 17 73 B2 9C E4 [48D[1B65 68 1A 3D 9A 61 2F 7C C4 A6 A8 1F C7 2C 36 1F [14;7HTransient Key  : 81 41 26 A1 3B 50 E1 96 6D 3D B7 B6 20 BD 4D FE 
+[23C67 84 C8 F5 91 67 4E E9 1F D5 97 37 17 E0 F4 B8 
+[23C59 01 42 32 56 EE E3 E5 3E E0 EB B1 9A 89 B2 48 
+[23C01 1C 1D C0 00 F0 F9 FA 65 DE E8 E4 57 52 20 07 [19;7HEAPOL HMAC     : 84 D3 B2 7C 9D 50 40 8B C9 13 E3 16 85 F8 A9 4D 
+[3;0H[0J[4;7H[00:00:11] 52850/14344392 keys tested (4600.69 k/s) [6;7HTime left: 51 minutes, 46 seconds                          0.37%
+[8;24HCurrent passphrase: diva69                     
+[11;7HMaster Key     : 5E 31 E9 4A FC CF D6 28 5B B1 35 A3 F1 2F 68 99 [48D[1B84 BA 33 E6 C9 2E 28 08 F0 0D B5 C5 EE 83 06 6D [14;7HTransient Key  : FB 32 6C 8D 5F 91 6C 56 64 CE 88 CC 2D 2C 6A B5 
+[23CE9 62 BF 28 18 59 D6 BD C0 AD 90 F6 58 8F B3 55 
+[23CFB F8 8E 11 5E F8 BE 13 FE 02 CC 3B DC 60 51 F5 
+[23C11 4B 38 2D B3 A5 1D 13 55 A6 5A EF E3 EE 45 5E [19;7HEAPOL HMAC     : 33 CB 3D BB B7 C3 F4 9D 6E 5B 5D 55 BB 48 C0 3F 
+[3;0H[0J[4;7H[00:00:12] 53610/14344392 keys tested (4605.25 k/s) [6;7HTime left: 51 minutes, 43 seconds                          0.37%
+[8;24HCurrent passphrase: 012404                     
+[11;7HMaster Key     : FA 3A 3C FB 41 34 09 3A 1F C2 CD D8 44 65 6E 1F [48D[1B8A 0D 47 27 3B BF E2 F0 86 C7 80 B4 D8 B4 C6 5C [14;7HTransient Key  : 83 76 E8 D5 E1 93 36 BF CE 38 87 50 8F B8 27 6E 
+[23CA7 59 04 88 0C 73 41 4A 32 1E 44 A7 85 08 C1 FD 
+[23C14 1B 69 FF A2 E5 E0 F9 6F 38 D4 92 7F AD 94 CA 
+[23C38 6A D8 3A 33 DD 78 98 B0 D9 D7 ED FF B1 53 D6 [19;7HEAPOL HMAC     : 44 8D 6F 26 DF 6F 58 6F 31 8D E8 9A 2B 47 20 43 
+[3;0H[0J[4;7H[00:00:12] 54354/14344392 keys tested (4608.71 k/s) [6;7HTime left: 51 minutes, 40 seconds                          0.38%
+[8;24HCurrent passphrase: helga                      
+[11;7HMaster Key     : 0C BC 7C 4A 27 E2 19 14 77 94 04 AE 3C 2A 09 36 [48D[1B46 CD C5 84 73 A3 38 FB B8 07 FA F3 B8 AC FF 09 [14;7HTransient Key  : 1A 1E 12 58 40 51 AB 27 79 D6 5A 76 8A E8 E9 3A 
+[23C52 18 68 81 70 32 88 99 1B B2 1A 16 D9 14 25 56 
+[23C1B 3F 9C AD BB 2F 6F 88 CA 14 87 E6 5B CF 16 A6 
+[23CA9 53 3D 1F 31 C7 E6 E9 0B 17 62 A9 1B E7 C6 3F [19;7HEAPOL HMAC     : 73 E1 6D 50 DF 1F E6 E3 59 5B 43 1E 65 E1 49 20 
+[3;0H[0J[4;7H[00:00:12] 55132/14344392 keys tested (4613.36 k/s) [6;7HTime left: 51 minutes, 37 seconds                          0.38%
+[8;24HCurrent passphrase: 7878978                    
+[11;7HMaster Key     : 85 2B 3C EC 9F 18 FC F5 3C ED 4B 27 09 FE 14 EA [48D[1BB1 44 B7 1C A8 1B D3 D6 63 1B DB BF 3C F9 06 BE [14;7HTransient Key  : 19 A5 6F 40 0A FD B1 5C 2F F1 49 CE D9 2E 06 4E 
+[23C31 0E 94 74 05 AB D8 AB 34 B7 F3 58 C9 BA 4F 31 
+[23C02 A0 16 3E B5 96 51 23 E8 98 9C 05 77 8F 89 A7 
+[23CEC 90 D8 14 1F F3 80 69 AA CA 0C 4D 83 FA D4 EB [19;7HEAPOL HMAC     : 19 D2 94 A4 C1 30 60 BB D3 6E 47 F3 94 AA C9 86 
+[3;0H[0J[4;7H[00:00:12] 55909/14344392 keys tested (4616.73 k/s) [6;7HTime left: 51 minutes, 34 seconds                          0.39%
+[8;24HCurrent passphrase: virgo2                     
+[11;7HMaster Key     : 4B F2 01 45 0B AE 60 74 4C 86 67 6E AA AE 6E 54 [48D[1B3F B3 13 A1 4B 5C 6B 44 3D 3B 17 DF 5E EE 1B F2 [14;7HTransient Key  : F6 A5 FB CD DF 4D CC C9 46 EA 64 74 7E 10 6E 55 
+[23CCC F5 CD A4 20 E0 C8 07 32 17 4C 85 F6 F3 1B 7F 
+[23C4B BA A3 14 C7 5D 6B 53 5C 3B AF 98 B2 61 92 A8 
+[23C33 B3 76 56 C8 EF 04 2F 00 6E B5 DE 6E 7E 23 3E [19;7HEAPOL HMAC     : 88 21 FD 75 8D 25 66 70 AD 2E A1 6B B7 C2 81 ED 
+[3;0H[0J[4;7H[00:00:12] 56621/14344392 keys tested (4618.89 k/s) [6;7HTime left: 51 minutes, 33 seconds                          0.39%
+[8;24HCurrent passphrase: ilovepets                  
+[11;7HMaster Key     : 17 EF B5 EB F0 28 AF 41 25 BC 22 53 76 1C EC 43 [48D[1BE7 61 8A 67 11 80 DC 37 8E 13 70 CA 22 20 F9 F9 [14;7HTransient Key  : 55 52 1B 74 3F C6 CE 19 7E 13 67 A1 80 51 5B 9C 
+[23C98 9F 83 F0 B5 03 96 16 19 56 16 D3 1F BC 31 59 
+[23CBB F0 29 6F A2 89 5E E6 A3 3B 45 85 EB 74 01 4E 
+[23CED DB AB 97 74 75 FB DB B3 0D E7 15 C9 EA 9B 30 [19;7HEAPOL HMAC     : D6 98 2E C9 52 B5 07 CF 3F C6 94 DE AA A7 FC 19 
+[3;0H[0J[4;7H[00:00:12] 57333/14344392 keys tested (4620.38 k/s) [6;7HTime left: 51 minutes, 32 seconds                          0.40%
+[8;24HCurrent passphrase: baybie                     
+[11;7HMaster Key     : B4 D4 48 E4 CE E5 75 E9 B5 BB 35 9E 3C DB F4 B4 [48D[1BD5 FE CE A7 22 9C 12 15 40 F0 51 A4 B9 6E 90 72 [14;7HTransient Key  : A2 90 4F 23 37 23 CF E0 EC EE 78 21 AA 5D 3B 7E 
+[23CE9 A3 44 85 35 CB E3 CE 24 0E 94 C8 E9 7D 21 32 
+[23CC0 80 35 11 5F E7 7D C5 A8 6F 7F 1D C2 2F DE 3F 
+[23CD7 AA B8 71 14 2B 65 0F 40 59 AF 51 39 AF 7B 23 [19;7HEAPOL HMAC     : 6F E6 7B 5D 4D 4B 61 6C 44 C3 03 3E 0B 7C 87 92 
+[3;0H[0J[4;7H[00:00:13] 58077/14344392 keys tested (4622.95 k/s) [6;7HTime left: 51 minutes, 30 seconds                          0.40%
+[8;24HCurrent passphrase: shit1                      
+[11;7HMaster Key     : 1F 7E AB 32 E4 1A 25 AE 98 77 EC B8 95 2E F6 11 [48D[1BE9 B7 61 EB AE 67 E2 87 B4 F5 F7 D1 98 B9 36 F3 [14;7HTransient Key  : B0 CD 5A CF 38 BA B7 AB 9F 64 C9 69 B9 2D 23 9F 
+[23C1F E4 06 61 E6 CF 80 35 BD 99 9D FC B2 9E CF 43 
+[23C63 1E F4 0D 5D 1B B5 ED 58 00 98 45 96 53 70 2F 
+[23C48 F5 7A 82 C4 5D 96 DA 24 45 CC B3 DB 73 02 ED [19;7HEAPOL HMAC     : 89 B3 A0 D7 9E 11 79 9B 86 E2 6A 6F E4 34 A7 58 
+[3;0H[0J[4;7H[00:00:13] 58821/14344392 keys tested (4626.71 k/s) [6;7HTime left: 51 minutes, 27 seconds                          0.41%
+[8;24HCurrent passphrase: lili11                     
+[11;7HMaster Key     : 09 E7 15 CD 47 F1 15 BA D5 C7 4A 75 39 74 F4 A3 [48D[1BC8 D7 90 BA 40 59 85 AD EE 80 B4 EC 9A 1C F8 A5 [14;7HTransient Key  : E7 B8 04 EB B2 96 07 5D 28 D5 2D 12 0E 61 F5 8D 
+[23CF6 90 9A AB C3 E0 5E 3A 45 64 4E B0 FD 68 65 29 
+[23C99 43 7B B8 29 01 E5 8E 07 9C 63 49 A8 D8 78 44 
+[23C1C 3D 3E BC EB C3 50 63 61 3F 05 8F 03 19 18 EA [19;7HEAPOL HMAC     : A9 5F 60 BB 6B EC 9A C9 50 36 A3 71 F6 74 BC 23 
+[3;0H[0J[4;7H[00:00:13] 59549/14344392 keys tested (4628.39 k/s) [6;7HTime left: 51 minutes, 26 seconds                          0.42%
+[8;24HCurrent passphrase: baseball19                 
+[11;7HMaster Key     : 80 30 3D 35 75 DD 07 E2 0D D5 30 CB 6B 73 EC 10 [48D[1B60 BD 6A 3B EE 79 63 0F 19 C5 12 40 24 48 93 01 [14;7HTransient Key  : F7 2F 43 1D BB 17 74 44 43 0E F5 CA D3 05 DD E7 
+[23C27 55 BF BB 2B E5 EB 87 A2 0E 6A 8E 9A A2 4C EF 
+[23C95 C0 11 61 43 B2 8D 73 FA A1 92 16 20 58 28 F7 
+[23CAC 18 13 4B A2 0A EF 0E 41 29 B7 F3 B6 C3 31 AC [19;7HEAPOL HMAC     : 69 62 C2 98 44 BA 1A 76 AB 4C CC 44 06 D5 1F 5B 
+[3;0H[0J[4;7H[00:00:13] 60277/14344392 keys tested (4629.45 k/s) [6;7HTime left: 51 minutes, 25 seconds                          0.42%
+[8;24HCurrent passphrase: 031891                     
+[11;7HMaster Key     : A5 37 81 4A BA 62 18 D9 48 B6 84 73 C4 50 8A 75 [48D[1BCD D1 77 B1 6E 61 39 8A 3B 3B 70 FA 42 EF 90 9D [14;7HTransient Key  : 29 93 85 08 BD 63 8D CA F9 32 B4 0F CB 20 48 A4 
+[23C80 6C 22 8A 42 86 F0 B5 18 87 C5 A6 AC 89 D2 25 
+[23C71 84 59 9C FB 2A 47 1A 6A 20 AD 29 6C 92 DC 56 
+[23C75 ED EB 7C 5B F1 BE 0A 51 73 C9 C9 7A 30 56 BF [19;7HEAPOL HMAC     : C0 E3 35 E0 2E 2C C3 65 28 13 53 AA 0A B7 CD DE 
+[3;0H[0J[4;7H[00:00:13] 61005/14344392 keys tested (4631.85 k/s) [6;7HTime left: 51 minutes, 23 seconds                          0.43%
+[8;24HCurrent passphrase: lilika                     
+[11;7HMaster Key     : 3D B9 37 B3 86 E4 7C 81 7D DB 93 24 E4 0E 44 C7 [48D[1B70 D0 DA 7B BC FC 7F 10 46 DA C8 FE F8 E1 BA 01 [14;7HTransient Key  : 03 7C EE 2E 5E 34 61 68 24 D3 73 2C D1 0C 44 08 
+[23C53 D7 4D 6F D1 1C 63 EE E8 FA 43 B7 CA 00 21 AB 
+[23C26 23 FA 95 4C 8F 08 CE 47 E0 E1 BE EB 55 82 80 
+[23C22 CC 6C 47 77 B8 A8 4F E3 7B 9D EF D2 AD 45 94 [19;7HEAPOL HMAC     : 0C D8 A0 29 1E 98 55 0E B1 D2 F0 9B B2 DE 15 FB 
+[3;0H[0J[4;7H[00:00:13] 61725/14344392 keys tested (4633.27 k/s) [6;7HTime left: 51 minutes, 22 seconds                          0.43%
+[8;24HCurrent passphrase: babe08                     
+[11;7HMaster Key     : CF DE 44 D7 F6 2B 70 99 2C BF 60 F2 D2 91 FA C1 [48D[1BBB F6 C5 9E 25 B1 D1 C1 AE C5 85 E2 0F DF A7 2E [14;7HTransient Key  : DD CF DF 77 C9 BA 99 0F 38 D9 35 A8 16 B0 FA DF 
+[23CF8 18 2C F3 BD 78 22 A3 A6 72 61 56 AB C6 BE 56 
+[23C3E 7E D1 68 63 9C C9 E1 B8 A8 12 BC 5D 3D DF 2D 
+[23C85 FA 50 28 12 F2 00 18 E3 4B A2 FC D2 5C 74 78 [19;7HEAPOL HMAC     : A2 8D 0E A8 13 17 81 52 92 FA 1B 3E 3E 1D 5B 3A 
+[3;0H[0J[4;7H[00:00:13] 62429/14344392 keys tested (4633.86 k/s) [6;7HTime left: 51 minutes, 22 seconds                          0.44%
+[8;24HCurrent passphrase: wilman                     
+[11;7HMaster Key     : 39 5C 85 D8 08 F9 25 BA 39 B4 C7 4C C0 0E 97 EA [48D[1B15 11 5D 45 38 E2 8E 94 BB B2 F9 58 26 03 FD 76 [14;7HTransient Key  : B9 BA 47 BF 34 FE CE 67 8C A6 3C 86 CC 8D BA 71 
+[23CB4 67 47 E5 41 16 A5 57 D5 6C 22 90 47 CF A8 ED 
+[23C1F 87 A0 26 80 1E FD 7C 88 35 4C 8B 28 92 7E D6 
+[23C07 D8 48 7B 04 39 6F 59 55 64 D8 D5 FA 89 F0 16 [19;7HEAPOL HMAC     : 79 AD F9 45 AB 08 8E 95 A2 93 36 76 DC 14 88 AB 
+[3;0H[0J[4;7H[00:00:14] 63190/14344392 keys tested (4636.49 k/s) [6;7HTime left: 51 minutes, 20 seconds                          0.44%
+[8;24HCurrent passphrase: kishore                    
+[11;7HMaster Key     : B4 DE FE 9D CE E0 C0 75 77 8E 2D 7A 9F 43 5D 5A [48D[1BD0 A1 FE 8C 05 33 50 0C BA 3E 8C DB 26 54 E7 1E [14;7HTransient Key  : E2 2A A7 B1 67 6A F6 B0 36 7E E9 6A DD F7 F2 BF 
+[23C78 E6 F8 90 70 51 91 C8 5C E8 5B A3 C7 BA 16 9C 
+[23C29 C1 9E D0 0F 8D F6 29 F7 CD 11 68 2B A4 BD 39 
+[23C92 02 B7 71 E6 1E D7 CA 67 38 72 01 24 59 F6 47 [19;7HEAPOL HMAC     : 48 02 D3 3F A2 14 89 6C 5C 6E F2 D4 E5 BB 53 EB 
+[3;0H[0J[4;7H[00:00:14] 63910/14344392 keys tested (4636.90 k/s) [6;7HTime left: 51 minutes, 19 seconds                          0.45%
+[8;24HCurrent passphrase: bernalyn                   
+[11;7HMaster Key     : 67 6B F1 B3 B0 AA 14 FF 0C 24 84 94 09 87 BD B2 [48D[1B54 DF 43 76 28 70 6A F5 7D EA 86 54 E3 3E 15 80 [14;7HTransient Key  : 3C 61 13 10 21 B8 B2 CA 8B 35 90 FC 34 7B 37 27 
+[23CA7 26 B9 62 CF C5 E9 4C 9F F2 0F 47 85 E9 69 21 
+[23C2A 68 08 DE F2 74 20 55 7B 2A 10 2F 27 60 5E 77 
+[23C07 EA B4 A0 27 4B 4B 46 B8 1E FD EE 8D 95 97 C5 [19;7HEAPOL HMAC     : BD 2C 44 1F 47 02 41 1B 08 3D 2D 8C EB 50 6F 80 
+[3;0H[0J[4;7H[00:00:14] 64654/14344392 keys tested (4639.78 k/s) [6;7HTime left: 51 minutes, 17 seconds                          0.45%
+[8;24HCurrent passphrase: 012704                     
+[11;7HMaster Key     : DD E9 9D 40 2B 9E 69 02 ED 87 5A 69 41 4E 06 B6 [48D[1BF8 D8 72 3F C4 04 1B 0C CE D0 F8 A3 32 87 FC 26 [14;7HTransient Key  : 2D D9 7F AC 77 87 10 AD E8 BA 7E 03 DF C3 F6 83 
+[23C3E FE 20 EA 66 28 A5 75 6C D0 70 B8 83 1A 6E A7 
+[23CD2 1D A2 2A D9 A4 05 E8 34 CB 6D 09 F8 5D C7 23 
+[23C94 D7 D9 F5 31 2E 9E 5C 49 D3 AC 8F 90 D9 09 55 [19;7HEAPOL HMAC     : 7B 49 63 FD D3 AF 5D A8 14 0D F0 5C 52 93 04 1F 
+[3;0H[0J[4;7H[00:00:14] 65414/14344392 keys tested (4644.13 k/s) [6;7HTime left: 51 minutes, 14 seconds                          0.46%
+[8;24HCurrent passphrase: peterc                     
+[11;7HMaster Key     : A1 EA 0D B1 FA B2 7A F7 AE 50 0A 36 63 38 FD BF [48D[1BAF 39 C5 80 A0 A4 4E DB 20 84 01 75 31 E2 9C 33 [14;7HTransient Key  : AC F4 00 E9 95 63 C0 96 D0 11 0E D2 7B 35 EA 58 
+[23C7E F9 9F 7E D3 70 BF C2 80 2A DE 7F 5E B4 8C 82 
+[23CBD 76 14 DE 07 57 80 2E 3E BE 4B 87 17 59 8A B5 
+[23C64 B7 3F E4 D8 34 F2 27 32 3A F7 41 C9 30 40 7C [19;7HEAPOL HMAC     : 6E 9B EC 4D 9E E1 05 BE 84 63 BB 9A 33 B4 43 A9 
+[3;0H[0J[4;7H[00:00:14] 66198/14344392 keys tested (4648.36 k/s) [6;7HTime left: 51 minutes, 11 seconds                          0.46%
+[8;24HCurrent passphrase: gatita13                   
+[11;7HMaster Key     : D5 92 86 7A 04 AF 62 42 29 47 E9 CC CB 45 A7 64 [48D[1B44 51 F3 98 6D 1F 5C B7 BD 65 6A 5C D0 3B 70 06 [14;7HTransient Key  : 19 BE 05 DD 2F FC 25 EA F9 35 4A 70 C3 67 FD 1F 
+[23C7F B2 4A B9 28 73 5D 66 59 82 A7 EC C3 D7 F0 D6 
+[23CFE E6 94 C3 D3 E4 F5 DB AD 8F 44 69 17 AB 7B 97 
+[23C64 C4 6F 97 16 CF A6 67 62 18 A8 B2 42 69 5F B3 [19;7HEAPOL HMAC     : 0C 1D D3 0E 23 DC 17 A3 D1 A3 F4 1B 6A DB 6E 3F 
+[3;0H[0J[4;7H[00:00:14] 66934/14344392 keys tested (4650.62 k/s) [6;7HTime left: 51 minutes, 10 seconds                          0.47%
+[8;24HCurrent passphrase: 31081988                   
+[11;7HMaster Key     : 1C 9B 51 5F 87 64 5F F7 D1 0F 93 39 D8 6B 6F AF [48D[1B2E 61 FB C4 6A B8 F2 FB 60 E5 FF 1A 06 EF 68 B4 [14;7HTransient Key  : 0A C1 B4 DD 8F 2D FD 04 6C 10 60 7D 51 77 CC 3A 
+[23C18 21 52 5C D0 08 56 0C D4 B5 61 31 FB 40 F7 96 
+[23CAC A1 E9 35 5A 9B C5 71 B8 5B 39 35 73 31 2A 3B 
+[23CE5 9D B1 06 DA 8E 30 FE C5 4C A2 2D F9 38 FF 57 [19;7HEAPOL HMAC     : 6E 16 13 77 1D BD CC 5C C7 8C 43 0C 7E CE 57 64 
+[3;0H[0J[4;7H[00:00:15] 67654/14344392 keys tested (4652.21 k/s) [6;7HTime left: 51 minutes, 8 seconds                           0.47%
+[8;24HCurrent passphrase: twins123                   
+[11;7HMaster Key     : 8E 13 FF D9 49 1A 06 FD C2 86 51 83 2A 90 D0 49 [48D[1B10 B2 75 4E 0F D7 85 E9 96 A2 AC 5F CC D8 E0 CC [14;7HTransient Key  : 14 0B 89 6D 25 0D 0D F7 60 23 E6 F3 D3 74 5A 00 
+[23C59 14 07 1E 34 6D FF 74 8B C0 48 30 29 A3 E9 AF 
+[23C45 B8 1A 14 42 24 1A 7C 5C DD 5A F7 F8 AD 00 B0 
+[23C5F 76 9F 55 4E F1 26 31 8F D2 F3 F2 B0 F3 3E F7 [19;7HEAPOL HMAC     : 61 69 62 4C C7 43 AA 7F ED 32 57 B4 17 AF 36 AF 
+[3;0H[0J[4;7H[00:00:15] 68350/14344392 keys tested (4651.01 k/s) [6;7HTime left: 51 minutes, 9 seconds                           0.48%
+[8;24HCurrent passphrase: mine69                     
+[11;7HMaster Key     : CC F0 2C 1C D4 AF AE 5A AC 96 CE B1 04 0B 0C B2 [48D[1B5E 8C 28 B5 4E B6 83 BD 0C 10 C6 84 BE 9D 33 99 [14;7HTransient Key  : 46 AB AF 7A 4A B7 2B 18 C2 0C B7 43 17 CB 4A 9F 
+[23CEC 19 FA 34 2E F2 AC BC F9 ED E8 56 9B CE EE 4E 
+[23C82 1D B2 0D 8A 39 16 39 AF 93 E8 86 C4 BD 92 56 
+[23CA0 0A 6C 30 72 84 89 1E 9E 17 C6 4D FB 28 F3 1C [19;7HEAPOL HMAC     : 31 50 95 B4 5A 82 07 D8 E5 4C F6 95 E2 EB 1B 08 
+[3;0H[0J[4;7H[00:00:15] 68990/14344392 keys tested (4646.31 k/s) [6;7HTime left: 51 minutes, 12 seconds                          0.48%
+[8;24HCurrent passphrase: desiderio                  
+[11;7HMaster Key     : A9 65 82 10 A0 11 38 F6 60 53 7C 84 E8 D6 5A C7 [48D[1BAE F2 11 AB DA F2 5A 41 01 09 CA 11 43 5D 62 AC [14;7HTransient Key  : 7F AD 28 B4 91 7A 80 5F A9 18 3D 01 69 61 23 9B 
+[23C71 26 93 06 BA 65 09 A4 65 E5 D9 BC FC B7 A2 11 
+[23CF2 F9 E4 47 67 82 7F 29 1B DF 7D 9B 0D 02 07 6F 
+[23CC3 FE 6B 0F 3D 9C 75 2E 45 36 C2 DB 86 74 D4 E8 [19;7HEAPOL HMAC     : CD 92 29 CC 88 E8 40 FD BC 32 1E D8 95 95 C8 97 
+[3;0H[0J[4;7H[00:00:15] 69606/14344392 keys tested (4640.83 k/s) [6;7HTime left: 51 minutes, 15 seconds                          0.49%
+[8;24HCurrent passphrase: 13151315                   
+[11;7HMaster Key     : 99 8F 6C 97 8B 5B 70 39 8E 45 18 43 73 14 4E D7 [48D[1B64 60 43 D5 9B 6B 0D 68 C2 72 83 67 C7 1A 5A E1 [14;7HTransient Key  : D8 15 B2 2D 3E EB 18 0F B8 97 14 9F F8 C4 F8 B2 
+[23C70 A1 49 F7 B8 8A 28 13 F4 19 EA 39 E9 2A 37 31 
+[23C8B 56 45 BE F6 35 E5 6D D8 A9 23 F5 1A 8C CD 04 
+[23C79 2C 6B 7A DE 42 50 A2 D5 35 60 DD BD 63 0F D5 [19;7HEAPOL HMAC     : 81 B3 EB FD 39 A6 BA 2D A5 0F 10 D0 B2 B6 72 E9 
+[3;0H[0J[4;7H[00:00:15] 70294/14344392 keys tested (4639.04 k/s) [6;7HTime left: 51 minutes, 16 seconds                          0.49%
+[8;24HCurrent passphrase: pituka                     
+[11;7HMaster Key     : F5 0D 01 51 8F 1A B9 10 67 40 55 7D 83 F4 CC B0 [48D[1B36 EA CC 56 36 9C 98 58 FA 2E 90 CE 2F 8F F7 E1 [14;7HTransient Key  : 95 8A A7 2B 52 26 43 AE 72 3A 9B 63 85 27 05 16 
+[23C6F 0C 04 58 B0 73 F4 3A A9 7A DD 8F E3 FA B2 2D 
+[23C16 AE EF 50 BE 37 2D 48 C1 EF 2F 2A 60 35 55 CA 
+[23CC0 24 D8 22 EA 31 39 AC C3 5C 73 34 E9 E6 00 38 [19;7HEAPOL HMAC     : E3 D2 CB B4 58 1F 9A 5A 54 EE 87 D5 AD 74 05 AE 
+[3;0H[0J[4;7H[00:00:15] 70942/14344392 keys tested (4635.64 k/s) [6;7HTime left: 51 minutes, 19 seconds                          0.49%
+[8;24HCurrent passphrase: five                       
+[11;7HMaster Key     : 15 9F 3C 48 A8 84 24 9E D5 BE 7D 8C E9 A3 3E 1E [48D[1BA6 9B EE F4 7F 4B 17 98 3A 11 81 D8 EB D9 F1 DC [14;7HTransient Key  : 2E A0 96 1F 55 0E 72 AC BA AE 6E EA 83 05 9C F6 
+[23CF5 38 80 88 77 86 C6 93 08 ED 8E 68 59 F5 21 85 
+[23CEA 00 73 4B 88 97 60 CD 72 D2 AF 59 D7 6E B2 4B 
+[23C19 22 CF 5F 09 94 8E 33 9A A6 2B 9B 54 27 A5 CF [19;7HEAPOL HMAC     : 2D 9D ED 0F 26 3F 30 63 73 7F AD 80 30 D2 A4 3A 
+[3;0H[0J[4;7H[00:00:15] 71718/14344392 keys tested (4639.29 k/s) [6;7HTime left: 51 minutes, 16 seconds                          0.50%
+[8;24HCurrent passphrase: 871017                     
+[11;7HMaster Key     : E4 7F C2 1B A7 B8 8D 42 CE C9 75 F3 A6 0F CE 3B [48D[1B48 57 DC BA 99 37 00 CD B4 4F 4A 4A 59 30 CE EF [14;7HTransient Key  : D2 41 ED D2 95 3C C2 32 92 F3 17 90 41 8D 97 8E 
+[23C27 54 31 0A FC 81 8E 26 D8 A7 48 93 67 CC 43 A7 
+[23C53 80 AC BA 3D 41 B7 E3 CC D2 60 99 5B 38 88 F7 
+[23C3E 25 DC 65 0F 53 CF C2 8E A7 FA 83 0E CA 2E CB [19;7HEAPOL HMAC     : B3 58 C8 C6 53 A2 CD B0 20 D0 62 0C B1 1F 55 E4 
+[3;0H[0J[4;7H[00:00:16] 72414/14344392 keys tested (4638.71 k/s) [6;7HTime left: 51 minutes, 16 seconds                          0.50%
+[8;24HCurrent passphrase: tjames                     
+[11;7HMaster Key     : 83 67 9C 6B 31 51 6E 3E C6 C1 36 C3 C8 6C 19 1D [48D[1B81 D4 EF EB 32 DF 4E 01 9B E5 DD 7A 66 53 19 C5 [14;7HTransient Key  : 05 87 8A 04 49 87 AA CC 8B 8C BD C8 D3 5C 2F FA 
+[23C72 43 6B ED B6 B6 BD 3A E3 57 E5 44 4C D2 14 09 
+[23C4F 83 FC A4 BE 48 F4 4C D8 25 A4 E7 D6 A0 3B F2 
+[23C16 71 3E 39 34 DC B5 89 D3 F8 8E 87 AD 7D E0 5F [19;7HEAPOL HMAC     : 6C D2 2D 30 E1 A1 F6 9A C2 EA 8D 31 D3 4F AF 94 
+[3;0H[0J[4;7H[00:00:16] 73159/14344392 keys tested (4641.33 k/s) [6;7HTime left: 51 minutes, 14 seconds                          0.51%
+[8;24HCurrent passphrase: mamiko                     
+[11;7HMaster Key     : FD 5F 79 8F B4 0E A1 84 DA C7 4A CF 2F 92 D4 27 [48D[1B2D 86 9F 45 91 90 ED 6C 1B CB 63 DF 53 F4 57 54 [14;7HTransient Key  : 8B 4F C6 48 B4 63 F5 76 FC E6 8A E7 D0 6D 82 5D 
+[23C05 CD 3C 2C E4 A5 D1 30 81 9B 42 1A 90 ED 78 7B 
+[23CFC 38 67 C7 45 DE 7F 45 FF 4D D5 92 A8 91 B4 2C 
+[23C73 FC A9 4A A8 7E FA C1 B1 E4 44 2A A1 67 F8 0B [19;7HEAPOL HMAC     : 01 56 A1 95 F6 58 A3 EB C6 49 2B 37 2F 1E EB 72 
+[3;0H[0J[4;7H[00:00:16] 73927/14344392 keys tested (4645.06 k/s) [6;7HTime left: 51 minutes, 12 seconds                          0.52%
+[8;24HCurrent passphrase: dawn22                     
+[11;7HMaster Key     : D4 2E 5A 36 AA 95 9C 96 83 6E 08 1C 74 DD D2 CE [48D[1BC7 1C 08 5D 55 C7 8E 33 C6 F9 46 5D C5 9A 8A 97 [14;7HTransient Key  : 17 00 F5 03 AD 26 B3 00 D4 B8 C7 32 DA 69 63 30 
+[23C87 A9 55 E7 30 4F 9B 22 5E DB 07 CE 1D B0 56 B2 
+[23C7E E6 C9 AD 81 46 21 C9 CB 13 60 E3 C5 89 3F AE 
+[23C07 F7 07 BB 27 7E 13 F7 65 8A B0 88 FD 1B 12 B5 [19;7HEAPOL HMAC     : E3 C2 A5 82 1D CB 75 41 FF 32 1F 78 7E DF A7 8C 
+[3;0H[0J[4;7H[00:00:16] 74727/14344392 keys tested (4648.01 k/s) [6;7HTime left: 51 minutes, 10 seconds                          0.52%
+[8;24HCurrent passphrase: andy05                     
+[11;7HMaster Key     : 7D C4 B0 23 1C 90 FC 5D 69 9A BB CC 20 0A 76 B3 [48D[1B39 2C 2C 73 06 10 98 E7 44 0A C7 2F 36 D0 65 72 [14;7HTransient Key  : D9 27 55 4F 09 A4 BD 69 2D 6D 31 A7 DA 80 17 EF 
+[23CCA 6F 15 38 FA 52 F7 20 59 3A 7C 61 6D E1 1D 53 
+[23CA3 FA 4D 6A 84 77 A3 04 7F 89 2D A8 FB A5 1B E0 
+[23C2B D6 E7 47 F5 6F 6D 21 2C 47 F0 95 0B 4E 5A A4 [19;7HEAPOL HMAC     : 4C BD 6B 99 10 A2 9F 65 FC 1B 75 34 C0 6B 71 0E 
+[3;0H[0J[4;7H[00:00:16] 75503/14344392 keys tested (4651.95 k/s) [6;7HTime left: 51 minutes, 7 seconds                           0.53%
+[8;24HCurrent passphrase: 07121990                   
+[11;7HMaster Key     : 75 8C 57 56 7B A4 8D 56 6A 3D 14 43 6C C5 97 6D [48D[1B32 56 E8 4C 55 93 87 D7 25 02 2A 53 77 97 F8 98 [14;7HTransient Key  : 0E A5 3A 56 D2 19 23 A7 B3 1A 7E 77 C9 A1 4C DD 
+[23CEF 4D 0E C3 31 81 FF 64 41 EF 92 33 13 14 4C F9 
+[23CC3 BA 69 41 51 60 0F 6E DD 9A AD D0 F0 33 11 2B 
+[23C68 96 3A AE 49 65 D4 86 8D B9 D1 BC 84 3A E9 00 [19;7HEAPOL HMAC     : 52 06 AF C0 28 73 C1 A2 CD B5 AF 38 FC 0C A6 B5 
+[3;0H[0J[4;7H[00:00:16] 76255/14344392 keys tested (4654.31 k/s) [6;7HTime left: 51 minutes, 5 seconds                           0.53%
+[8;24HCurrent passphrase: siquijor                   
+[11;7HMaster Key     : 2B C6 02 D2 53 52 80 2E 7F E5 B0 E4 8C 50 78 A1 [48D[1B93 2C 56 6E 23 55 AF C7 E1 13 C8 F8 ED 74 08 78 [14;7HTransient Key  : 57 31 82 35 51 1B 07 A6 D1 56 56 57 FC 49 9E 1F 
+[23C1E DE 6D 1E E8 F5 C1 68 45 13 57 87 60 15 F0 7B 
+[23CAF BC 4A 76 16 3C 36 F0 A8 E8 11 EB 39 F1 61 68 
+[23CA5 0A 25 49 18 34 50 AE 09 55 25 EA 60 5F FB AE [19;7HEAPOL HMAC     : 3A 96 35 88 81 BF 25 E7 F9 C8 86 04 16 E2 9E C9 
+[3;0H[0J[4;7H[00:00:17] 77007/14344392 keys tested (4657.75 k/s) [6;7HTime left: 51 minutes, 3 seconds                           0.54%
+[8;24HCurrent passphrase: loveken                    
+[11;7HMaster Key     : 70 7B 4D 3C F2 1F 8F F5 28 37 E3 86 0D 46 FC 4B [48D[1BC6 F5 AA 05 D6 80 48 1D 3F 69 8D 4E 42 A4 44 C3 [14;7HTransient Key  : C4 33 00 9B 9E C2 09 8E EC BA 87 81 53 17 C2 F1 
+[23C6D EF 26 2D 1D 92 40 AF C6 E6 1E 98 C6 99 D1 6F 
+[23C56 D0 E0 41 C3 EB 58 81 7B FC F3 CA 71 0F 83 9B 
+[23CB1 72 DA 2E 13 DF 2E F5 2D AC 6F 6B 83 30 D2 64 [19;7HEAPOL HMAC     : 33 C4 0B E6 C1 BD 9C 5A 06 1F 26 BB 51 DD 65 B0 
+[3;0H[0J[4;7H[00:00:17] 77775/14344392 keys tested (4660.62 k/s) [6;7HTime left: 51 minutes, 1 second                            0.54%
+[8;24HCurrent passphrase: henry06                    
+[11;7HMaster Key     : 12 C2 CB 0B 31 0C 7C 3A F5 BC 7D 31 27 34 05 A1 [48D[1BA1 C3 37 90 A8 DB 9F 3E 75 D1 06 20 25 F2 BE 61 [14;7HTransient Key  : AD 08 60 07 09 F2 4A 5A 4A 9B 1B A2 5E A7 B1 F9 
+[23C3C 25 D2 5C ED 9F 59 C0 00 C0 BA CB B5 BE E6 92 
+[23C70 6D E1 C3 AA AB 4E E4 C5 E9 DA 6C 10 8B D7 CE 
+[23C62 B3 24 54 7D 95 98 AA 32 99 C5 11 F4 DE CF 18 [19;7HEAPOL HMAC     : 9F C0 83 5D 1D 56 3D CE 6C 84 FA 03 CE D2 25 15 
+[3;0H[0J[4;7H[00:00:17] 78527/14344392 keys tested (4663.61 k/s) [6;7HTime left: 50 minutes, 58 seconds                          0.55%
+[8;24HCurrent passphrase: application                
+[11;7HMaster Key     : D4 7C 62 78 77 D7 88 6D E7 6F BA E4 B2 6B 12 C6 [48D[1B4B 9E B5 96 46 0B 39 06 77 05 3E 39 21 0E DB 87 [14;7HTransient Key  : AC 26 72 E5 7F 16 A7 24 03 31 E7 83 FA 56 A6 C6 
+[23CA4 E5 CE 7D 86 AC 92 74 9E 56 AF A6 B1 31 0E D9 
+[23CA1 78 1C 2D 1A C1 B2 AF CA 28 44 68 D6 13 1C 1C 
+[23CCA 20 12 16 47 B8 B5 D6 13 91 05 4F 4E C1 B4 A5 [19;7HEAPOL HMAC     : FF D3 4A DD 81 05 38 52 B3 40 21 4E 09 FE 1B 9F 
+[3;0H[0J[4;7H[00:00:17] 79247/14344392 keys tested (4663.45 k/s) [6;7HTime left: 50 minutes, 58 seconds                          0.55%
+[8;24HCurrent passphrase: 290783                     
+[11;7HMaster Key     : 86 77 4B 54 BD 0C 2B 05 36 96 7A 04 91 01 D2 53 [48D[1B5D F3 68 26 63 C6 BF E1 17 AD CC 81 31 DF B5 5F [14;7HTransient Key  : A1 42 5D AF 77 D8 1D B9 DA D5 9E A1 0A 68 08 EE 
+[23CA0 98 D6 11 5E 66 C8 21 3A 1F 43 0D 86 20 A4 CA 
+[23CE6 23 6A BD 92 21 57 EA 2A 2C 91 03 12 95 93 0D 
+[23C39 2B 3A 01 0B 52 55 64 62 C4 2C F2 5C 95 95 9E [19;7HEAPOL HMAC     : 6E 15 8F 77 AC B2 11 7A AE 5F 12 30 52 CE 42 E6 
+[3;0H[0J[4;7H[00:00:17] 79927/14344392 keys tested (4662.12 k/s) [6;7HTime left: 50 minutes, 59 seconds                          0.56%
+[8;24HCurrent passphrase: 072479                     
+[11;7HMaster Key     : 3A EE 90 1B E1 22 A0 CD 31 C9 14 2A A6 FF AD 33 [48D[1B50 F6 67 EE 09 3F 70 D4 06 84 3B A2 E9 3D E9 59 [14;7HTransient Key  : 2D A7 CB 34 50 EB 46 BA 30 E6 D9 1B 57 61 5D 46 
+[23C48 58 33 88 1D 12 BB 4B B2 66 01 D7 5A E8 A8 77 
+[23C64 3D A4 53 F6 1F CA 76 52 8C 1C 84 B3 E9 15 BC 
+[23CAA 79 3C 44 7B 30 7C 15 9E E0 A3 F0 CF 70 08 A7 [19;7HEAPOL HMAC     : 02 5D 37 A6 1E D6 58 B2 65 5C C0 7F 37 06 19 3F 
+[3;0H[0J[4;7H[00:00:17] 80687/14344392 keys tested (4664.65 k/s) [6;7HTime left: 50 minutes, 57 seconds                          0.56%
+[8;24HCurrent passphrase: thomas88                   
+[11;7HMaster Key     : 65 E2 C3 59 07 88 EA FF 55 C6 1D DE AA 5B 9E 8F [48D[1BF3 78 BC E8 57 BC 6B EF 89 1D 64 24 AD 4A 8B AF [14;7HTransient Key  : C1 EF C9 90 8B A8 7D EA 1B F6 88 7D D3 D2 21 FE 
+[23C9B 45 C7 BC 31 37 6B C0 90 88 6D 52 AE 7A EE C8 
+[23C06 7E 1B BE CA CE C8 3E 39 64 C4 CF E8 6E F2 80 
+[23C2C 6F F2 55 29 8B 07 48 D7 AA 72 F9 AD 9B 4C C5 [19;7HEAPOL HMAC     : D7 52 E1 71 04 74 BE CB 8E 10 ED 96 3E 00 5E EA 
+[3;0H[0J[4;7H[00:00:17] 81383/14344392 keys tested (4665.44 k/s) [6;7HTime left: 50 minutes, 57 seconds                          0.57%
+[8;24HCurrent passphrase: pantaloni                  
+[11;7HMaster Key     : 9C F4 C5 C8 0C B8 2E 36 9A D2 D6 8A F6 D3 5F 2D [48D[1BD5 62 0E F8 8A 87 DE 10 7E 0B 20 4C 2F 0A 6A CB [14;7HTransient Key  : E1 0D 43 9C 92 6F E5 16 FE F3 DB DE 8F 3B 20 F6 
+[23CE3 D0 DC BD 3E 35 71 89 22 ED 8D 7F CC 4F 4C E6 
+[23CB4 30 94 C6 90 7E 0F 3D 10 2D 87 42 D5 7E F7 F7 
+[23CCE BD 2F D7 05 BF BD 55 52 5F B6 94 FB B5 4D 6A [19;7HEAPOL HMAC     : 4F 1C 55 4E 58 E2 FD 6B E8 CD 5E F0 86 7D 8B AB 
+[3;0H[0J[4;7H[00:00:18] 82136/14344392 keys tested (4668.03 k/s) [6;7HTime left: 50 minutes, 55 seconds                          0.57%
+[8;24HCurrent passphrase: ilovehim*                  
+[11;7HMaster Key     : 1F D9 59 5E 34 09 C9 C6 7C 6C A4 1B A7 05 DF 77 [48D[1B48 6A EC 5F 78 56 81 74 75 43 9C D8 67 69 45 A7 [14;7HTransient Key  : 37 3D 66 72 94 08 2E F9 18 06 4A 55 34 BD 08 8F 
+[23CE9 25 61 05 CD 5C 23 EA 2F 43 54 40 1C 41 D6 59 
+[23CE5 76 26 FF 3E 40 EE 0C 0C EE 67 A8 46 BA F4 03 
+[23CB6 7E B8 F6 66 B3 EE 92 3B CC EA 7E 71 6A 88 89 [19;7HEAPOL HMAC     : 0E 69 31 92 A1 D4 25 A0 70 00 8C D7 89 23 61 9B 
+[3;0H[0J[4;7H[00:00:18] 82888/14344392 keys tested (4670.66 k/s) [6;7HTime left: 50 minutes, 53 seconds                          0.58%
+[8;24HCurrent passphrase: central09                  
+[11;7HMaster Key     : 40 7A E5 00 51 46 D3 61 15 18 AE 07 40 97 AC BF [48D[1B05 F9 95 07 C8 30 D3 58 7B A6 43 88 0A 86 EB BE [14;7HTransient Key  : 7F E2 75 23 8F 29 68 E6 89 BE 2C 8B C8 4E 40 7F 
+[23C6F 53 3F 5F 59 77 E2 58 94 B8 18 0C 3F 60 72 64 
+[23C27 55 D8 36 7B 74 25 4C E8 09 83 98 F1 7E 8C 4D 
+[23C40 31 3C 6D 39 C2 42 BE 80 D6 CC 90 78 23 36 3D [19;7HEAPOL HMAC     : 2D 0E C2 C7 B3 9B FA 16 50 21 23 79 97 B6 6B 88 
+[3;0H[0J[4;7H[00:00:18] 83648/14344392 keys tested (4673.31 k/s) [6;7HTime left: 50 minutes, 51 seconds                          0.58%
+[8;24HCurrent passphrase: BASKET                     
+[11;7HMaster Key     : 33 8B 23 07 3A DA ED CE 10 57 17 BD 18 4F B0 05 [48D[1B7E 8F 9F 72 3D 38 8D 28 86 69 D4 0D C9 D5 4F 48 [14;7HTransient Key  : 67 8C DC 58 8F D4 54 83 40 3E BF 89 2E 0F 32 27 
+[23C57 CF 5F EC 52 A4 35 3E 8A C3 E5 57 5D BC 4C 55 
+[23CB6 FF 7D F8 AF E3 75 83 24 B3 14 C6 EA A8 86 2A 
+[23C35 EE 87 4A EF 1E 7A 08 EC 9C 1D ED 7D 58 AD 16 [19;7HEAPOL HMAC     : E2 11 AE 42 5B 0E C7 CE CF 5E AD 4B 9C 63 F7 6D 
+[3;0H[0J[4;7H[00:00:18] 84408/14344392 keys tested (4675.85 k/s) [6;7HTime left: 50 minutes, 49 seconds                          0.59%
+[8;24HCurrent passphrase: 013093                     
+[11;7HMaster Key     : 17 F9 D0 73 1B 58 FD A8 80 62 C2 8E 9F 4F 26 99 [48D[1B24 83 A1 F7 38 8A D0 8D C3 16 E3 FF 90 1A 98 05 [14;7HTransient Key  : 55 3A A3 20 F5 DB 72 33 F6 2D C6 BC 3C 85 DA 8A 
+[23C21 DE 63 A8 76 9E 85 56 E1 12 6C 89 12 C6 A6 FA 
+[23C8B 53 AA E7 B0 75 29 71 D7 B1 C6 C5 6A 4B 54 BE 
+[23C88 50 8B 42 AF D2 CB 55 BA 19 13 72 D8 0B 2D 80 [19;7HEAPOL HMAC     : 5E AB 78 E6 36 F8 04 87 52 AA 09 15 B6 83 32 56 
+[3;0H[0J[4;7H[00:00:18] 85176/14344392 keys tested (4678.61 k/s) [6;7HTime left: 50 minutes, 47 seconds                          0.59%
+[8;24HCurrent passphrase: rockytop                   
+[11;7HMaster Key     : 9E 9A D9 B2 C4 8A 25 44 3B F1 04 CC 6E 41 39 9A [48D[1B64 3B 92 91 9C CE 62 E0 08 1F 22 FE 2C 7B 14 B4 [14;7HTransient Key  : DA B5 24 ED 0D 3C 9B 0D 7E 4C 10 8C 63 61 59 CB 
+[23CDE A4 D0 59 ED 39 DB EF A3 E4 23 F6 17 03 0A F8 
+[23C16 13 83 C9 68 28 B5 62 49 F9 A4 6F 50 D1 61 4A 
+[23CFE D2 5A 9E F6 54 FB 98 95 A2 D2 9E D4 A4 0B D3 [19;7HEAPOL HMAC     : 83 07 14 C9 75 B2 5A 4C 76 46 2B F3 3E 34 8D B2 
+[3;0H[0J[4;7H[00:00:18] 85960/14344392 keys tested (4680.89 k/s) [6;7HTime left: 50 minutes, 46 seconds                          0.60%
+[8;24HCurrent passphrase: mandy101                   
+[11;7HMaster Key     : C6 1B 48 E7 7F 14 A3 9B 72 19 3B 96 51 37 EC 98 [48D[1BD5 4A 57 AC CD D9 44 BE 74 57 F0 7C 56 41 1B 61 [14;7HTransient Key  : A5 2D 14 79 85 48 2B B5 C7 1F FE C4 B6 60 95 14 
+[23CB7 76 33 D1 F7 6C 81 96 CC C8 69 1B A1 1A C6 33 
+[23C27 B7 B5 A8 A8 04 73 F4 3B 5F 50 00 22 37 2E 85 
+[23C94 05 57 C1 C8 10 32 6A F9 75 50 9C 51 72 36 E0 [19;7HEAPOL HMAC     : 42 C4 98 49 F3 8E 7C 66 6E FC 1B 33 08 B2 1E B2 
+[3;0H[0J[4;7H[00:00:19] 86729/14344392 keys tested (4683.93 k/s) [6;7HTime left: 50 minutes, 43 seconds                          0.60%
+[8;24HCurrent passphrase: gaijin                     
+[11;7HMaster Key     : 47 AE D5 23 5F 2C 86 82 86 F8 50 F4 97 19 F3 58 [48D[1B00 80 29 72 C9 1D 1E 84 52 AD B6 BF 36 0D F8 07 [14;7HTransient Key  : D9 E6 06 0A 6B F2 F8 41 37 73 DF 4E 7C D4 36 72 
+[23C49 DB 9B 37 DB B8 6C C1 15 E3 36 FF 99 AA A3 85 
+[23CE2 11 E1 02 E3 A3 25 D5 C8 BA 44 CA E8 F6 72 7C 
+[23C2F F9 CC D6 76 10 C1 31 06 56 1C FE 44 80 58 DA [19;7HEAPOL HMAC     : DF 50 ED A0 76 E6 17 26 AB 2C E1 D4 B8 57 9C 69 
+[3;0H[0J[4;7H[00:00:19] 87473/14344392 keys tested (4686.39 k/s) [6;7HTime left: 50 minutes, 42 seconds                          0.61%
+[8;24HCurrent passphrase: azizan                     
+[11;7HMaster Key     : B8 4C 7C 6A 59 3C 4E 00 9F 4F 01 B1 9E A1 9B 0D [48D[1BCF C1 C1 B5 78 EE 0B 2E 2D 7F BB 67 30 BB E2 42 [14;7HTransient Key  : 33 AF BC 38 55 6F 67 CE AE 56 F9 09 A3 8A 0F 88 
+[23CE4 60 87 15 F1 2F F7 9A 6D 2B 55 90 B6 20 73 00 
+[23C45 23 C3 D6 02 60 55 28 F8 4E 00 50 46 B7 3A A0 
+[23CC5 E2 93 81 FC 47 C0 E2 47 27 2E C2 F5 39 C5 A9 [19;7HEAPOL HMAC     : F5 59 AB AF 14 CF 29 EE DA A6 1A A6 74 6A EB 83 
+[3;0H[0J[4;7H[00:00:19] 88233/14344392 keys tested (4688.15 k/s) [6;7HTime left: 50 minutes, 40 seconds                          0.62%
+[8;24HCurrent passphrase: 282531                     
+[11;7HMaster Key     : 1D 6E 2A 9E 95 23 13 45 0B 69 7C 85 43 2B 7D 1B [48D[1BEE 0E DB CA AF 11 07 D3 89 0E 1A 8E 51 55 8C AB [14;7HTransient Key  : DB BB 3F EB C0 69 B9 2C 59 04 78 8E A4 B6 80 82 
+[23C6E 93 8A F4 B3 DF 3A 99 59 6F F6 60 0A 1A D6 FE 
+[23C5D 2A EF C8 8A 47 39 61 FE 6C 22 D2 57 5D 06 9B 
+[23C4A 69 08 E3 2E 7A 43 15 A4 96 2F 17 3C E8 91 25 [19;7HEAPOL HMAC     : 2F A5 44 A2 1C 61 EF 44 A1 1B 6A 77 CA 3A 6C D9 
+[3;0H[0J[4;7H[00:00:19] 89009/14344392 keys tested (4690.91 k/s) [6;7HTime left: 50 minutes, 38 seconds                          0.62%
+[8;24HCurrent passphrase: 03071986                   
+[11;7HMaster Key     : AF 27 3B C3 AE E9 66 CC F9 2A 65 B6 EC C0 82 42 [48D[1B28 2A 74 5C 53 9E F9 DA 23 2D 50 8C 9E C8 51 F2 [14;7HTransient Key  : 1F 98 50 B3 C0 77 55 5D 5E EE 31 D0 67 FD 94 80 
+[23C41 B1 E8 27 1E 60 8B D4 8C EA 39 BD 76 7D 8E 7E 
+[23CE4 C7 CD 9B 78 D4 0D B9 50 CF D9 EA AA 57 11 1A 
+[23C5B AD 47 97 04 E3 62 11 C6 F2 8F 79 E7 A9 A2 CB [19;7HEAPOL HMAC     : 55 53 04 30 78 D8 9E AB B0 AE 4C 99 48 88 52 5C 
+[3;0H[0J[4;7H[00:00:19] 89737/14344392 keys tested (4691.93 k/s) [6;7HTime left: 50 minutes, 38 seconds                          0.63%
+[8;24HCurrent passphrase: randy7                     
+[11;7HMaster Key     : 07 AE EB F9 F6 B2 F0 EA 72 7D 8B 2C 3E F8 76 D1 [48D[1BCD 7F DB A1 27 14 5C 1F E1 86 3D BD 0D 71 3D 50 [14;7HTransient Key  : A6 B9 BC A9 F2 19 7E 8E 56 AB 64 0F C8 62 8B 57 
+[23C83 71 38 98 D8 0E 0B A6 10 52 62 65 90 F1 9A 38 
+[23C61 77 F3 E1 95 BA F1 85 BE 00 5D FB 80 62 E0 C9 
+[23CF2 F7 46 CF 10 BA 02 CE 3A AE 73 D1 46 54 3D 1D [19;7HEAPOL HMAC     : 3F 2A 4C 73 B7 6B A8 92 9A A5 AC BB 71 CD 0C 60 
+[3;0H[0J[4;7H[00:00:19] 90514/14344392 keys tested (4694.63 k/s) [6;7HTime left: 50 minutes, 36 seconds                          0.63%
+[8;24HCurrent passphrase: lunatic1                   
+[11;7HMaster Key     : 3E E1 02 03 27 04 C8 A0 B9 8A 64 91 87 53 62 9C [48D[1B53 41 AB 69 9D 4F 48 EF 50 64 E4 D5 4B D5 D7 15 [14;7HTransient Key  : BE 5D 66 E6 86 42 0C 1D D6 9F BF 22 E2 71 46 53 
+[23CB4 19 A5 61 0A B7 D4 16 F1 5E AA DD BD F4 69 8F 
+[23C03 8F AD 99 B9 BC 68 F5 C5 9F DE C3 3C 21 13 5E 
+[23CC3 D1 E9 26 62 68 F7 C7 18 A2 35 BB 74 EB A8 B9 [19;7HEAPOL HMAC     : C0 20 4C 36 5B 77 06 53 1A EA 0E 9C 48 FC DA E2 
+[3;0H[0J[4;7H[00:00:19] 91299/14344392 keys tested (4696.52 k/s) [6;7HTime left: 50 minutes, 34 seconds                          0.64%
+[8;24HCurrent passphrase: honeyc                     
+[11;7HMaster Key     : EC C2 7A 6E FF 2C 57 9B 2D EB 1E 49 92 2D 4B 0C [48D[1B29 8D DD CB 4B F6 7A 07 E7 E8 D8 C3 CD 7D 12 1C [14;7HTransient Key  : CC 89 59 86 2E AD B8 26 38 EA 71 21 C1 DC 7C C9 
+[23C54 82 B7 93 C7 54 2A E4 BC A7 49 AB 37 7F 3B 59 
+[23C97 57 25 F9 DC 33 EE 35 1F B1 BB 2F 34 72 C8 6B 
+[23CE7 30 82 71 21 2D D6 E1 E9 AC CA 98 FD 27 13 74 [19;7HEAPOL HMAC     : DA FE 3A 97 5F AC 1B 04 E0 BC 4D 70 24 B2 58 FE 
+[3;0H[0J[4;7H[00:00:20] 92100/14344392 keys tested (4699.51 k/s) [6;7HTime left: 50 minutes, 32 seconds                          0.64%
+[8;24HCurrent passphrase: buster09                   
+[11;7HMaster Key     : 64 BD 24 CB 3E 40 9D 14 5B 62 57 25 A1 E2 18 E3 [48D[1B30 32 58 79 8D 30 06 52 CC 36 51 CE 70 BE D9 B1 [14;7HTransient Key  : 09 B6 65 95 D9 CF 54 2A 45 31 23 91 5F BF BD 1D 
+[23CB8 AB 86 3D 9C D2 1B BC 26 14 48 4C 62 93 CB B7 
+[23C3D 39 6C D4 AA 6B 82 01 CF 3E C1 5A CB FB 94 79 
+[23C1E 51 E3 91 B0 3B 49 49 0B 9A 43 30 4B 97 C8 7D [19;7HEAPOL HMAC     : 05 EE 8F E1 81 A2 BE EC 05 DE 61 C9 12 C6 E1 19 
+[3;0H[0J[4;7H[00:00:20] 92820/14344392 keys tested (4700.83 k/s) [6;7HTime left: 50 minutes, 31 seconds                          0.65%
+[8;24HCurrent passphrase: 860829                     
+[11;7HMaster Key     : C1 83 45 F6 36 35 7A 46 0F DC 46 21 9D F7 10 21 [48D[1B40 15 C0 87 BC A9 2F B4 DF 57 81 C2 20 0F 55 3A [14;7HTransient Key  : 67 87 1C E2 E0 05 73 14 09 A4 8D 9C F7 E0 6F E0 
+[23CCF E4 9A 68 46 F9 F3 0F FB 92 9F B2 D2 0C 3D 7C 
+[23C4C DE 4B F4 F5 4A 47 79 2B A8 10 E5 D4 13 DC F6 
+[23CAB 1C E0 6E 60 BA 44 A9 AC AD 83 D4 C0 D2 EC 51 [19;7HEAPOL HMAC     : 3D EE 91 81 09 0F C4 72 5C A6 47 4B D4 83 3C 2E 
+[3;0H[0J[4;7H[00:00:20] 93596/14344392 keys tested (4703.17 k/s) [6;7HTime left: 50 minutes, 30 seconds                          0.65%
+[8;24HCurrent passphrase: 100299                     
+[11;7HMaster Key     : EF D6 EC EF 61 BF 41 CE 3B 60 C8 C0 E0 D0 70 1E [48D[1BD1 1C 71 5B 95 29 06 70 BA D1 C7 15 66 92 FC F8 [14;7HTransient Key  : 37 A7 C5 D8 E2 09 A9 21 5C 0D 0F 34 C9 36 03 CF 
+[23CE2 59 96 0A D2 02 1E AD 7A AA 3D 51 13 2B 07 7F 
+[23CAD F9 5A 7B 8F EA 3B 09 19 B2 75 B8 0A E0 75 BA 
+[23CCB 7D AA FF A9 37 AD 02 94 8D 1D 23 87 E4 1E C3 [19;7HEAPOL HMAC     : CC 1D FA 3B 9F 30 FC 63 B7 BA 22 E8 6F C0 9A 62 
+[3;0H[0J[4;7H[00:00:20] 94356/14344392 keys tested (4704.81 k/s) [6;7HTime left: 50 minutes, 28 seconds                          0.66%
+[8;24HCurrent passphrase: speed123                   
+[11;7HMaster Key     : 5C 5A D0 35 0D 3F D8 A4 64 36 4F F5 74 C5 D0 67 [48D[1B6C 0A 60 DB 44 2A 05 05 3E 62 35 98 18 D8 CA 5F [14;7HTransient Key  : 1E 59 AC 02 18 6E D7 85 A1 8D 11 0A 0C A8 C3 C1 
+[23C24 3F C9 30 C9 2B 43 DC 42 8F 72 5F 11 5D EE 0F 
+[23CC9 1D 52 A3 55 B0 62 DD 8C D9 36 E8 4E D7 CD E6 
+[23C43 83 2F 9A BC FC 12 A0 8A 13 17 3C 2D 78 E9 A5 [19;7HEAPOL HMAC     : 2B BA AA 13 88 63 90 1F 7E 24 03 51 B8 08 24 FD 
+[3;0H[0J[4;7H[00:00:20] 95109/14344392 keys tested (4706.30 k/s) [6;7HTime left: 50 minutes, 27 seconds                          0.66%
+[8;24HCurrent passphrase: parolanoua                 
+[11;7HMaster Key     : 93 5E 39 25 1A CA 39 C9 22 65 30 65 CD EB AA BD [48D[1BF0 30 C4 8B 7E A1 1F 00 C4 5B 8A A1 E7 98 AE BE [14;7HTransient Key  : 3B AA 95 34 1A EA BF 7B CD AF DD 0F 3C F5 77 B6 
+[23C83 D5 C4 9E 3C 29 26 AE D5 3A AE 80 D2 F2 3C 21 
+[23CED B9 02 C5 B7 49 D3 D0 00 FD D2 00 44 27 EA AC 
+[23CA6 33 0D C5 3F 26 08 95 30 85 31 5C 84 0B 51 12 [19;7HEAPOL HMAC     : B6 4B 22 42 3F E7 71 70 3C 4A BC 08 42 AA BA BA 
+[3;0H[0J[4;7H[00:00:20] 95885/14344392 keys tested (4708.88 k/s) [6;7HTime left: 50 minutes, 25 seconds                          0.67%
+[8;24HCurrent passphrase: linateamo                  
+[11;7HMaster Key     : A4 AF 0C 61 84 CB 63 32 D6 01 DE BA D5 B7 5D 88 [48D[1B99 E1 30 13 5F 31 AC 73 9A 19 39 67 32 C2 4F 30 [14;7HTransient Key  : 1D FD 01 A2 13 DB E1 A6 F9 5E 2E 7D 2D 1E 78 7E 
+[23CE6 D2 21 03 65 74 44 82 60 65 40 FB 17 AE 0F D5 
+[23C7B E0 76 CF E7 5F 7C 08 CE 78 8C 61 22 6F EA 93 
+[23C64 35 D6 B9 A9 11 B8 45 86 28 6E 1A 80 CA D8 50 [19;7HEAPOL HMAC     : F1 85 23 3E 59 E8 D0 2E 8A FD 21 98 8B 6B CC D7 
+[3;0H[0J[4;7H[00:00:21] 96629/14344392 keys tested (4707.87 k/s) [6;7HTime left: 50 minutes, 26 seconds                          0.67%
+[8;24HCurrent passphrase: gumaro                     
+[11;7HMaster Key     : CA E9 18 F1 94 8B 16 F2 F7 77 1F 6B B5 F0 78 14 [48D[1B83 EA CE 6A B8 6B C5 7E 68 D9 7E AB CE DE 9D 80 [14;7HTransient Key  : 13 F0 00 7A E6 92 16 69 97 7A AD 58 1C 25 F6 50 
+[23CE3 F7 61 CE 3D 93 EA 41 35 C8 B4 9D 2B AA 91 4F 
+[23C50 BC D0 26 CA B5 C7 F4 3B 5E DC 83 FB F1 83 DF 
+[23C3C 8E 55 E7 24 FB 27 10 9F 0E 6B 3C BE A6 70 26 [19;7HEAPOL HMAC     : 25 A8 73 A5 20 AA 42 E9 00 D9 89 14 1E E4 8F 22 
+[3;0H[0J[4;7H[00:00:21] 97381/14344392 keys tested (4708.90 k/s) [6;7HTime left: 50 minutes, 25 seconds                          0.68%
+[8;24HCurrent passphrase: brekele                    
+[11;7HMaster Key     : 8F AF CA C6 5E 89 56 CD BC 94 BD F1 8E F0 96 56 [48D[1BF0 96 9C AE AB D7 F6 34 7D F4 81 8A 5E 05 2B 7F [14;7HTransient Key  : 0C 3E 94 83 B1 DA 6E 3B 53 A3 EA 4B 7E 11 B3 55 
+[23C75 D9 BA 65 D2 D2 EC ED 3D 07 67 E6 80 4D D9 41 
+[23CA8 9A A3 27 54 1B 30 58 5C 68 F9 E7 30 B4 24 BB 
+[23C01 8A 3C 7D 72 3C 5D 50 F7 49 0E D0 6F F2 F4 65 [19;7HEAPOL HMAC     : C6 A3 FB 07 CC 6E 5C BB 16 63 EB C5 CB 4B 25 58 
+[3;0H[0J[4;7H[00:00:21] 98117/14344392 keys tested (4710.81 k/s) [6;7HTime left: 50 minutes, 24 seconds                          0.68%
+[8;24HCurrent passphrase: 870920                     
+[11;7HMaster Key     : F7 59 E7 81 64 4C 58 9D 10 05 9E 5F F9 AF B9 45 [48D[1BE4 90 40 2A 22 DB 0F 45 DA D5 BE 52 22 24 E2 C4 [14;7HTransient Key  : 59 3E 1C E1 CB A0 BE 7A 45 BE 77 FF 93 6C 8C 1C 
+[23C44 90 1A 82 CF 22 96 D6 33 A4 C4 33 E5 82 AA 03 
+[23C79 71 95 61 82 1F 4C A2 C0 E4 D7 C4 E7 8C 0C C5 
+[23CA5 F6 63 17 E6 C7 E0 DF 3D DF DA AC C8 F9 9D 80 [19;7HEAPOL HMAC     : D7 1E 3E 96 44 50 10 F2 B9 22 DD 65 61 15 EE C9 
+[3;0H[0J[4;7H[00:00:21] 98861/14344392 keys tested (4710.73 k/s) [6;7HTime left: 50 minutes, 24 seconds                          0.69%
+[8;24HCurrent passphrase: 102810                     
+[11;7HMaster Key     : 9B BC 7C C7 12 77 F7 A3 16 1A AE D3 48 A2 BB FE [48D[1BB2 EC CA B1 B3 5B 46 D2 78 6F AE 81 B7 92 02 0A [14;7HTransient Key  : A9 E5 C9 86 5E AB 11 C2 D7 D6 32 03 42 53 1C C9 
+[23C3C 45 AF A1 7A EB 52 9E C2 1A D6 A0 0C E0 AE A2 
+[23C9B 43 25 94 41 9D A4 57 25 6B F5 4C C0 58 D4 AF 
+[23CD5 D8 41 A3 4C 33 86 5B EE 91 DD A1 21 D1 2C 72 [19;7HEAPOL HMAC     : 0E BD 1D 07 8F AB 84 76 93 47 9A E9 C8 89 62 55 
+[3;0H[0J[4;7H[00:00:21] 99589/14344392 keys tested (4711.43 k/s) [6;7HTime left: 50 minutes, 23 seconds                          0.69%
+[8;24HCurrent passphrase: toughlove                  
+[11;7HMaster Key     : AC 71 D7 F2 CF 22 9B 13 80 C1 F9 F6 22 D1 F4 8E [48D[1B2E 93 3E EC 2D 8D 7A 46 6D 55 7E 24 A7 AA C8 DC [14;7HTransient Key  : F3 6D 2D 6D 73 B1 95 F4 30 AA 4B B4 36 89 17 CA 
+[23C13 25 B1 78 4F E5 39 2C 09 49 2A 63 8B C4 6F BA 
+[23C78 8B 61 24 C6 CB 14 67 97 46 2B 01 BD 37 73 E4 
+[23CE6 BF 9D EF 15 44 BB 96 43 DD A6 6B 92 02 50 DF [19;7HEAPOL HMAC     : 34 3A 9F BD 4A 8D B7 E3 86 4D A4 7E E6 1C 42 D8 
+[3;0H[0J[4;7H[00:00:21] 100317/14344392 keys tested (4712.41 k/s) [6;7HTime left: 50 minutes, 22 seconds                          0.70%
+[8;24HCurrent passphrase: piano123                   
+[11;7HMaster Key     : 83 18 AB F1 5C 42 69 4F E2 22 21 EE 07 CA F6 4F [48D[1B0E C7 86 3F CB BB 20 62 0F 7D CF A0 58 00 65 DC [14;7HTransient Key  : B6 82 54 49 FF 1F 7B 75 B2 E3 F1 C4 DB 87 FB 06 
+[23CAB B6 D3 D0 F9 83 E5 50 9C 9B D3 DB 18 05 91 46 
+[23CA9 41 57 0A C7 80 B1 3F F0 91 E0 B1 93 15 E3 82 
+[23C0A B5 57 6A B8 1A E2 A5 89 24 3D 60 B7 47 97 51 [19;7HEAPOL HMAC     : F2 C2 35 91 B6 22 18 6D D2 36 7B A3 E4 BB 5C C4 
+[3;0H[0J[4;7H[00:00:21] 101093/14344392 keys tested (4712.02 k/s) [6;7HTime left: 50 minutes, 22 seconds                          0.70%
+[8;24HCurrent passphrase: ltz400                     
+[11;7HMaster Key     : 74 D1 22 7C F5 66 A6 09 50 43 69 6C 7E 85 91 1E [48D[1BBE 5E 7D F2 B2 3F CA E0 D8 1F 79 E5 FC 37 3F DF [14;7HTransient Key  : 01 86 DA AD A5 9F 9B B0 CD 45 46 D8 5E B1 56 06 
+[23CD5 47 32 A3 D2 32 AA AB 2C B6 30 6A 0B 07 5E 59 
+[23CBB F8 F9 EB D9 44 BB F7 BE 6D FB 2A E9 5F E5 A1 
+[23CD3 AD 81 23 4F BE 05 AA 08 B6 14 F8 92 7B C9 64 [19;7HEAPOL HMAC     : 67 2F 8C C1 AC F9 50 36 6C 9E 3C CD A5 6B D6 A6 
+[3;0H[0J[4;7H[00:00:22] 101853/14344392 keys tested (4713.21 k/s) [6;7HTime left: 50 minutes, 21 seconds                          0.71%
+[8;24HCurrent passphrase: ih8skool                   
+[11;7HMaster Key     : C5 A9 29 A8 2F AC A0 BD 04 96 F8 07 09 9E 26 2D [48D[1BD6 2B 66 B5 A9 5D 11 0F CB D9 FD 2E A3 9B 72 D1 [14;7HTransient Key  : 24 7F C6 DC B1 F3 A3 16 86 A7 CF 8B FC D0 C7 BC 
+[23C04 AC 18 5C A3 32 4C CF 41 36 BE 02 95 47 B2 92 
+[23CAE AE A1 0D 0F 26 80 CD 85 64 3B 83 88 32 3A 6D 
+[23C4B 27 8B C4 C4 22 0D A5 6B 13 35 BA 9B DC 05 FA [19;7HEAPOL HMAC     : B3 AE 6D E1 33 D8 7B 1D 4E 05 44 9F BB 0C 10 61 
+[3;0H[0J[4;7H[00:00:22] 102597/14344392 keys tested (4713.83 k/s) [6;7HTime left: 50 minutes, 21 seconds                          0.72%
+[8;24HCurrent passphrase: cochis                     
+[11;7HMaster Key     : 72 08 EA 00 42 FE 01 BA C6 1A CB 17 A2 77 52 B7 [48D[1B72 7E CE 70 F1 6F C9 EE 28 F1 84 28 CF 6A EF 4C [14;7HTransient Key  : 01 C7 4B 74 5C 94 71 E1 FC A1 D8 4F EB 50 A3 07 
+[23CF5 CC 3A C4 63 C4 74 8D 15 C6 96 9A D2 37 2D FB 
+[23CBD AE 53 5F D3 BC B1 0A 9B 63 27 09 31 B4 88 18 
+[23C33 B8 60 2C 34 65 E9 B8 18 D3 EB B0 65 52 00 AA [19;7HEAPOL HMAC     : A8 C4 A8 77 15 91 8E B7 FA BC 4D 43 BE 84 95 24 
+[3;0H[0J[4;7H[00:00:22] 103381/14344392 keys tested (4715.09 k/s) [6;7HTime left: 50 minutes, 20 seconds                          0.72%
+[8;24HCurrent passphrase: angelica12                 
+[11;7HMaster Key     : F8 A8 95 7A 60 9C C0 3E 3B 22 AD 48 07 B7 14 E3 [48D[1B36 9E F6 A4 6C B4 1F FB C9 FC E6 B2 4D 74 54 90 [14;7HTransient Key  : C2 9E 1F 6A 22 38 D3 B0 C2 00 56 0F 52 9C F5 C2 
+[23CF4 03 C5 B7 DA BD F0 D5 90 1E B6 61 4B B0 A8 DC 
+[23CEF D4 C8 A8 88 6D 88 F1 A6 25 83 14 48 3E E4 0D 
+[23C85 38 9A 17 CD 75 A4 47 29 86 1B C0 38 C9 76 0F [19;7HEAPOL HMAC     : 1A 05 36 6C 10 66 39 2B F7 DA 7D FB AC 24 73 50 
+[3;0H[0J[4;7H[00:00:22] 104085/14344392 keys tested (4716.03 k/s) [6;7HTime left: 50 minutes, 19 seconds                          0.73%
+[8;24HCurrent passphrase: 29091991                   
+[11;7HMaster Key     : 48 60 47 80 D5 2F 5C AA C2 EE B7 C1 12 92 33 DD [48D[1B93 00 36 A2 DF B0 FE 90 8F 59 58 E8 4D F7 B5 3F [14;7HTransient Key  : AD A8 36 24 44 1C AE 80 4D 88 FE 81 F9 ED A4 E9 
+[23C69 EF D0 DB 46 24 6C 46 B6 66 5B 91 4A D8 54 44 
+[23C0C 25 62 AC 53 66 D0 EF EB 41 15 F8 93 1E 7C 88 
+[23C19 24 6B 84 F0 59 1F D3 CF 49 4C D4 CB 33 F8 7E [19;7HEAPOL HMAC     : EA 18 E5 93 F5 62 D6 05 6F 86 71 C4 BA 78 B6 88 
+[3;0H[0J[4;7H[00:00:22] 104845/14344392 keys tested (4718.05 k/s) [6;7HTime left: 50 minutes, 18 seconds                          0.73%
+[8;24HCurrent passphrase: 051409                     
+[11;7HMaster Key     : F7 9E AD AE E9 C8 10 FA 7B E6 61 65 DC BF FD 3E [48D[1B46 20 7A BB 92 EA D8 DD 43 A6 7C AB 10 15 51 99 [14;7HTransient Key  : F7 FA FF 4E F3 B9 AB CA 9D A9 95 B7 17 83 A2 8F 
+[23C06 5E 84 D4 F3 23 5C 75 5A 96 5A 10 DB 75 68 F8 
+[23C8E 67 6E 34 02 75 FF AA ED 4C 8B 5F 30 4B 46 0A 
+[23CE1 ED 8F 47 13 EC 76 CC E2 1A C1 EA F6 ED 3C 68 [19;7HEAPOL HMAC     : 7C B9 B1 88 1B C8 CB C1 79 F3 15 73 E1 29 93 3D 
+[3;0H[0J[4;7H[00:00:22] 105581/14344392 keys tested (4718.49 k/s) [6;7HTime left: 50 minutes, 17 seconds                          0.74%
+[8;24HCurrent passphrase: stephen69                  
+[11;7HMaster Key     : 79 31 7B 58 0E 1C B1 2A 7B 30 9F 00 5D D3 31 FA [48D[1BE3 8F 96 A7 06 C7 5E DD 8D 74 FF A7 FC 02 C4 3A [14;7HTransient Key  : D6 8B 62 66 99 74 8F E2 10 29 B9 9C 77 7B 5D 32 
+[23C7C D9 25 4A 45 8A 99 01 DE 44 12 B5 70 2A 45 FC 
+[23CB5 2F 58 6A AC 05 E3 7E 6B 86 22 3A 16 A4 45 96 
+[23CCE A7 C3 58 57 0B 59 4C 7A 17 C9 05 50 E2 02 9E [19;7HEAPOL HMAC     : 77 98 25 E2 DF 55 5E 64 C3 EB 70 74 9F 94 3F 7E 
+[3;0H[0J[4;7H[00:00:22] 106021/14344392 keys tested (4719.45 k/s) [6;7HTime left: 50 minutes, 16 seconds                          0.74%
+[8;24HCurrent passphrase: beautifulsoul              
+[11;7HMaster Key     : 22 AE C4 CF 1B DF 12 E9 59 67 F5 80 5E A5 08 33 [48D[1B55 9B 2A B0 0A 8A 25 39 62 CC 28 B1 7B 41 79 2F [14;7HTransient Key  : 54 30 4C 83 77 DE 0A 62 42 4A 4F EB 34 61 F0 F8 
+[23C9F F9 85 A6 2A 00 BE A1 6B A9 99 00 00 00 00 00 
+[23C00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[23C00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 [19;7HEAPOL HMAC     : F6 59 08 96 44 1B BC F8 FC E6 4A DD 14 33 61 0F 
+[8;26H[2KKEY FOUND! [ beautifulsoul ]
+[11B[8;26H[2KKEY FOUND! [ beautifulsoul ]
+[11B[22;0H

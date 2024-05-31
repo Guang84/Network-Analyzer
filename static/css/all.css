@@ -1,9 +1,15 @@
-@media screen and (min-width: 960px){
+
+@media screen and (max-width: 960px){
     body{
-    width: 65%;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 0.5px;
+        width: 85%;
+    }
+    *{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .header{
+        display: grid;
+        font-size: 10px;
     }
 }
 /* languages */
