@@ -9,12 +9,12 @@ NC='\033[0m' # No Color
 
 # Function to display version
 display_version() {
-    echo -e "${G}NETWORK ANALYSER v${NC}${Y}$VERSION${NC}"
+    echo -e "${G}NETWORK ANALYSER ${R}v${Y}$VERSION${NC}"
     exit 0
 }
 
 # Check for --version argument
-if [[ $1 == "--version" ]]; then
+if [[ $1 == "--version" || $1 == "-v" ]]; then
     display_version
 fi
 
@@ -88,12 +88,12 @@ for tool in "${tools[@]}"; do
 done
 echo""
 # Print the banner with colors centeR on the screen
-echo -e "${G}^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^"
+echo -e "${G}^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^        "
 echo -e "${G}                                                                   ${Y}B${NC}        "
 echo -e "${G}    ██████████          ██████        ████████████████████         ${Y}C${NC}        "
 echo -e "${G}    ███████████         ██████       ██████████████████████        ${Y}A${NC}        " 
 echo -e "${G}    ███████ ████        ██████       ██████         ███████                          "
-echo -e "${G}    ███████  ████       ██████       ██████         ███████     ${Y}5th${NC}         "
+echo -e "${G}    ███████  ████       ██████       ██████         ███████     ${Y}6th${NC}         "
 echo -e "${G}    ███████   █████     ██████       ██████         ███████                          "
 echo -e "${G}    ███████    █████    ██████       ██████████████████████     ${Y}S | 2 |${NC}     "
 echo -e "${G}    ███████     █████   ██████       ██████████████████████     ${Y}E | 0 |${NC}     "
@@ -104,7 +104,7 @@ echo -e "${G}    ███████         ██████████   
 echo -e "${G}                                                                                     "
 echo -e "${G}                ${Y}NETWORK ANALYZER v${R}$VERSION${NC}    ${Y}- ${R}AZ_SEP${NC}     "
 echo -e "${R}                        SYSTEM ${G}$current_distro${NC}                              "
-echo -e "${G}^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^"
+echo -e "${G}^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^        "
 echo -e "${NC}"
 
 #Required tools
