@@ -1,5 +1,6 @@
 
-# Network Analyzer Tool
+# Network Analyzer
+V2024.06.24
 
 Network Analyzer Tool is a powerful educational resource designed to facilitate learning about network analysis in a user-friendly environment. While we're excited to share this tool with you, it's crucial to emphasize its intended use solely for educational purposes. We're committed to promoting ethical practices in network analysis and discourage any unauthorized or unethical activities.
 
