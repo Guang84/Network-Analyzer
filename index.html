@@ -91,19 +91,19 @@
                     </tr>
                     <tr>
                         <td>HTML</td>
-                        <td><span class="html"></span> 27.7%</td>
+                        <td><span class="html"></span> 30.8%</td>
                     </tr>
                     <tr>
                         <td>CSS</td>
-                        <td><span class="css"></span> 8.4%</td>
+                        <td><span class="css"></span> 14.3%</td>
                     </tr>
                     <tr>
                         <td>JavaScript</td>
-                        <td><span class="javascript"></span> 7.8%</td>
+                        <td><span class="javascript"></span> 3.3%</td>
                     </tr>
                     <tr>
                         <td>Python</td>
-                        <td><span class="python"></span> 2.8%</td>
+                        <td><span class="python"></span> 1.6%</td>
                     </tr>
                 </tbody>
             </table>
@@ -163,6 +163,7 @@
                 <div class="framebutton">
                     <button id="backButton" onclick="goBack()">Back</button>
                     <button id="forwardButton" onclick="goForward()">Forward</button>
+                    <button id="refresh" type="button" onclick="refresh()">Refresh</button>
                 </div>
                 <iframe name="myconsole" title="Available Networks" id="frame1" src="/framepage.html" sandbox="allow-same-origin"></iframe>
                 <script>
@@ -180,10 +181,14 @@
                             iframe.contentWindow.history.forward();
                         }
                     }
-                
+                    function refresh(){
+                        var iframe = document.getElementById('frame1');
+                        iframe.contentWindow.location.reload();
+                    }
                     // Make the functions globally available
                     window.goBack = goBack;
                     window.goForward = goForward;
+                    window.refresh = refresh;
                 </script>
             </section>
         </footer>

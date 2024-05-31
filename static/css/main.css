@@ -30,7 +30,7 @@ body{
     color: #333;
     text-align: center;
     font-family: 'Segoe UI', Roboto, Arial, sans-serif; 
-    background: url('/icon/image/computer-burst-line-animation.gif') center/cover no-repeat; /* Consolidated background shorthand */
+    background: url('/icon/image/computer-burst-line-animation.gif') center/cover no-repeat;
     border-radius: 10px;
     display: flex;
     justify-content: center;

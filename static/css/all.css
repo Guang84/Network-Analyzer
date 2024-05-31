@@ -32,8 +32,8 @@
     height: 20px;
     vertical-align: middle;
 }
-.shell { background-color: #f4a460; width: 55.2%; }
-.html { background-color: #87ceeb; width: 27.7%; }
-.css { background-color: #ffb6c1; width: 8.4%; }
-.javascript { background-color: #f0e68c; width: 7.8%; }
-.python { background-color: #dda0dd; width: 2.8%; }
+.shell { background-color: #f4a460; width: 50.2%; }
+.html { background-color: #87ceeb; width: 30.8%; }
+.css { background-color: #ffb6c1; width: 14.3%; }
+.javascript { background-color: #f0e68c; width: 3.3%; }
+.python { background-color: #dda0dd; width: 1.6%; }
