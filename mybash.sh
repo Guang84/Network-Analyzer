@@ -1,5 +1,5 @@
 #!/bin/bash
-VERSION="2024.06.24"
+VERSION="2024.06.07"
 
 # Define color variables
 R='\033[0;31m'
@@ -29,38 +29,10 @@ checkpermissions() {
 # Check for root permissions
 checkpermissions
 
-echo""
-echo -e "${R}ROOT ${G}PERMISSION GRANTED${NC}"
-echo ""
-echo -e "${R}**** WELCOME TO ${G}NETWORK ANALYZER v${Y}$VERSION${NC}${R} ****${NC}"
-echo -e "${Y} !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! ${NC}"
-echo -e "${R}   This script is only for educational purposes.${NC}
-${G}    Use it only with proper permission!${NC}"
-echo -e "${Y} !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! ${NC}"
-compatible_distros=("Arch" "Backbox" "BlackArch" "CentOS" "Cyborg" "Debian" "Fedora" "Gentoo" "Kali" "Kali arm" "Mint" "OpenMandriva" "Parrot" "Parrot arm" "Pentoo" "Raspberry Pi OS" "Raspbian" "Red Hat" "Ubuntu")
-
-# Function to check if the current distribution is compatible
-compatible_distro() {
-    current_distro=$(lsb_release -si)
-    echo -e "${Y}Detecting System ${R}...${NC}"
-    if [[ " ${compatible_distros[@]} " =~ " ${current_distro} " ]]; then
-        echo -e "${Y}FOUND: ${G}$current_distro${NC}"
-    else
-        echo "WARNING: Your distro may not be officially supported by this script."
-    fi
-}
-
-# Check compatible distribution
-compatible_distro
-echo ""
-echo -e "${Y}Checking Requirement${R}...${NC}"
-# List of tools to check
-tools=("aircrack-ng" "airmon-ng" "airodump-ng" "mdk3" "mdk4" "aireplay-ng")
-
 # Function to display a loading message
 loading() {
     local delay=0.1
-    local spin='-\|/'
+    local spin='.<\>.'
     while true; do
         local temp=${spin#?}
         printf " [%c]  " "$spin"
@@ -70,42 +42,119 @@ loading() {
     done
 }
 
+echo -e "╔═══════════════════════╗"
+echo -e "║${R}ROOT PERMISSION ${G}GRANTED${NC}║"
+echo -e "╚═══════════════════════╝"
+echo ""
+echo -e "${R}╚ WELCOME TO ${G}NETWORK ANALYZER ${Y}v$VERSION${NC}${R} ╝${NC}"
+echo -e "${Y}   !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! ${NC}"
+echo ""
+echo -e "${R}   This script is only for ${G}educational purpose${R}.
+${R}    Use it only with proper permission!${NC}"
+echo ""
+echo -e "${Y}   !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! ${NC}"
+compatible_distros=(
+    "Arch" 
+    "Backbox" 
+    "BlackArch" 
+    "CentOS" 
+    "Cyborg" 
+    "Debian" 
+    "Fedora" 
+    "Gentoo"
+    "Kali" 
+    "Kali arm" 
+    "Mint" 
+    "OpenMandriva" 
+    "Parrot" 
+    "Parrot arm" 
+    "Pentoo" 
+    "Raspberry Pi OS" 
+    "Raspbian" 
+    "Red Hat" 
+    "Ubuntu"
+)
+
+# Function to check if the current distribution is compatible
+compatible_distro() {
+    current_distro=$(lsb_release -si)
+    echo -e "${G}Detecting System ${NC}"
+    echo -e "${R}"
+            loading &
+            loading_pid=$!
+            sleep 2
+            kill $loading_pid
+            wait $loading_pid 2>/dev/null
+            echo -e "${NC}"
+    if [[ " ${compatible_distros[@]} " =~ " ${current_distro} " ]]; then
+        echo -e "FOUND: ${R}║ ${G}$current_distro ${R}║${NC}"
+    else
+        echo -e "${R}WARNING${NC}: Your distro may not be officially supported by this script."
+    fi
+}
+
+# Check compatible distribution
+compatible_distro
+echo ""
+echo -e "Checking Requirements...${NC}"
+    echo -e "${R}"
+            loading &
+            loading_pid=$!
+            sleep 2
+            kill $loading_pid
+            wait $loading_pid 2>/dev/null
+            echo -e "${NC}"
+# List of tools to check
+tools=(
+    "aircrack-ng" 
+    "airmon-ng" 
+    "airodump-ng" 
+    "mdk3" 
+    "mdk4" 
+    "aireplay-ng"
+)
+
 echo ""
 #this check if each tool is installed
 for tool in "${tools[@]}"; do
-    echo -e "${Y}Checking for${NC} ${G}$tool${NC}..."
+    echo -e "${Y}Checking for${NC} $tool"
+    echo -e "${R}"
+            loading &
+            loading_pid=$!
+            sleep 2
+            kill $loading_pid
+            wait $loading_pid 2>/dev/null
+            echo -e "${NC}"
     if ! command -v "$tool" &>/dev/null; then
         echo "Not Found"
     else
-        echo -e "${Y}Ok${NC}"
+        echo -e "${G}Ok${NC}"
     fi
-    loading &
-    loading_pid=$!
-    sleep 2
-    kill $loading_pid
-    wait $loading_pid 2>/dev/null
-    echo ""
 done
+
+#clear
+
 echo""
 # Print the banner with colors centeR on the screen
-echo -e "${G}^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^        "
-echo -e "${G}                                                                   ${Y}B${NC}        "
-echo -e "${G}    ██████████          ██████        ████████████████████         ${Y}C${NC}        "
-echo -e "${G}    ███████████         ██████       ██████████████████████        ${Y}A${NC}        " 
-echo -e "${G}    ███████ ████        ██████       ██████         ███████                          "
-echo -e "${G}    ███████  ████       ██████       ██████         ███████     ${Y}6th${NC}         "
-echo -e "${G}    ███████   █████     ██████       ██████         ███████                          "
-echo -e "${G}    ███████    █████    ██████       ██████████████████████     ${Y}S | 2 |${NC}     "
-echo -e "${G}    ███████     █████   ██████       ██████████████████████     ${Y}E | 0 |${NC}     "
-echo -e "${G}    ███████      █████  ██████       ██████         ███████     ${Y}M | 2 |${NC}     "
-echo -e "${G}    ███████       █████ ██████       ██████         ███████     ${Y}  | 4 |${NC}     "
-echo -e "${G}    ███████        ███████████       ██████         ███████     ${Y}P${NC}           "
-echo -e "${G}    ███████         ██████████       ██████         ███████     ${Y}J${NC}           "
-echo -e "${G}                                                                                     "
-echo -e "${G}                ${Y}NETWORK ANALYZER v${R}$VERSION${NC}    ${Y}- ${R}AZ_SEP${NC}     "
-echo -e "${R}                        SYSTEM ${G}$current_distro${NC}                              "
-echo -e "${G}^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^        "
-echo -e "${NC}"
+echo -e "╔═════════════════════════════════════════════════════════════════════════════╗"
+echo -e "${G}                                                                  ${Y}B${NC} "
+echo -e "${G}    ║█████████║         ║█████║        ║██████████████████║       ${Y}C${NC} "
+echo -e "${G}    ║██████████║        ║█████║       ║█████████████████████║     ${Y}A${NC} " 
+echo -e "${G}    ║██████║ ███║       ║█████║       ║█████║        ║██████║                "
+echo -e "${G}    ║██████║  ███║      ║█████║       ║█████║        ║██████║     ${Y}6th${NC} "
+echo -e "${G}    ║██████║   ███║     ║█████║       ║█████║        ║██████║                  "
+echo -e "${G}    ║██████║    ████    ║█████║       ║█████████████████████║     ${Y}S | 2 |${NC} "
+echo -e "${G}    ║██████║     ███║   ║█████║       ║█████████████████████║     ${Y}E | 0 |${NC} "
+echo -e "${G}    ║██████║      ███║  ║█████║       ║█████║        ║██████║     ${Y}M | 2 |${NC} "
+echo -e "${G}    ║██████║       ███║ ║█████║       ║█████║        ║██████║     ${Y}  | 4 |${NC} "
+echo -e "${G}    ║██████║        ██████████║       ║█████║        ║██████║     ${Y}P${NC}       "
+echo -e "${G}    ║██████║         █████████║       ║█████║        ║██████║     ${Y}J${NC}       "
+echo -e "${G}                                                           "
+echo -e "${G}                ${Y}NETWORK ANALYZER ${R}v$VERSION${NC}    "
+echo -e "${R}                        SYSTEM ${G}$current_distro${NC}    "
+echo -e "       learn more at: ${Y}https://github.com/${R}Guang84${Y}/Network-Analyzer.git${NC}"
+echo -e "╚════════════════════════════════════════════════════════════════════════════╝"
+echo ""
 
 #Required tools
 echo -e "${G} _______________${NC}"
@@ -117,17 +166,42 @@ echo -e "${G}|${NC}4. ${Y}aireplay-ng ${G}|${NC}"
 echo -e "${G}|${NC}5. ${Y}BCA-crack   ${G}|${NC}"
 echo -e "${G}|_______________|${NC}"
 echo ""
-echo -e "This tools require ${R}ADMIN${NC} previlge"
-echo""
 
 # Array of interfaces names to check
-interfaces=("wlp2s0" "wlan0" "wlan1" "wlan2" "lo0" "wlp2s0mon" "wlan0mon" "wlan1mon" "wlan2mon" "lo0mon") # Define your interfaces
+interfaces=(
+    "wlp2s0" 
+    "wlan0" 
+    "wlan1" 
+    "wlan2" 
+    "lo0" 
+    "wlp2s0mon" 
+    "wlan0mon" 
+    "wlan1mon" 
+    "wlan2mon" 
+    "lo0mon"
+)
+# Define your interfaces
 interfaces_found=0
-
+#Check if an interface is a wifi card or not
+function check_interface_wifi() {
+	debug_print
+	iw "${1}" info > /dev/null 2>&1
+	return $?
+}
 # Iterate through the array and check if each interfaces exists
 for interfaces in "${interfaces[@]}"; do
     if ip link show "$interfaces" &>/dev/null; then
-        echo -e "${Y}WLAN interfaces found:${G} $interfaces ${NC}"
+        echo -e "${Y}Detecting ${NC} ${Y}WLAN interfaces...${NC}"
+        #loading
+            echo -e "${R}"
+            loading &
+            loading_pid=$!
+            sleep 2
+            kill $loading_pid
+            wait $loading_pid 2>/dev/null
+            echo -e "${NC}"
+        echo -e "FOUND: ${R}║${G} $interfaces ${R}║${NC}"
+
         interfaces_found=1
         break  # Exit the loop if any interfaces is found
     fi
@@ -156,15 +230,24 @@ runserver() {
         konsole -e python3 "$server_script"
     else
         echo -e "${Y}No compatible terminal emulator found. Running the server in the current terminal...${NC}"
-        python3 "$server_script"
+        python3 "$SERVER_SCRIPT"
     fi
 }
 
 # Main script execution
 SERVER_SCRIPT="server.py"
 
-echo -e "${G}Starting Python server...${NC}"
-echo -e "${Y}${SERVER_SCRIPT}${NC}"
+echo -e "${G}Starting Python server${R}...${NC}"
+    #loading
+    echo -e "${R}"
+    loading &
+    loading_pid=$!
+    sleep 2
+    kill $loading_pid
+    wait $loading_pid 2>/dev/null
+    echo -e "${NC}"
+    echo -e "${R}║${Y} ${SERVER_SCRIPT} ${R}║${NC}"
+
 runserver "$SERVER_SCRIPT"
 #variable that store a string
 printinfo="Enter any key to exit to main MENU "
@@ -183,7 +266,15 @@ enable_monitor_mode() {
     case $option in
         1)
             echo -e "${G} current interfaces is ${R} $interfaces${NC}"
-            echo -e "${G} Starting Monitoring Mode${Y}..${NC}${Y}"
+            echo -e "${G} Enabling Monitoring Mode${Y}..${NC}${Y}"
+                #loading
+                echo -e "${R}"
+                loading &
+                loading_pid=$!
+                sleep 2
+                kill $loading_pid
+                wait $loading_pid 2>/dev/null
+                echo -e "${NC}"
             sudo airmon-ng start $interfaces
             echo -e "${NC}"
             ;;
@@ -200,7 +291,15 @@ enable_monitor_mode() {
 # Function to disable monitor mode
 disable_monitor_mode() {
     echo -e "${R}Disabling monitoring mode${NC}${Y}..."
-    sudo airmon-ng stop $interfaces
+            #loading
+        echo -e "${R}"
+        loading &
+        loading_pid=$!
+        sleep 2
+        kill $loading_pid
+        wait $loading_pid 2>/dev/null
+        echo -e "${NC}"
+    sudo airmon-ng stop $(interfaces)mon
     echo -e "${R}$monalert${NC}"
     echo ""
     echo -e "${NC}${R}WARNING: ${G}If the given interfaces $interfaces does not exist, please check your Network Interface${NC}"
@@ -219,6 +318,14 @@ network_deauthentication() {
     case $option in
         1)
             echo -e "${Y}Entering Network Discovering Mode${NC}${Y}...${NC}"
+                #loading
+                echo -e "${R}"
+                loading &
+                loading_pid=$!
+                sleep 2
+                kill $loading_pid
+                wait $loading_pid 2>/dev/null
+                echo -e "${NC}"
             echo ""
             echo -e "${Y}Enter Network interfaces (${G}default is${NC}${R} $interfaces${NC}):"
             read Netinterfaces
@@ -236,6 +343,14 @@ network_deauthentication() {
             ;;
         2)
             echo -e "${Y}Entering Manual Mode${NC}..."
+                    #loading
+                    echo -e "${R}"
+                    loading &
+                    loading_pid=$!
+                    sleep 2
+                    kill $loading_pid
+                    wait $loading_pid 2>/dev/null
+                    echo -e "${NC}"
             echo -e "${Y}Enter AP MAC / BSSID address to find target:${NC}"
             read hostmac
             echo -e "${Y}Enter Channel no.(CH):${NC}"
@@ -261,6 +376,14 @@ network_deauthentication() {
 # Function for capturing handshake
 capture_handshake() {
     echo -e "${R}Entering Capturing Mode..${NC}"
+        #loading
+        echo -e "${R}"
+        loading &
+        loading_pid=$!
+        sleep 2
+        kill $loading_pid
+        wait $loading_pid 2>/dev/null
+        echo -e "${NC}"
     echo -e "1.${Y} Manual Mode${NC}"
     echo -e "2.${Y} Select Available Network${NC}"
     echo ""
@@ -352,6 +475,14 @@ anonymous_mode() {
 # Function for password cracking
 password_cracking() {
     echo -e "${Y}Entering Password cracking${NC}..."
+        #loading
+        echo -e "${R}"
+        loading &
+        loading_pid=$!
+        sleep 2
+        kill $loading_pid
+        wait $loading_pid 2>/dev/null
+        echo -e "${NC}"
     echo -e "${Y}Password list is available at ${G}/Final/vulnerability/..txt${NC}"
     echo -e "1.${Y} Brute Force${NC}"
     echo -e "2.${Y} BCA-cracker${NC}"
@@ -372,6 +503,14 @@ password_cracking() {
             ;;
         2)
             echo -e "${Y}Starting BCA cracker attack${NC}..."
+                #loading
+                echo -e "${R}"
+                loading &
+                loading_pid=$!
+                sleep 2
+                kill $loading_pid
+                wait $loading_pid 2>/dev/null
+                echo -e "${NC}"
             echo -e "${R}DEVELOPING${NC}"
             ;;
         *)
