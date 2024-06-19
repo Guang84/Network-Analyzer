@@ -1,5 +1,5 @@
 #!/bin/bash
-VERSION="2024.06.07"
+VERSION="2024.06.17"
 
 # Define color variables
 R='\033[0;31m'
