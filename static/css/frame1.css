@@ -1,17 +1,19 @@
-#frame1{
+#frame1 {
     width: 100%;
     min-height: 800px;
-    overflow: scroll;
+    overflow: auto;
     padding: 2px;
     border-radius: 10px;
     max-height: 800px;
     background-color: #fff;
     color: #666;
 }
+
 .framebutton {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 10px;
 }
 
 .framebutton button {
@@ -21,8 +23,10 @@
     background-color: #007bff;
     color: white;
     cursor: pointer;
+    border-radius: 5px;
+    font-size: 1em;
 }
 
 .framebutton button:hover {
-    background-color: #0056b3; 
+    background-color: #0056b3;
 }

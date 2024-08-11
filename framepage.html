@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>guide frame</title>
+    <title>Guide Frame</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <style>
         body {
@@ -27,6 +27,7 @@
         p {
             color: #666;
             font-size: 18px;
+            line-height: 1.6;
         }
         .instruction {
             margin-top: 20px;
@@ -34,26 +35,32 @@
             background-color: #f2f2f2;
             border-radius: 8px;
         }
-        .instruction b{
+        .instruction b {
+            display: block;
             text-align: center;
             color: red;
-        }
-        .instruction a{
             font-size: 20px;
-            align-content: center;
-            justify-content: center;
-            padding: 5px;
-            text-decoration: overline;
-            float: right;
+        }
+        .instruction a {
+            font-size: 18px;
+            color: #007bff;
+            text-decoration: none;
         }
         .instruction a:hover {
-            color: red;
             text-decoration: underline;
         }
         img {
             width: 100%;
             height: auto;
             border-radius: 10px;
+            margin-top: 20px;
+        }
+        figcaption {
+            font-style: oblique;
+            text-align: center;
+            font-weight: 700;
+            color: black;
+            margin-top: 5px;
         }
         .social-icons {
             text-align: center;
@@ -69,43 +76,39 @@
         .social-icons a:hover {
             transform: scale(1.2);
         }
-        figcaption{
-            font-style: oblique;
-            text-align: center;
-            font-weight: 700;
-            color: black;
-        }
     </style>
 </head>
 <body>
 
 <div class="container">
+    <h1>Network Analyzer Guide</h1>
     <div class="instruction">
         <p>Feel free to explore and learn more about each tool by clicking on its name or associated links.</p>
     </div>
 
     <div class="social-icons">
-        <a href="#"><i class="fab fa-facebook"></i></a>
-        <a href="#"><i class="fab fa-twitter"></i></a>
-        <a href="https://www.instagram.com/im_imagi.nation?igsh=MTR3OWFta243MDUwdw==" target="_blank"><i class="fab fa-instagram"></i></a>
-        <a href="#"><i class="fab fa-linkedin"></i></a>
+        <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.instagram.com/im_imagi.nation?igsh=MTR3OWFta243MDUwdw==" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
     </div>
+
     <div class="instruction">
-        <p>
-            <a href="./process.txt" target="_self">view log</a><br>
-            <b>GUIDE:</b>
-        </p>
+        <p><a href="./process.txt" target="_self">View Log</a></p>
+        <b>Guide:</b>
     </div>
-    <img src="./public/project output /new/1716920164891.jpg" alt="bashsriptout">
-    <figcaption>main output and server</figcaption>
-    <img src="./public/project output /new/1716971228112.jpg" alt="enablemonitoring">
-    <figcaption>enable monitoring and check wifi interface</figcaption>
-    <img src="./public/project output /new/1716971228101.jpg" alt="diablemon">
-    <figcaption>disable monitoring mode</figcaption>
-    <img src="./public/project output /new/1716971228105.jpg" alt="deauthentication">
-    <figcaption>network discovery and deauthentication</figcaption>
-    <img src="./public/project output /new/1716971228109.jpg" alt="passwordcracking">
-    <figcaption>password cracking using .cap file</figcaption>
+
+    <img src="./public/project output /new/1716920164891.jpg" alt="Main Output and Server">
+    <figcaption>Main output and server</figcaption>
+    <img src="./public/project output /new/1716971228112.jpg" alt="Enable Monitoring and Check Wi-Fi Interface">
+    <figcaption>Enable monitoring and check Wi-Fi interface</figcaption>
+    <img src="./public/project output /new/1716971228101.jpg" alt="Disable Monitoring Mode">
+    <figcaption>Disable monitoring mode</figcaption>
+    <img src="./public/project output /new/1716971228105.jpg" alt="Network Discovery and Deauthentication">
+    <figcaption>Network discovery and deauthentication</figcaption>
+    <img src="./public/project output /new/1716971228109.jpg" alt="Password Cracking Using .cap File">
+    <figcaption>Password cracking using .cap file</figcaption>
 </div>
+
 </body>
 </html>
