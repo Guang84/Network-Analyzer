@@ -52,7 +52,7 @@ sudo bash mybash.sh
 ```
 
 ## Usage Examples
-visit this page to learn and download the whole data
+Learn more:
 ```bash
 https://guang84.github.io/Network-Analyzer/
 ```
