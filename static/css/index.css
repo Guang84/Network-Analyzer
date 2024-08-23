@@ -31,12 +31,22 @@ header p {
     width: 80%;
     margin: auto;
     padding: 20px;
-    background: white;
+    background: rgba(207, 255, 76, 0.123);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
     margin-top: 20px;
 }
 
+.container address{
+    background-color: #009688;
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+
+}
+address strong{
+    color: rgb(255, 255, 255);
+}
 h2, h3 {
     color: #009688;
 }
