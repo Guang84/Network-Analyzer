@@ -22,7 +22,7 @@
             <h2>Server Status</h2>
             <address id="Status">
                 <p><strong>IP address:</strong> <span id="ipadd" class="state"></span></p>
-                <p><strong>Browser status:</strong> <span id="bstate" class="state"></span></p>
+                <p><strong>Server status:</strong> <span id="bstate" class="state"></span></p>
                 <script>
                     function getCurrentURL() {
                         return window.location.href;
@@ -180,9 +180,9 @@
         <section id="output">
             <h3 class="terminal">Terminal <span id="browserState" class="state"></span></h3>
             <div class="framebutton">
-                <button onclick="goBack()">Back</button>
-                <button onclick="goForward()">Forward</button>
-                <button onclick="refresh()">Refresh</button>
+                <button type="button" onclick="goBack()">Back</button>
+                <button type="button" onclick="goForward()">Forward</button>
+                <button type="button" onclick="refresh()">Refresh</button>
             </div>
             <iframe id="frame1" name="frame1" src="./framepage.html"></iframe>
             <script>
