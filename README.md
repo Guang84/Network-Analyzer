@@ -52,10 +52,7 @@ sudo bash mybash.sh
 ```
 
 ## Usage Examples
-Learn more:
-```bash
-https://guang84.github.io/Network-Analyzer/
-```
+Learn more:[Git Hub](https://guang84.github.io/Network-Analyzer/)
 
 ## Contact Information
 
