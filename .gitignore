@@ -1,5 +1,6 @@
 # Python environments, caches, and test output
 .venv/
+docs/
 venv/
 __pycache__/
 **/__pycache__/
@@ -45,7 +46,7 @@ models/*.pickle
 *.pcapng
 
 # Generated documentation; keep Markdown guides and curated docs JSON tracked
-docs/
+docs/*
 
 # Ad-hoc local output
 test.log
