@@ -1,0 +1,46 @@
+# Network Analyzer Configuration
+# Version: 2026.08.21
+
+# Active interface (default)
+interface: wlan0mon
+
+# Path to wordlist for cracking
+wordlist: /usr/share/wordlists/rockyou.txt
+
+# Output directories
+output_dirs:
+  scans: ./scans
+  handshakes: ./handshakes
+  reports: ./reports
+  logs: ./logs
+  models: ./models          # For AI model storage
+
+# Scan defaults
+scan_duration: 60
+deauth_packets: 100
+handshake_timeout: 120
+crack_timeout: 300
+monitor_transition_timeout: 12  # seconds to wait for driver/interface rename
+
+# Dev Automate persistent AP history
+dev_automate:
+  database: ./data/dev_automate_networks.db
+  refresh_interval: 2       # seconds between filtered dashboard updates
+
+# AI / Anomaly detection
+ai:
+  patterns_db: ./data/anomaly_patterns.db  # SQLite patterns and incident history
+  model_path: ./models/anomaly_model.joblib
+  learning_rate: 0.05              # signal mean update weight (0 < rate <= 1); suspicious updates excluded
+  detection_threshold: 2.5          # Z-score threshold
+  contamination: 0.08               # expected outlier ratio for Isolation Forest
+  minimum_training_samples: 10
+  signal_surge_db: 18               # alert on sudden per-BSSID signal increase
+  alert_channel_changes: true
+  incident_cooldown_seconds: 300     # persist repeated rule/entity alerts at most every 5m
+  snapshot_interval: 30             # seconds between snapshots
+  baseline_samples: 10              # number of samples to build baseline
+  snapshot_duration: 5              # seconds spent capturing each sample
+
+# Logging
+log_level: INFO

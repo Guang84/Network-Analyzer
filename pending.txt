@@ -1,0 +1,20 @@
+[engines](engines/)  i have make changes now update the interactive.py process:  Starting: Update interactive.py with new menu (4/5)
+
+Now let me read the interactive.py to find where to add the enhanced monitor option.
+
+Read interactive.py, lines 1 to 150
+
+Let me read more of the interactive.py file to find the main menu section.
+
+Read interactive.py, lines 150 to 292
+
+I see. The interactive.py is mostly a CLI interface. I need to add a new command-line argument for the enhanced monitor and also create a new interactive menu that can be launched. Let me modify interactive.py to add the enhanced monitor option.
+
+Edited
+interactive.py+1-0
+Good! Now let me add the command-line argument for the enhanced monitor.
+
+Editing
+interactive.py+1-0
+
+build advance ai anomaly detection using  pre recorded or recosized pattern store the pattern in the db also add other additional featues which solve real world problems also new feature that is in demand and needs

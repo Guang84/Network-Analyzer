@@ -1,60 +1,47 @@
-
 # Network Analyzer
-v2024.06.24
 
-Network Analyzer Tool is a powerful educational resource designed to facilitate learning about network analysis in a user-friendly environment. While we're excited to share this tool with you, it's crucial to emphasize its intended use solely for educational purposes. We're committed to promoting ethical practices in network analysis and discourage any unauthorized or unethical activities.
+### [click here for documentation and guide](https://guang84.github.io/projects/?id=network-analyzer-v2026)
 
-Visit: 
-[USER GUIDE](https://guang84.github.io/Network-Analyzer/)
-## Features
+Network Analyzer is a Linux terminal application for authorized wireless assessment, local monitoring, scan reporting, and investigation of unusual wireless behavior.
 
-- Network Monitoring: Monitor network traffic in real-time and analyze network activity.
-- Wireless Network Analysis: Perform detailed analysis of wireless networks, including capturing handshakes and deauthenticating clients.
-- Vulnerability Testing: Conduct vulnerability assessments to identify security weaknesses in networks.
-- Password Cracking: Perform password cracking attacks using various techniques like brute force and dictionary attacks.
-- Anonymous Mode: Enter an anonymous mode to deauthenticate clients from networks.
+The 2026.08.21 architecture moves command dispatch into Python while keeping the Bash launcher focused on environment preparation. The application stores scans, reports, logs, learned patterns, incidents, and locally trained anomaly models on the operator's machine.
 
-## Installation Instructions
+> Use only on networks, devices, and radio spectrum you own or are explicitly authorized to assess. Active features may interrupt wireless service.
 
-To get started with Network Analyzer Tool, follow these steps:
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/Guang84/Network-Analyzer.git
-   ```
-
-2. Navigate to the project directory:
-   ```bash
-   cd Network-Analyzer
-   ```
-
-3. Run the main script:
-   ```bash
-   sudo bash main.sh
-   ```
-
-4. Copy the IP address from the server terminal and paste it in your browser:
-   ```
-   http://0.0.0.0:8000
-   ```
-
-## Prerequisites
-
-Make sure you have the following tools installed on your system:
-
-- Aircrack-ng
-- Mdk3
-
-## Usage
+## Quick start
 
 ```bash
-sudo bash mybash.sh
+chmod +x network_analyzer.sh
+./network_analyzer.sh
 ```
 
-## Usage Examples
-Learn more:[Git Hub](https://guang84.github.io/Network-Analyzer/)
+The launcher creates a project-local virtual environment when needed and opens the interactive menu. For a read-only readiness report, run:
 
-## Contact Information
+```bash
+python3 interactive.py --doctor
+```
 
-_For support or collaboration inquiries, please contact:_  
-- guang.social.verse@gmail.com
+## What it provides
+
+- Passive wireless discovery with CSV and JSON capture artifacts.
+- Local risk summaries and portable Markdown report export.
+- Monitor-mode lifecycle handling and optional tmux/xterm dashboards.
+- Persistent AI anomaly detection: learned AP patterns, trusted baselines, incident history, and optional Isolation Forest scoring.
+- A passive Dev Automate dashboard with a local, deduplicated AP history.
+
+## Requirements
+
+- Linux, Python 3.10+, and an adapter that supports the required wireless mode.
+- Python packages in [`requirements.txt`](requirements.txt).
+- For the complete local workflow: `aircrack-ng`, `iw`, `iproute2`, `tmux`, `ethtool`, and `sudo`. `xterm` is optional for separate live windows.
+
+On Debian, Ubuntu, or Kali:
+
+```bash
+sudo apt update
+sudo apt install python3-venv aircrack-ng iw iproute2 tmux ethtool sudo
+```
+
+## Documentation
+
+- [documentation and guide](https://guang84.github.io/projects/?id=network-analyzer-v2026)

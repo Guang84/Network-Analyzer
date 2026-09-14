@@ -1,0 +1,57 @@
+# Python environments, caches, and test output
+.venv/
+venv/
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Editor and operating-system state
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Local settings and credentials
+.env
+.env.*
+!.env.example
+config.local.yaml
+config.local.yml
+config.*.local.yaml
+config.*.local.yml
+
+# Runtime state and sensitive wireless-assessment artifacts
+.network_analyzer_active_iface
+.network_analyzer_monitor_state.json
+scans/
+handshakes/
+logs/
+reports/
+data/*.db
+data/*.db-shm
+data/*.db-wal
+models/*.joblib
+models/*.pkl
+models/*.pickle
+*.cap
+*.pcap
+*.pcapng
+
+# Generated documentation; keep Markdown guides and curated docs JSON tracked
+docs/_build/
+docs/site/
+docs/generated/
+docs/.cache/
+docs/*.pdf
+docs/*.docx
+
+# Ad-hoc local output
+test.log
+test*.txt
