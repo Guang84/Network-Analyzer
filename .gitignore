@@ -46,12 +46,6 @@ models/*.pickle
 
 # Generated documentation; keep Markdown guides and curated docs JSON tracked
 docs/
-docs/_build/
-docs/site/
-docs/generated/
-docs/.cache/
-docs/*.pdf
-docs/*.docx
 
 # Ad-hoc local output
 test.log
