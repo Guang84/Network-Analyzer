@@ -45,7 +45,7 @@ models/*.pickle
 *.pcapng
 
 # Generated documentation; keep Markdown guides and curated docs JSON tracked
-docc/
+docs/
 docs/_build/
 docs/site/
 docs/generated/
